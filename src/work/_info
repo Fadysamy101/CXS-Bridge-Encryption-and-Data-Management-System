@@ -1,0 +1,216 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/johns/Desktop/Internships/SI-Vision/Project/src
+T_opt
+!s110 1783777486
+VP3GTk[?ZQRbKo[1I:M8<>1
+04 19 4 work cxs_bridge_enc_unit fast 0
+=1-c475ab072dad-6a5248ce-4a-17a8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+R0
+vcxs_bridge_cdm
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1783781323
+!i10b 1
+!s100 ;f2W@;N6jolzH@_OJHz_e3
+IRbUjH:ciYAha_kLPYQ[IK2
+S1
+R0
+w1783781295
+Z4 8cxs_bridge_CDM.sv
+Z5 Fcxs_bridge_CDM.sv
+!i122 1
+L0 1 40
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z8 !s108 1783781322.000000
+!s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|cxs_bridge_async_fifo.sv|
+Z9 !s90 cxs_bridge_async_fifo.sv|cxs_bridge_CDM.sv|cxs_bridge_control_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_enc_unit.sv|cxs_bridge_if.sv|cxs_bridge_parity_check.sv|cxs_bridge_register_file.sv|top.sv|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcxs_bridge_CDM
+R2
+!s110 1783777447
+!i10b 1
+!s100 hSb=M7g[PTO6^W2lmiP3<3
+I89W:eV@IX;l^RMH4OSJ<60
+S1
+R0
+w1783772692
+R4
+R5
+!i122 0
+L0 1 7
+R6
+R7
+r1
+!s85 0
+31
+!s108 1783777447.000000
+!s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|
+!s90 cxs_bridge_CDM.sv|cxs_bridge_control_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_enc_unit.sv|cxs_bridge_if.sv|cxs_bridge_parity_check.sv|cxs_bridge_register_file.sv|top.sv|
+!i113 0
+R10
+R1
+ncxs_bridge_@c@d@m
+vcxs_bridge_control_unit
+R2
+R3
+!i10b 1
+!s100 :Vh5W71eacY9bFD3`<]=^2
+I1UhONG?NS0Ig`zj5FZgo_0
+S1
+R0
+w1783778595
+8cxs_bridge_control_unit.sv
+Fcxs_bridge_control_unit.sv
+!i122 1
+L0 1 70
+R6
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|cxs_bridge_async_fifo.sv|
+R9
+!i113 0
+R10
+R1
+vcxs_bridge_ctrl_2ff
+R2
+R3
+!i10b 1
+!s100 2D^lWQFl@cBgRda]=FY120
+IX24@NA;7>]FQR3dSL=@ZY1
+S1
+R0
+w1783781241
+8cxs_bridge_ctrl_2ff.sv
+Fcxs_bridge_ctrl_2ff.sv
+!i122 1
+L0 1 22
+R6
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vcxs_bridge_enc_unit
+R2
+R3
+!i10b 1
+!s100 X:JEoe=PaOEZnodn[iXG_3
+Im8M1ECKn8EDkI>dVLzBzh0
+S1
+R0
+w1783777933
+8cxs_bridge_enc_unit.sv
+Fcxs_bridge_enc_unit.sv
+!i122 1
+L0 1 80
+R6
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vcxs_bridge_if
+R2
+R3
+!i10b 1
+!s100 :1<6_]2kDQjJZLi]8LEZX0
+I4U@cnbWFEE5ozZ:7KO2aK2
+S1
+R0
+w1783779746
+8cxs_bridge_if.sv
+Fcxs_bridge_if.sv
+!i122 1
+L0 1 55
+R6
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vcxs_bridge_parity_check
+R2
+R3
+!i10b 1
+!s100 KjMnKm;5lY`7^5b7]TJ7n0
+IXoJFbcDWTmObP]hjD]zzV3
+S1
+R0
+w1783772755
+8cxs_bridge_parity_check.sv
+Fcxs_bridge_parity_check.sv
+!i122 1
+L0 1 18
+R6
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vcxs_bridge_register_file
+R2
+R3
+!i10b 1
+!s100 h8@b>ezf@iFlOk[I]<azg3
+IA3K4UoAIMTnd?_dNlIU9S2
+S1
+R0
+w1783775313
+8cxs_bridge_register_file.sv
+Fcxs_bridge_register_file.sv
+!i122 1
+L0 1 42
+R6
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
