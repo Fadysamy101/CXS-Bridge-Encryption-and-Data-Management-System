@@ -18,6 +18,7 @@ module cxs_bridge_enc_unit #(
         count_ones = '0;
         for (int i = 0; i < IN_WIDTH; i++)
           count_ones += cxs_bridge_enc_unit_data_in[i];
+
         count_zeros = IN_WIDTH - count_ones;
 
     end
@@ -33,48 +34,35 @@ module cxs_bridge_enc_unit #(
     assign both_even      = (count_ones[0] == 1'b0) && (count_zeros[0] == 1'b0);
     assign expansion_condition = counts_equal || both_even;
 
-    logic [OUT_WIDTH-1:0] dup_result;
-
-   //If count is even, bits are duplicated/appended (e.g., 1011 becomes 11001111).
-    always_comb begin
-        for (int i = 0; i < IN_WIDTH; i++)
-          dup_result[2*i +: 2] = {cxs_bridge_enc_unit_data_in[i], cxs_bridge_enc_unit_data_in[i]};
-    end
-
-    logic [OUT_WIDTH-1:0] map_result;
-
-      // 1 -> 10 and 0 -> 01
-    always_comb begin
-        for (int i = 0; i < IN_WIDTH; i++)
-          map_result[2*i +: 2] = cxs_bridge_enc_unit_data_in[i] ? 2'b10 : 2'b01;
-    end
-
     always_ff @(posedge cxs_bridge_enc_unit_clk or negedge cxs_bridge_enc_unit_rst_n) begin
-      if (!cxs_bridge_enc_unit_rst_n) begin
-        cxs_bridge_enc_unit_data_out <= '0;
-        invalid_enc_mod <= 1'b0;
-      end   
-
-    else begin
-        case (cxs_bridge_enc_unit_enc_mode)
-            4'b0000: begin
-              cxs_bridge_enc_unit_data_out <= dup_result;
-            end
-
-            4'b0001: begin
-                if (expansion_condition) begin
-                  cxs_bridge_enc_unit_data_out <= map_result;
-                end else begin
-                  cxs_bridge_enc_unit_data_out   <= {{(OUT_WIDTH-IN_WIDTH){1'b0}}, cxs_bridge_enc_unit_data_in};
-                end
-            end
-
-            default: begin
-                cxs_bridge_enc_unit_data_out <= {{(OUT_WIDTH-IN_WIDTH){1'b0}}, cxs_bridge_enc_unit_data_in};
+        if (!cxs_bridge_enc_unit_rst_n) begin
+            cxs_bridge_enc_unit_data_out <= '0;
+            invalid_enc_mod <= 1'b0;
+        end
+        else begin
+          if(expansion_condition)begin
+            for (int i = 0; i < IN_WIDTH; i++)
+              cxs_bridge_enc_unit_data_out[2*i +: 2] <= (cxs_bridge_enc_unit_data_in[i]) ? 2'b10 : 2'b01;  
+          end
+          else 
+          begin
+            case (cxs_bridge_enc_unit_enc_mode)
+              4'b0001: begin:even_enc_mod
+                for (int i = 0; i < IN_WIDTH; i++)
+                  cxs_bridge_enc_unit_data_out[2*i +: 2] <= {1'b0,cxs_bridge_enc_unit_data_in[i]};
+              end
+              4'b0010: begin:odd_enc_mode
+                for (int i = 0; i < IN_WIDTH; i++)
+                  cxs_bridge_enc_unit_data_out[2*i +: 2] <= {1'b1,cxs_bridge_enc_unit_data_in[i]};
+              end
+              default: begin
                 invalid_enc_mod <= 1'b1;
-            end
-      endcase
-    end
-  end
+              end
+            endcase
+          end    
+          
+        end  
+    end  
+   
 
 endmodule

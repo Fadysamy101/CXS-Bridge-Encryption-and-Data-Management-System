@@ -1,7 +1,6 @@
 m255
 K4
 z2
-!s99 nomlopt
 !s11f vlog 2021.1 2021.01, Jan 19 2021
 13
 !s112 1.1
@@ -10,165 +9,178 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/johns/Desktop/Internships/SI-Vision/Project/src
-T_opt
-!s110 1783777486
-VP3GTk[?ZQRbKo[1I:M8<>1
-04 19 4 work cxs_bridge_enc_unit fast 0
-=1-c475ab072dad-6a5248ce-4a-17a8
-!s124 OEM100
-o-quiet -auto_acc_if_foreign -work work
-Z1 tCvgOpt 0
-n@_opt
-OL;O;2021.1;73
-R0
-vcxs_bridge_cdm
-Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z3 !s110 1783781323
+vasync_fifo_TB
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1783794676
 !i10b 1
-!s100 ;f2W@;N6jolzH@_OJHz_e3
-IRbUjH:ciYAha_kLPYQ[IK2
+!s100 ^^=0R;1=Ekz1[<:?Rgd^50
+IF<Tl20]3oX=>fGWJM<Y[_0
 S1
 R0
-w1783781295
-Z4 8cxs_bridge_CDM.sv
-Z5 Fcxs_bridge_CDM.sv
-!i122 1
-L0 1 40
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2021.1;73
+w1783794141
+8./async_fifo/async_fifo_tb.sv
+F./async_fifo/async_fifo_tb.sv
+!i122 0
+L0 2 67
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.1;73
 r1
 !s85 0
 31
-Z8 !s108 1783781322.000000
-!s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|cxs_bridge_async_fifo.sv|
-Z9 !s90 cxs_bridge_async_fifo.sv|cxs_bridge_CDM.sv|cxs_bridge_control_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_enc_unit.sv|cxs_bridge_if.sv|cxs_bridge_parity_check.sv|cxs_bridge_register_file.sv|top.sv|
+Z5 !s108 1783794676.000000
+Z6 !s107 top.sv|./async_fifo/wp_handler.sv|./async_fifo/top.sv|./async_fifo/rp_handler.sv|./async_fifo/fifo_mem.sv|./async_fifo/async_fifo_tb.sv|./async_fifo/2ff.sv|
+Z7 !s90 ./async_fifo/2ff.sv|./async_fifo/async_fifo_tb.sv|./async_fifo/fifo_mem.sv|./async_fifo/rp_handler.sv|./async_fifo/top.sv|./async_fifo/wp_handler.sv|
 !i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+nasync_fifo_@t@b
+vasynchronous_fifo
 R1
-vcxs_bridge_CDM
 R2
-!s110 1783777447
 !i10b 1
-!s100 hSb=M7g[PTO6^W2lmiP3<3
-I89W:eV@IX;l^RMH4OSJ<60
+!s100 7NQ_KPH_COkV<GV5g_fIC2
+IeCFNajF]GHKfm8fTk?bS;2
 S1
 R0
-w1783772692
-R4
-R5
+w1783794391
+8./async_fifo/top.sv
+F./async_fifo/top.sv
 !i122 0
-L0 1 7
+L0 6 26
+R3
+R4
+r1
+!s85 0
+31
+R5
 R6
 R7
+!i113 0
+R8
+R9
+vcxs_bridge_cdm
+R1
+!s110 1783794742
+!i10b 1
+!s100 SnL:k9:VMKP[U<9VYJ2Gm0
+I[LG2KaDamYTAfikLG;J2`3
+S1
+R0
+w1783781809
+8cxs_bridge_CDM.sv
+Fcxs_bridge_CDM.sv
+!i122 3
+L0 1 38
+R3
+R4
 r1
 !s85 0
 31
-!s108 1783777447.000000
+!s108 1783794742.000000
 !s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|
-!s90 cxs_bridge_CDM.sv|cxs_bridge_control_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_enc_unit.sv|cxs_bridge_if.sv|cxs_bridge_parity_check.sv|cxs_bridge_register_file.sv|top.sv|
+Z10 !s90 cxs_bridge_CDM.sv|cxs_bridge_control_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_enc_unit.sv|cxs_bridge_if.sv|cxs_bridge_parity_check.sv|cxs_bridge_register_file.sv|top.sv|
 !i113 0
-R10
-R1
-ncxs_bridge_@c@d@m
+R8
+R9
 vcxs_bridge_control_unit
-R2
-R3
+R1
+Z11 !s110 1784045487
 !i10b 1
-!s100 :Vh5W71eacY9bFD3`<]=^2
-I1UhONG?NS0Ig`zj5FZgo_0
+!s100 8X;mL[NgY6H=>Uo5TB8A_0
+IS4EBU>NDOP_N8hASb:61k2
 S1
 R0
-w1783778595
+w1784045485
 8cxs_bridge_control_unit.sv
 Fcxs_bridge_control_unit.sv
-!i122 1
-L0 1 70
-R6
-R7
+!i122 5
+L0 1 203
+R3
+R4
 r1
 !s85 0
 31
-R8
-Z11 !s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|cxs_bridge_async_fifo.sv|
-R9
-!i113 0
+Z12 !s108 1784045487.000000
+Z13 !s107 top.sv|cxs_bridge_register_file.sv|cxs_bridge_parity_check.sv|cxs_bridge_if.sv|cxs_bridge_enc_unit.sv|cxs_bridge_ctrl_2ff.sv|cxs_bridge_control_unit.sv|cxs_bridge_CDM.sv|
 R10
-R1
+!i113 0
+R8
+R9
 vcxs_bridge_ctrl_2ff
-R2
-R3
+R1
+R11
 !i10b 1
 !s100 2D^lWQFl@cBgRda]=FY120
 IX24@NA;7>]FQR3dSL=@ZY1
 S1
 R0
-w1783781241
+w1783794747
 8cxs_bridge_ctrl_2ff.sv
 Fcxs_bridge_ctrl_2ff.sv
-!i122 1
+!i122 5
 L0 1 22
-R6
-R7
+R3
+R4
 r1
 !s85 0
 31
-R8
-R11
-R9
-!i113 0
+R12
+R13
 R10
-R1
+!i113 0
+R8
+R9
 vcxs_bridge_enc_unit
-R2
-R3
+R1
+R11
 !i10b 1
-!s100 X:JEoe=PaOEZnodn[iXG_3
-Im8M1ECKn8EDkI>dVLzBzh0
+!s100 cM4oRhYLE[5`Fon9cjC?h3
+Iz3SW4:1Ril??Blgn91`h62
 S1
 R0
-w1783777933
+w1784045289
 8cxs_bridge_enc_unit.sv
 Fcxs_bridge_enc_unit.sv
-!i122 1
-L0 1 80
-R6
-R7
+!i122 5
+L0 1 68
+R3
+R4
 r1
 !s85 0
 31
-R8
-R11
-R9
-!i113 0
+R12
+R13
 R10
-R1
+!i113 0
+R8
+R9
 vcxs_bridge_if
-R2
-R3
+R1
+R11
 !i10b 1
-!s100 :1<6_]2kDQjJZLi]8LEZX0
-I4U@cnbWFEE5ozZ:7KO2aK2
+!s100 ;ckk;J8BbDKF;XbBY70nT3
+Ia0U9E7Q2:i;8dcnU?ShTg2
 S1
 R0
-w1783779746
+w1784031306
 8cxs_bridge_if.sv
 Fcxs_bridge_if.sv
-!i122 1
-L0 1 55
-R6
-R7
+!i122 5
+L0 1 64
+R3
+R4
 r1
 !s85 0
 31
-R8
-R11
-R9
-!i113 0
+R12
+R13
 R10
-R1
+!i113 0
+R8
+R9
 vcxs_bridge_parity_check
-R2
-R3
+R1
+R11
 !i10b 1
 !s100 KjMnKm;5lY`7^5b7]TJ7n0
 IXoJFbcDWTmObP]hjD]zzV3
@@ -177,40 +189,136 @@ R0
 w1783772755
 8cxs_bridge_parity_check.sv
 Fcxs_bridge_parity_check.sv
-!i122 1
+!i122 5
 L0 1 18
-R6
-R7
+R3
+R4
 r1
 !s85 0
 31
-R8
-R11
-R9
-!i113 0
+R12
+R13
 R10
-R1
+!i113 0
+R8
+R9
 vcxs_bridge_register_file
-R2
-R3
+R1
+R11
 !i10b 1
-!s100 h8@b>ezf@iFlOk[I]<azg3
-IA3K4UoAIMTnd?_dNlIU9S2
+!s100 [ZaiS`h0Z<;E3KUIjPPA@3
+I;oSIfzACCA]LSO:EQj>jN2
 S1
 R0
-w1783775313
+w1784045417
 8cxs_bridge_register_file.sv
 Fcxs_bridge_register_file.sv
-!i122 1
-L0 1 42
-R6
-R7
+!i122 5
+L0 1 43
+R3
+R4
 r1
 !s85 0
 31
-R8
-R11
-R9
-!i113 0
+R12
+R13
 R10
+!i113 0
+R8
+R9
+vfifo_mem
 R1
+R2
+!i10b 1
+!s100 ;m?1;Ga7gD>YSSBc27lf@1
+IKEF^AGF@@md0d4M7RMZVJ0
+S1
+R0
+w1783793785
+8./async_fifo/fifo_mem.sv
+F./async_fifo/fifo_mem.sv
+!i122 0
+L0 1 23
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+vrptr_handler
+R1
+R2
+!i10b 1
+!s100 ]Ehn1_RLU2lfkCRhL?J=X3
+I536_YZ>I09dZCl[>NKXih0
+S1
+R0
+w1783794352
+8./async_fifo/rp_handler.sv
+F./async_fifo/rp_handler.sv
+!i122 0
+L0 1 30
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+vsynchronizer
+R1
+R2
+!i10b 1
+!s100 6C0XmfBmefOmz3[9XYJ=M0
+II^XaBAIgP0X75@E=L6BCZ3
+S1
+R0
+w1783792468
+8./async_fifo/2ff.sv
+F./async_fifo/2ff.sv
+!i122 0
+L0 1 17
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9
+vwptr_handler
+R1
+R2
+!i10b 1
+!s100 `9QhWzETLnD;nOBCX4AoA1
+I?_7af:?R<M8i=onZz^QWb2
+S1
+R0
+w1783793754
+8./async_fifo/wp_handler.sv
+F./async_fifo/wp_handler.sv
+!i122 0
+L0 1 35
+R3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R9

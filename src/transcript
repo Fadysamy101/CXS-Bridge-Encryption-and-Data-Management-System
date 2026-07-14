@@ -24,3 +24,11 @@ add wave -position end  sim:/cxs_bridge_enc_unit/invalid_enc_mod
 # Causality operation skipped due to absence of debug database file
 force -freeze sim:/cxs_bridge_enc_unit/cxs_bridge_enc_unit_data_in 16'h000F 0
 run
+run
+force -freeze sim:/cxs_bridge_enc_unit/cxs_bridge_enc_unit_enc_mode 4'h0 0
+run
+force -freeze sim:/cxs_bridge_enc_unit/cxs_bridge_enc_unit_enc_mode 4'h1 0
+run
+run
+run
+run

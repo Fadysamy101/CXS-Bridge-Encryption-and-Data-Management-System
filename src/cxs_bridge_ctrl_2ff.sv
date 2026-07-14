@@ -6,7 +6,7 @@ module cxs_bridge_ctrl_2ff
 
 ); 
   logic cxs_bridge_ctrl_2ff_ctrl_in_d0;
-  
+
  always_ff @(posedge i_cxs_bridge_ctrl_2ff_clk or negedge i_cxs_bridge_ctrl_2ff_rst_n) 
 
   begin: ctrl_sync_proc
