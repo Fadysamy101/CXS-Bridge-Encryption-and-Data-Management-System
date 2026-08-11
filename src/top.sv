@@ -36,6 +36,7 @@ module top #(
     output logic                      cxs_rx_crdgnt,
 
     // CXS link - transmit
+    input logic                      cxs_tx_crdgnt,
     output logic                      cxs_tx_valid,
     output logic [CXS_DATA_WIDTH-1:0] cxs_tx_data,
     output logic [CXS_CNTL_WIDTH-1:0] cxs_tx_cntl
@@ -96,20 +97,7 @@ module top #(
         .flit_ready        (flit_ready)
     );
 
-    // Spec 3.5 places the Packet Encoder inside the CXS Interface Wrapper; it
-    // sits here until cxs_if instantiates it.
-    packet_encoder #(
-        .CXS_DATA_WIDTH (CXS_DATA_WIDTH),
-        .CXS_CNTL_WIDTH (CXS_CNTL_WIDTH)
-    ) u_packet_encoder (
-        .clk_cxs          (clk_cxs),
-        .rst_n_cxs        (rst_n_cxs),
-        .error_valid_sync (err_pulse_cxs),
-        .error_in         (sys_error),
-        .flit_tx          (flit_tx),
-        .flit_cntrl       (flit_cntrl),
-        .flit_valid       (flit_valid)
-    );
+   
 
     // =======================================================================
     // Clock domain crossing

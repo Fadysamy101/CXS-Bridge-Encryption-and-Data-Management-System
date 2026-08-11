@@ -206,10 +206,14 @@ module control_unit #(
                     else if (is_header) begin
                         next_state = S_DATA_HDR;
                     end
-                    // Remaining words of the Link-Up packet carry nothing for
-                    // the CDM.
+                    // Remaining words of the Link-Up packet are payload words
+                    // like any other: address to the ATU, data to encryption
+                    // and parity.
                     else begin
-                        fifo_en = 1'b1;
+                        fifo_en  = 1'b1;
+                        w_en     = 1'b1;
+                        addr_out = payload_addr;
+                        data_out = payload_data;
                     end
                 end
             end

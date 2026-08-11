@@ -92,9 +92,10 @@ module cxs_if #(
     ) u_credit_manager (
         .rst_n          (rst_n_cxs),
         .clk            (clk_cxs),
+        .flit_fifo_full  (flit_fifo_full),
+        .flit_fifo_empty (flit_fifo_empty),
         .flit_fifo_wr   (flit_fifo_wr),
         .flit_fifo_rd   (flit_fifo_rd),
-        .credit_counter (credit_counter),
         .cxs_rx_crdgnt  (cxs_rx_crdgnt)
     );
 
@@ -112,13 +113,25 @@ module cxs_if #(
         .flit_fifo_empty   (flit_fifo_empty),
         .flit_fifo_rd      (flit_fifo_rd),
         .flit_fifo_rdata   (flit_fifo_rdata),
-        .packet_valid      (packet_valid),
-        .packet_data       (packet_data),
-        .packet_ctrl       (packet_ctrl),
+
         .async_fifo_full   (async_fifo_full),
         .async_fifo_w_en   (async_fifo_w_en),
         .async_fifo_w_data (async_fifo_w_data)
-    );
+    );  
+
+    //TODO implement packet encoder 
+    //     packet_encoder #(
+    //     .CXS_DATA_WIDTH (CXS_DATA_WIDTH),
+    //     .CXS_CNTL_WIDTH (CXS_CNTL_WIDTH)
+    // ) u_packet_encoder (
+    //     .clk_cxs          (clk_cxs),
+    //     .rst_n_cxs        (rst_n_cxs),
+    //     .error_valid_sync (err_pulse_cxs),
+    //     .error_in         (sys_error),
+    //     .flit_tx          (flit_tx),
+    //     .flit_cntrl       (flit_cntrl),
+    //     .flit_valid       (flit_valid)
+    // );
 
     
     

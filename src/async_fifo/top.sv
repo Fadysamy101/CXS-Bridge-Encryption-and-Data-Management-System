@@ -1,7 +1,3 @@
-`include "2ff.sv"
-`include "wp_handler.sv"
-`include "rp_handler.sv"
-`include "fifo_mem.sv"
 
 module asynchronous_fifo #(parameter DEPTH=8, DATA_WIDTH=8) (
   input wclk, wrst_n,

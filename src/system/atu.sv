@@ -8,8 +8,7 @@ module atu #(
     input  logic [ADDR_WIDTH-1:0]             config_addr,
     output logic [ADDR_WIDTH-1:0]             addr_out
 );
-// TODO Change documentation add base address 
-// TODO Add support for region mode and any needed modes 
+
 
     localparam logic MODE_RANGE  = 1'b0;
     localparam logic MODE_REGION = 1'b1;

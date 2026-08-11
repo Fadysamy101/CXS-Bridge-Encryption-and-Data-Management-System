@@ -109,3 +109,708 @@ do compile.do
 # 	top
 # End time: 15:31:49 on Aug 11,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+pwd
+# C:/Users/johns/Desktop/DD & DV/Internships/SI-Vision/Project/src
+cd ..
+pwd
+# C:/Users/johns/Desktop/DD & DV/Internships/SI-Vision/Project
+do ./src/compile.do
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:36:31 on Aug 11,2026
+# vlog -reportprogress 300 ./system/*.sv 
+# ** Error: (vlog-7) Failed to open design unit file "./system/*.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:36:31 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ././src/compile.do line 1
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog ./system/*.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Copying C:/questasim64_2021.1/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:25 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/2ff.sv src/async_fifo/async_fifo_tb.sv src/async_fifo/fifo_mem.sv src/async_fifo/rp_handler.sv src/async_fifo/top.sv src/async_fifo/wp_handler.sv 
+# -- Compiling module synchronizer
+# -- Compiling module synchronizer
+# ** Warning: ** while parsing file included at src/async_fifo/async_fifo_tb.sv(1)
+# ** while parsing file included at src/async_fifo/top.sv(1)
+# ** at src/async_fifo/2ff.sv(1): (vlog-2275) Existing module 'synchronizer' at line 1 will be overwritten.
+# -- Compiling module wptr_handler
+# -- Compiling module rptr_handler
+# -- Compiling module fifo_mem
+# -- Compiling module asynchronous_fifo
+# -- Compiling module async_fifo_TB
+# -- Compiling module fifo_mem
+# ** Warning: src/async_fifo/fifo_mem.sv(1): (vlog-2275) Existing module 'fifo_mem' at line 1 will be overwritten.
+# -- Compiling module rptr_handler
+# ** Warning: src/async_fifo/rp_handler.sv(1): (vlog-2275) Existing module 'rptr_handler' at line 1 will be overwritten.
+# -- Compiling module synchronizer
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(1)
+# ** at src/async_fifo/2ff.sv(1): (vlog-2275) Existing module 'synchronizer' at line 1 will be overwritten.
+# -- Compiling module wptr_handler
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(2)
+# ** at src/async_fifo/wp_handler.sv(1): (vlog-2275) Existing module 'wptr_handler' at line 1 will be overwritten.
+# -- Compiling module rptr_handler
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(3)
+# ** at src/async_fifo/rp_handler.sv(1): (vlog-2275) Existing module 'rptr_handler' at line 1 will be overwritten.
+# -- Compiling module fifo_mem
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(4)
+# ** at src/async_fifo/fifo_mem.sv(1): (vlog-2275) Existing module 'fifo_mem' at line 1 will be overwritten.
+# -- Compiling module asynchronous_fifo
+# ** Warning: src/async_fifo/top.sv(6): (vlog-2275) Existing module 'asynchronous_fifo' at line 6 will be overwritten.
+# -- Compiling module wptr_handler
+# ** Warning: src/async_fifo/wp_handler.sv(1): (vlog-2275) Existing module 'wptr_handler' at line 1 will be overwritten.
+# 
+# Top level modules:
+# 	async_fifo_TB
+# End time: 15:46:25 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 9
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:25 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/credit_manager.sv src/cxs_if/cxs_if.sv src/cxs_if/flit_fifo.sv src/cxs_if/packet_encoder.sv src/cxs_if/packet_formatter.sv src/cxs_if/rx_interface.sv src/cxs_if/tx_interface.sv 
+# -- Compiling module credit_manager
+# -- Compiling module cxs_if
+# -- Compiling module flit_fifo
+# -- Compiling module packet_encoder
+# -- Compiling module packet_formatter
+# -- Compiling module rx_interface
+# -- Compiling module tx_interface
+# 
+# Top level modules:
+# 	cxs_if
+# 	packet_encoder
+# End time: 15:46:25 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:25 on Aug 11,2026
+# vlog -reportprogress 300 src/system/atu.sv src/system/cdm.sv src/system/control_unit.sv src/system/encryption_unit.sv src/system/parity_unit.sv src/system/system_wrapper.sv 
+# -- Compiling module atu
+# -- Compiling module cdm
+# ** Error: (vlog-13038) src/system/cdm.sv(25): near ")": Missing port in ansi port list.
+# -- Compiling module control_unit
+# -- Compiling module encryption_unit
+# -- Compiling module parity_unit
+# -- Compiling module system_wrapper
+# End time: 15:46:26 on Aug 11,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 6
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog  src/system/*.sv"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:43 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/2ff.sv src/async_fifo/async_fifo_tb.sv src/async_fifo/fifo_mem.sv src/async_fifo/rp_handler.sv src/async_fifo/top.sv src/async_fifo/wp_handler.sv 
+# -- Compiling module synchronizer
+# -- Compiling module synchronizer
+# ** Warning: ** while parsing file included at src/async_fifo/async_fifo_tb.sv(1)
+# ** while parsing file included at src/async_fifo/top.sv(1)
+# ** at src/async_fifo/2ff.sv(1): (vlog-2275) Existing module 'synchronizer' at line 1 will be overwritten.
+# -- Compiling module wptr_handler
+# -- Compiling module rptr_handler
+# -- Compiling module fifo_mem
+# -- Compiling module asynchronous_fifo
+# -- Compiling module async_fifo_TB
+# -- Compiling module fifo_mem
+# ** Warning: src/async_fifo/fifo_mem.sv(1): (vlog-2275) Existing module 'fifo_mem' at line 1 will be overwritten.
+# -- Compiling module rptr_handler
+# ** Warning: src/async_fifo/rp_handler.sv(1): (vlog-2275) Existing module 'rptr_handler' at line 1 will be overwritten.
+# -- Compiling module synchronizer
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(1)
+# ** at src/async_fifo/2ff.sv(1): (vlog-2275) Existing module 'synchronizer' at line 1 will be overwritten.
+# -- Compiling module wptr_handler
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(2)
+# ** at src/async_fifo/wp_handler.sv(1): (vlog-2275) Existing module 'wptr_handler' at line 1 will be overwritten.
+# -- Compiling module rptr_handler
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(3)
+# ** at src/async_fifo/rp_handler.sv(1): (vlog-2275) Existing module 'rptr_handler' at line 1 will be overwritten.
+# -- Compiling module fifo_mem
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(4)
+# ** at src/async_fifo/fifo_mem.sv(1): (vlog-2275) Existing module 'fifo_mem' at line 1 will be overwritten.
+# -- Compiling module asynchronous_fifo
+# ** Warning: src/async_fifo/top.sv(6): (vlog-2275) Existing module 'asynchronous_fifo' at line 6 will be overwritten.
+# -- Compiling module wptr_handler
+# ** Warning: src/async_fifo/wp_handler.sv(1): (vlog-2275) Existing module 'wptr_handler' at line 1 will be overwritten.
+# 
+# Top level modules:
+# 	async_fifo_TB
+# End time: 15:46:43 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 9
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:43 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/credit_manager.sv src/cxs_if/cxs_if.sv src/cxs_if/flit_fifo.sv src/cxs_if/packet_encoder.sv src/cxs_if/packet_formatter.sv src/cxs_if/rx_interface.sv src/cxs_if/tx_interface.sv 
+# -- Compiling module credit_manager
+# -- Compiling module cxs_if
+# -- Compiling module flit_fifo
+# -- Compiling module packet_encoder
+# -- Compiling module packet_formatter
+# -- Compiling module rx_interface
+# -- Compiling module tx_interface
+# 
+# Top level modules:
+# 	cxs_if
+# 	packet_encoder
+# End time: 15:46:43 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:43 on Aug 11,2026
+# vlog -reportprogress 300 src/system/atu.sv src/system/cdm.sv src/system/control_unit.sv src/system/encryption_unit.sv src/system/parity_unit.sv src/system/system_wrapper.sv 
+# -- Compiling module atu
+# -- Compiling module control_unit
+# -- Compiling module encryption_unit
+# -- Compiling module parity_unit
+# -- Compiling module system_wrapper
+# 
+# Top level modules:
+# 	system_wrapper
+# End time: 15:46:43 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:43 on Aug 11,2026
+# vlog -reportprogress 300 src/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:46:43 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:46:43 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit/*.sv 
+# ** Error: (vlog-7) Failed to open design unit file "Verification/unit/*.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:46:43 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog  Verification/unit/*.sv"
+vlog Verification/unit*.sv
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:47:02 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit*.sv 
+# ** Error: (vlog-7) Failed to open design unit file "Verification/unit*.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:47:02 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_2021.1/win64/vlog failed.
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:49:32 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/2ff.sv src/async_fifo/async_fifo_tb.sv src/async_fifo/fifo_mem.sv src/async_fifo/rp_handler.sv src/async_fifo/top.sv src/async_fifo/wp_handler.sv 
+# -- Compiling module synchronizer
+# -- Compiling module synchronizer
+# ** Warning: ** while parsing file included at src/async_fifo/async_fifo_tb.sv(1)
+# ** while parsing file included at src/async_fifo/top.sv(1)
+# ** at src/async_fifo/2ff.sv(1): (vlog-2275) Existing module 'synchronizer' at line 1 will be overwritten.
+# -- Compiling module wptr_handler
+# -- Compiling module rptr_handler
+# -- Compiling module fifo_mem
+# -- Compiling module asynchronous_fifo
+# -- Compiling module async_fifo_TB
+# -- Compiling module fifo_mem
+# ** Warning: src/async_fifo/fifo_mem.sv(1): (vlog-2275) Existing module 'fifo_mem' at line 1 will be overwritten.
+# -- Compiling module rptr_handler
+# ** Warning: src/async_fifo/rp_handler.sv(1): (vlog-2275) Existing module 'rptr_handler' at line 1 will be overwritten.
+# -- Compiling module synchronizer
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(1)
+# ** at src/async_fifo/2ff.sv(1): (vlog-2275) Existing module 'synchronizer' at line 1 will be overwritten.
+# -- Compiling module wptr_handler
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(2)
+# ** at src/async_fifo/wp_handler.sv(1): (vlog-2275) Existing module 'wptr_handler' at line 1 will be overwritten.
+# -- Compiling module rptr_handler
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(3)
+# ** at src/async_fifo/rp_handler.sv(1): (vlog-2275) Existing module 'rptr_handler' at line 1 will be overwritten.
+# -- Compiling module fifo_mem
+# ** Warning: ** while parsing file included at src/async_fifo/top.sv(4)
+# ** at src/async_fifo/fifo_mem.sv(1): (vlog-2275) Existing module 'fifo_mem' at line 1 will be overwritten.
+# -- Compiling module asynchronous_fifo
+# ** Warning: src/async_fifo/top.sv(6): (vlog-2275) Existing module 'asynchronous_fifo' at line 6 will be overwritten.
+# -- Compiling module wptr_handler
+# ** Warning: src/async_fifo/wp_handler.sv(1): (vlog-2275) Existing module 'wptr_handler' at line 1 will be overwritten.
+# 
+# Top level modules:
+# 	async_fifo_TB
+# End time: 15:49:33 on Aug 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 9
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:49:33 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/credit_manager.sv src/cxs_if/cxs_if.sv src/cxs_if/flit_fifo.sv src/cxs_if/packet_encoder.sv src/cxs_if/packet_formatter.sv src/cxs_if/rx_interface.sv src/cxs_if/tx_interface.sv 
+# -- Compiling module credit_manager
+# -- Compiling module cxs_if
+# -- Compiling module flit_fifo
+# -- Compiling module packet_encoder
+# -- Compiling module packet_formatter
+# -- Compiling module rx_interface
+# -- Compiling module tx_interface
+# 
+# Top level modules:
+# 	cxs_if
+# 	packet_encoder
+# End time: 15:49:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:49:33 on Aug 11,2026
+# vlog -reportprogress 300 src/system/atu.sv src/system/cdm.sv src/system/control_unit.sv src/system/encryption_unit.sv src/system/parity_unit.sv src/system/system_wrapper.sv 
+# -- Compiling module atu
+# -- Compiling module control_unit
+# -- Compiling module encryption_unit
+# -- Compiling module parity_unit
+# -- Compiling module system_wrapper
+# 
+# Top level modules:
+# 	system_wrapper
+# End time: 15:49:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:49:33 on Aug 11,2026
+# vlog -reportprogress 300 src/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:49:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:49:33 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit/*.sv 
+# ** Error: (vlog-7) Failed to open design unit file "Verification/unit/*.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:49:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 6
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog  Verification/unit/*.sv"
+do run.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/top.sv 
+# -- Compiling module synchronizer
+# -- Compiling module wptr_handler
+# -- Compiling module rptr_handler
+# -- Compiling module fifo_mem
+# -- Compiling module asynchronous_fifo
+# 
+# Top level modules:
+# 	asynchronous_fifo
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/credit_manager.sv 
+# -- Compiling module credit_manager
+# 
+# Top level modules:
+# 	credit_manager
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/flit_fifo.sv 
+# -- Compiling module flit_fifo
+# 
+# Top level modules:
+# 	flit_fifo
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/packet_encoder.sv 
+# -- Compiling module packet_encoder
+# 
+# Top level modules:
+# 	packet_encoder
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/packet_formatter.sv 
+# -- Compiling module packet_formatter
+# 
+# Top level modules:
+# 	packet_formatter
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/rx_interface.sv 
+# -- Compiling module rx_interface
+# 
+# Top level modules:
+# 	rx_interface
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/tx_interface.sv 
+# -- Compiling module tx_interface
+# 
+# Top level modules:
+# 	tx_interface
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/cxs_if.sv 
+# -- Compiling module cxs_if
+# 
+# Top level modules:
+# 	cxs_if
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/system/atu.sv 
+# -- Compiling module atu
+# 
+# Top level modules:
+# 	atu
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/system/cdm.sv 
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/system/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 15:58:32 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:32 on Aug 11,2026
+# vlog -reportprogress 300 src/system/encryption_unit.sv 
+# -- Compiling module encryption_unit
+# 
+# Top level modules:
+# 	encryption_unit
+# End time: 15:58:33 on Aug 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:33 on Aug 11,2026
+# vlog -reportprogress 300 src/system/parity_unit.sv 
+# -- Compiling module parity_unit
+# 
+# Top level modules:
+# 	parity_unit
+# End time: 15:58:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:33 on Aug 11,2026
+# vlog -reportprogress 300 src/system/system_wrapper.sv 
+# -- Compiling module system_wrapper
+# 
+# Top level modules:
+# 	system_wrapper
+# End time: 15:58:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:33 on Aug 11,2026
+# vlog -reportprogress 300 src/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 15:58:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 15:58:33 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit/packet_formatter/packet_formatter_tb.sv 
+# -- Compiling module packet_formatter_tb
+# ** Error: Verification/unit/packet_formatter/packet_formatter_tb.sv(225): (vlog-2730) Undefined variable: 'current_state'.
+# End time: 15:58:33 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./Verification/unit/packet_formatter/run.do line 1
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog Verification/unit/packet_formatter/packet_formatter_tb.sv"
+do run.do
+# QuestaSim-64 vmap 2021.1 Lib Mapping Utility 2021.01 Jan 19 2021
+# vmap work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:38 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/2ff.sv 
+# -- Compiling module synchronizer
+# 
+# Top level modules:
+# 	synchronizer
+# End time: 16:01:38 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:38 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/wp_handler.sv 
+# -- Compiling module wptr_handler
+# 
+# Top level modules:
+# 	wptr_handler
+# End time: 16:01:38 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:38 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/rp_handler.sv 
+# -- Compiling module rptr_handler
+# 
+# Top level modules:
+# 	rptr_handler
+# End time: 16:01:38 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:38 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/fifo_mem.sv 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/async_fifo/top.sv 
+# -- Compiling module asynchronous_fifo
+# 
+# Top level modules:
+# 	asynchronous_fifo
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/credit_manager.sv 
+# -- Compiling module credit_manager
+# 
+# Top level modules:
+# 	credit_manager
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/flit_fifo.sv 
+# -- Compiling module flit_fifo
+# 
+# Top level modules:
+# 	flit_fifo
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/packet_encoder.sv 
+# -- Compiling module packet_encoder
+# 
+# Top level modules:
+# 	packet_encoder
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/packet_formatter.sv 
+# -- Compiling module packet_formatter
+# 
+# Top level modules:
+# 	packet_formatter
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/rx_interface.sv 
+# -- Compiling module rx_interface
+# 
+# Top level modules:
+# 	rx_interface
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/tx_interface.sv 
+# -- Compiling module tx_interface
+# 
+# Top level modules:
+# 	tx_interface
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/cxs_if/cxs_if.sv 
+# -- Compiling module cxs_if
+# 
+# Top level modules:
+# 	cxs_if
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/system/atu.sv 
+# -- Compiling module atu
+# 
+# Top level modules:
+# 	atu
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/system/cdm.sv 
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/system/control_unit.sv 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:39 on Aug 11,2026
+# vlog -reportprogress 300 src/system/encryption_unit.sv 
+# -- Compiling module encryption_unit
+# 
+# Top level modules:
+# 	encryption_unit
+# End time: 16:01:39 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:40 on Aug 11,2026
+# vlog -reportprogress 300 src/system/parity_unit.sv 
+# -- Compiling module parity_unit
+# 
+# Top level modules:
+# 	parity_unit
+# End time: 16:01:40 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:40 on Aug 11,2026
+# vlog -reportprogress 300 src/system/system_wrapper.sv 
+# -- Compiling module system_wrapper
+# 
+# Top level modules:
+# 	system_wrapper
+# End time: 16:01:40 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:40 on Aug 11,2026
+# vlog -reportprogress 300 src/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 16:01:40 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:01:40 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit/packet_formatter/packet_formatter_tb.sv 
+# -- Compiling module packet_formatter_tb
+# ** Error: Verification/unit/packet_formatter/packet_formatter_tb.sv(225): (vlog-2730) Undefined variable: 'current_state'.
+# End time: 16:01:40 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./Verification/unit/packet_formatter/run.do line 1
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog Verification/unit/packet_formatter/packet_formatter_tb.sv"
+do Verification/unit/packet_formatter/run.do
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:09:58 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit/packet_formatter/packet_formatter_tb.sv 
+# -- Compiling module packet_formatter_tb
+# ** Error: Verification/unit/packet_formatter/packet_formatter_tb.sv(225): (vlog-2730) Undefined variable: 'current_state'.
+# End time: 16:09:58 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./Verification/unit/packet_formatter/run.do line 1
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog Verification/unit/packet_formatter/packet_formatter_tb.sv"
+do Verification/unit/packet_formatter/run.do
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 16:11:20 on Aug 11,2026
+# vlog -reportprogress 300 Verification/unit/packet_formatter/packet_formatter_tb.sv 
+# -- Compiling module packet_formatter_tb
+# 
+# Top level modules:
+# 	packet_formatter_tb
+# End time: 16:11:20 on Aug 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" work.packet_formatter_tb 
+# Start time: 16:11:20 on Aug 11,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "packet_formatter(fast)".
+# Loading sv_std.std
+# Loading work.packet_formatter_tb(fast)
+# Loading work.packet_formatter(fast)
+# ** Note: $finish    : Verification/unit/packet_formatter/packet_formatter_tb.sv(246)
+#    Time: 965 ns  Iteration: 1  Instance: /packet_formatter_tb
+# 1
+# Break in Module packet_formatter_tb at Verification/unit/packet_formatter/packet_formatter_tb.sv line 246
+add wave -position end  sim:/packet_formatter_tb/WORDS_PER_FLIT
+add wave -position end  sim:/packet_formatter_tb/WORD_WIDTH
+add wave -position end  sim:/packet_formatter_tb/rst_n
+add wave -position end  sim:/packet_formatter_tb/FLIT_WIDTH
+add wave -position end  sim:/packet_formatter_tb/flit_fifo_rdata
+add wave -position end  sim:/packet_formatter_tb/flit_fifo_rd
+add wave -position end  sim:/packet_formatter_tb/flit_fifo_empty
+add wave -position end  sim:/packet_formatter_tb/CXSMAXPKTPERFLIT
+add wave -position end  sim:/packet_formatter_tb/CXS_DATA_WIDTH
+add wave -position end  sim:/packet_formatter_tb/CXS_CNTL_WIDTH
+add wave -position end  sim:/packet_formatter_tb/clk
+add wave -position end  sim:/packet_formatter_tb/async_fifo_w_en
+add wave -position end  sim:/packet_formatter_tb/async_fifo_w_data
+add wave -position end  sim:/packet_formatter_tb/async_fifo_full
+run
+run
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.packet_formatter_tb(fast)
+# Loading work.packet_formatter(fast)
+run -all
+# ** Note: $finish    : Verification/unit/packet_formatter/packet_formatter_tb.sv(246)
+#    Time: 965 ns  Iteration: 1  Instance: /packet_formatter_tb
+# 1
+# Break in Module packet_formatter_tb at Verification/unit/packet_formatter/packet_formatter_tb.sv line 246
+add wave -position insertpoint sim:/packet_formatter_tb/dut/*
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.packet_formatter_tb(fast)
+# Loading work.packet_formatter(fast)
+run
+run
+run
+run
+run
+restart
+run
+restart
+run -all
+# ** Note: $finish    : Verification/unit/packet_formatter/packet_formatter_tb.sv(246)
+#    Time: 965 ns  Iteration: 1  Instance: /packet_formatter_tb
+# 1
+# Break in Module packet_formatter_tb at Verification/unit/packet_formatter/packet_formatter_tb.sv line 246
+# Causality operation skipped due to absence of debug database file
