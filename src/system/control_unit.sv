@@ -1,11 +1,4 @@
-// Control Unit - CXS Bridge (spec section 5, FSM of Figure 10).
-//
-// Reads 32-bit TLP words from the async FIFO (CLK_SYS side). A TLP is a fixed
-// TLP_WORDS frame, so the word position inside the frame tells the FSM which
-// word is a header: tlp_word_counter runs 0,1,2,3,0,1,2,3,... and a word popped
-// while the counter reads 0 is a header. Configuration words are written
-// straight to the CDM (encryption bypassed); Transfer payloads are split into
-// address (to the ATU) and data (to the encryption/parity path).
+
 module control_unit #(
     parameter int ADDR_WIDTH = 16,   // CDM / ATU address bus (spec 9, 10)
     parameter int DATA_WIDTH = 16    // payload width handed to the encryption block

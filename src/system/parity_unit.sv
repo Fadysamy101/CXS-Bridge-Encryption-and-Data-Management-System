@@ -13,10 +13,10 @@ module parity_unit #(
     output logic [ENC_DATA_WIDTH:0]     Data_out
 );
 
-    localparam logic [1:0] PAR_DISABLED = 2'b00;
-    localparam logic [1:0] PAR_EVEN     = 2'b01;
-    localparam logic [1:0] PAR_ODD      = 2'b10;
-    localparam logic [1:0] PAR_RESERVED = 2'b11;
+   
+    localparam logic [1:0] PAR_EVEN     = 2'b00;
+    localparam logic [1:0] PAR_ODD      = 2'b01;
+
 
     logic parity_bit;
 
@@ -26,7 +26,7 @@ module parity_unit #(
         case (PARITY_MODE)
             PAR_EVEN: parity_bit =  (^Data_in);
             PAR_ODD : parity_bit = ~(^Data_in);
-            default : parity_bit = 1'b0;   // PAR_DISABLED and PAR_RESERVED
+            default : parity_bit = 1'b0;  
         endcase
     end
 

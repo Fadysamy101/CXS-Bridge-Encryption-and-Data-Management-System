@@ -1,0 +1,9 @@
+# Questa/ModelSim
+**/work/
+wlf*
+*.wlf
+*.vcd
+transcript
+
+# Temporary files
+*.tmp

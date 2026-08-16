@@ -60,11 +60,6 @@ module top #(
     logic                      err_toggle_sync_d;
     logic                      err_pulse_cxs;
 
-    logic                      flit_valid;
-    logic [CXS_DATA_WIDTH-1:0] flit_tx;
-    logic [CXS_CNTL_WIDTH-1:0] flit_cntrl;
-    logic                      flit_ready;        // TX has no backpressure yet
-
     // =======================================================================
     // CXS clock domain
     // =======================================================================
@@ -83,6 +78,7 @@ module top #(
         .cxs_rx_cntl       (cxs_rx_cntl),
         .cxs_rx_crdgnt     (cxs_rx_crdgnt),
 
+        .cxs_tx_crdgnt     (cxs_tx_crdgnt),
         .cxs_tx_valid      (cxs_tx_valid),
         .cxs_tx_data       (cxs_tx_data),
         .cxs_tx_cntl       (cxs_tx_cntl),
@@ -91,10 +87,10 @@ module top #(
         .async_fifo_w_en   (async_fifo_w_en),
         .async_fifo_w_data (async_fifo_w_data),
 
-        // Transmit flit assembled by the packet encoder
-        .flit_valid        (flit_valid),
-        .flit_data_in      ({flit_cntrl, flit_tx}),
-        .flit_ready        (flit_ready)
+        // Error indication, synchronized into the CXS domain, encoded into a
+        // response FLIT by the packet encoder
+        .error_valid_sync  (err_pulse_cxs),
+        .error_in          (sys_error)
     );
 
    
