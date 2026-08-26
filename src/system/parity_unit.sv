@@ -1,21 +1,15 @@
-// ---------------------------------------------------------------------------
-// parity_unit - CXS Bridge Architecture Spec, Section 8
-//
-// Combinational parity generator sitting between the Encryption Module and the
-// CDM. The generated bit is appended above the encrypted word, so Data_out is
-// one bit wider than Data_in.
-// ---------------------------------------------------------------------------
+
 module parity_unit #(
     parameter int ENC_DATA_WIDTH = 32
 )(
-    input  logic [1:0]                  PARITY_MODE,   // Register File [3:2]
+    input  logic                        PARITY_MODE,   // Register File [2]
     input  logic [ENC_DATA_WIDTH-1:0]   Data_in,
     output logic [ENC_DATA_WIDTH:0]     Data_out
 );
 
    
-    localparam logic [1:0] PAR_EVEN     = 2'b00;
-    localparam logic [1:0] PAR_ODD      = 2'b01;
+    localparam logic PAR_EVEN = 1'b0;
+    localparam logic PAR_ODD  = 1'b1;
 
 
     logic parity_bit;

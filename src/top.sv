@@ -36,7 +36,7 @@ module top #(
     output logic                      cxs_rx_crdgnt,
 
     // CXS link - transmit
-    input logic                      cxs_tx_crdgnt,
+    input logic                       cxs_tx_crdgnt,
     output logic                      cxs_tx_valid,
     output logic [CXS_DATA_WIDTH-1:0] cxs_tx_data,
     output logic [CXS_CNTL_WIDTH-1:0] cxs_tx_cntl

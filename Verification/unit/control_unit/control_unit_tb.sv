@@ -83,8 +83,10 @@ end
 // Helpers
 // ---------------------------------------------------------------------------
 
-// Build a header word: RSV [31:17], ADDR_MODE [16], DEV_COUNT [15:8],
-// ENC_MODE [7:4], PARITY_MODE [3:2], SYS_STATE [1:0]
+// Build a header word: BASE_ADDR [31:16], DEV_COUNT [15:8], ENC_MODE [7:4],
+// ADDR_MODE [3], PARITY_MODE [2], SYS_STATE [1:0]
+// The control unit only decodes ENC_MODE and SYS_STATE, so the "par" argument
+// simply fills ADDR_MODE and PARITY_MODE.
 function automatic logic [WORD_WIDTH-1:0] hdr(
     input logic [7:0] devs,
     input logic [3:0] enc,

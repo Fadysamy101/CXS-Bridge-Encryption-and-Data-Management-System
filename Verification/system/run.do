@@ -1,5 +1,1 @@
-# Add the system testbench compilation command when it is available.
-# Example:
-# vlog Verification/system/system_tb.sv
-# vsim -voptargs="+acc" work.system_tb
-# run -all
+do Verification/system/enc_sys_uvm/run.do

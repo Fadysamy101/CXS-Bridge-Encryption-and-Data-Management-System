@@ -10,7 +10,7 @@ module credit_manager #(
     input  logic                  flit_fifo_empty,    
     input  logic                  flit_fifo_full,    
 
-    output logic                   cxs_rx_crdgnt   
+    output logic                  cxs_rx_crdgnt   
 );
 
     localparam int CNT_WIDTH = $clog2(DEPTH) + 1;   

@@ -1,0 +1,37 @@
+// RTL
+src/async_fifo/2ff.sv
+src/async_fifo/wp_handler.sv
+src/async_fifo/rp_handler.sv
+src/async_fifo/fifo_mem.sv
+src/async_fifo/top.sv
+src/cxs_if/credit_manager.sv
+src/cxs_if/flit_fifo.sv
+src/cxs_if/packet_encoder.sv
+src/cxs_if/packet_formatter.sv
+src/cxs_if/rx_interface.sv
+src/cxs_if/tx_interface.sv
+src/cxs_if/cxs_if.sv
+src/system/atu.sv
+src/system/cdm.sv
+src/system/control_unit.sv
+src/system/encryption_unit.sv
+src/system/parity_unit.sv
+src/system/system_wrapper.sv
+src/top.sv
+
+// UVM testbench
+Verification/system/enc_sys_uvm/enc_sys_interface.sv
+Verification/system/enc_sys_uvm/sva.sv
+Verification/system/enc_sys_uvm/enc_sys_confg.sv
+Verification/system/enc_sys_uvm/enc_sys_seq_item.sv
+Verification/system/enc_sys_uvm/reset_seq.sv
+Verification/system/enc_sys_uvm/directed_seq.sv
+Verification/system/enc_sys_uvm/enc_sys_sequencer.sv
+Verification/system/enc_sys_uvm/enc_sys_driver.sv
+Verification/system/enc_sys_uvm/enc_sys_monitor.sv
+Verification/system/enc_sys_uvm/enc_sys_agt.sv
+Verification/system/enc_sys_uvm/enc_sys_scoreboard.sv
+Verification/system/enc_sys_uvm/enc_sys_coverage.sv
+Verification/system/enc_sys_uvm/enc_sys_env.sv
+Verification/system/enc_sys_uvm/enc_sys_test.sv
+Verification/system/enc_sys_uvm/enc_sys_top.sv

@@ -43,7 +43,6 @@ module control_unit #(
     localparam logic [1:0] PKT_LINKUP   = 2'b10;
     localparam logic [1:0] PKT_TRANSFER = 2'b11;
 
-    // Supported encryption modes (spec 4.3): 0000 Even, 0001 Odd
     localparam logic [3:0] ENC_EVEN = 4'h0;
     localparam logic [3:0] ENC_ODD  = 4'h1;
 
@@ -52,11 +51,11 @@ module control_unit #(
     localparam logic [1:0] ERR_INVALID_STATE      = 2'b10;
 
     typedef enum logic [2:0] {
-        S_IDLE,
-        S_CFG_HDR,      // "Configure header"
-        S_LINK_UP,
-        S_DATA_HDR,     // "Data header"
-        S_ERROR
+        S_IDLE = 3'b000,
+        S_CFG_HDR = 3'b001,     
+        S_LINK_UP = 3'b011,
+        S_DATA_HDR = 3'b111,     
+        S_ERROR  = 3'b101
     } state_e;
 
     state_e state, next_state;
@@ -120,6 +119,7 @@ module control_unit #(
                         next_state = S_CFG_HDR;
                     else
                         fifo_en = 1'b1;   // drop anything that is not a config header
+                        //TODO go to error
                 end
             end
 

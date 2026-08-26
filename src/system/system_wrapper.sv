@@ -38,7 +38,7 @@ module system_wrapper #(
     logic [7:0]                  dev_count;
     logic                        addr_mode;
     logic [3:0]                  enc_mode;
-    logic [1:0]                  parity_mode;
+    logic                        parity_mode;
 
     control_unit #(
         .ADDR_WIDTH (ADDR_WIDTH),
@@ -68,6 +68,8 @@ module system_wrapper #(
     atu #(
         .ADDR_WIDTH (ADDR_WIDTH)
     ) u_atu (
+        .clk(clk_sys),
+        .rst_n(rst_n),
         .config_signal (direct_cdm_write),
         .addr_mode     (addr_mode),
         .addr_in       (cu_addr_out),

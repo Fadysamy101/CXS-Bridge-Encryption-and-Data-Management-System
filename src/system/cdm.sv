@@ -19,7 +19,7 @@ module cdm #(
     output logic [7:0]                  dev_count,
     output logic                        addr_mode,
     output logic [3:0]                  enc_mode,
-    output logic [1:0]                  parity_mode
+    output logic                        parity_mode
 );
 
     localparam int WORD_WIDTH = (DATA_WIDTH*2) + 1;
@@ -52,9 +52,9 @@ module cdm #(
     end
 
     // Global configuration register taps (spec 6.2.1)
-    assign addr_mode   = mem[CFG_ADDR][16];
     assign dev_count   = mem[CFG_ADDR][15:8];
     assign enc_mode    = mem[CFG_ADDR][7:4];
-    assign parity_mode = mem[CFG_ADDR][3:2];
+    assign addr_mode   = mem[CFG_ADDR][3];
+    assign parity_mode = mem[CFG_ADDR][2];
 
 endmodule

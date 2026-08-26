@@ -23,7 +23,7 @@ module tx_interface #(
     localparam int CNT_WIDTH = $clog2(MAX_CREDITS) + 1;
 
     logic [CNT_WIDTH-1:0]  credit_counter;
-    logic [FLIT_WIDTH-1:0] flit_hold;
+    logic [FLIT_WIDTH-1:0] flit_reg;
     logic                  flit_pending;
 
     wire has_credit = (|credit_counter);
@@ -36,7 +36,7 @@ module tx_interface #(
     always_ff @(posedge clk_cxs or negedge rst_n_cxs) begin
         if (!rst_n_cxs) begin
             credit_counter <= '0;
-            flit_hold      <= '0;
+            flit_reg      <= '0;
             flit_pending   <= 1'b0;
             cxs_tx_valid   <= 1'b0;
             cxs_tx_data    <= '0;
@@ -45,13 +45,13 @@ module tx_interface #(
         else begin
             // A grant arriving in the same cycle as a transmission leaves the
             // number of available credits unchanged.
-            if (cxs_tx_crdgnt && !send && (credit_counter != CNT_WIDTH'(MAX_CREDITS)))
+            if (cxs_tx_crdgnt && !send && (credit_counter != CNT_WIDTH'(MAX_CREDITS))) //grant credits as long as max is not reached and grant signal is high
                 credit_counter <= credit_counter + 1'b1;
-            else if (send && !cxs_tx_crdgnt)
+            else if (send && !cxs_tx_crdgnt) 
                 credit_counter <= credit_counter - 1'b1;
 
             if (capture) begin
-                flit_hold    <= flit_data_in;
+                flit_reg    <= flit_data_in;
                 flit_pending <= 1'b1;
             end
             else if (send) begin
@@ -60,8 +60,8 @@ module tx_interface #(
 
             cxs_tx_valid <= send;
             if (send) begin
-                cxs_tx_data <= flit_hold[CXS_DATA_WIDTH-1:0];
-                cxs_tx_cntl <= flit_hold[FLIT_WIDTH-1:CXS_DATA_WIDTH];
+                cxs_tx_data <= flit_reg[CXS_DATA_WIDTH-1:0];
+                cxs_tx_cntl <= flit_reg[FLIT_WIDTH-1:CXS_DATA_WIDTH];
             end
         end
     end
