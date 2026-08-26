@@ -29,16 +29,16 @@ packet_formatter #(
     .CXSMAXPKTPERFLIT    (CXSMAXPKTPERFLIT),
     .FLIT_WIDTH           (FLIT_WIDTH)
 ) dut (
-    .rst_n              (rst_n),
-    .clk                (clk),
+    .i_packet_formatter_rst_n              (rst_n),
+    .i_packet_formatter_clk                (clk),
 
-    .flit_fifo_empty    (flit_fifo_empty),
-    .flit_fifo_rdata    (flit_fifo_rdata),
-    .async_fifo_full    (async_fifo_full),
+    .i_packet_formatter_flit_fifo_empty    (flit_fifo_empty),
+    .i_packet_formatter_flit_fifo_rdata    (flit_fifo_rdata),
+    .i_packet_formatter_async_fifo_full    (async_fifo_full),
 
-    .flit_fifo_rd       (flit_fifo_rd),
-    .async_fifo_w_en    (async_fifo_w_en),
-    .async_fifo_w_data  (async_fifo_w_data)
+    .o_packet_formatter_flit_fifo_rd       (flit_fifo_rd),
+    .o_packet_formatter_async_fifo_w_en    (async_fifo_w_en),
+    .o_packet_formatter_async_fifo_w_data  (async_fifo_w_data)
 );
 
 

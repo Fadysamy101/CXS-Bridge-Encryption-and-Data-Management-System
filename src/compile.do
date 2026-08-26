@@ -1,8 +1,8 @@
-vlog src/async_fifo/2ff.sv
-vlog src/async_fifo/wp_handler.sv
-vlog src/async_fifo/rp_handler.sv
+vlog src/async_fifo/synchronizer.sv
+vlog src/async_fifo/wptr_handler.sv
+vlog src/async_fifo/rptr_handler.sv
 vlog src/async_fifo/fifo_mem.sv
-vlog src/async_fifo/top.sv
+vlog src/async_fifo/asynchronous_fifo.sv
 
 vlog src/cxs_if/credit_manager.sv
 vlog src/cxs_if/flit_fifo.sv

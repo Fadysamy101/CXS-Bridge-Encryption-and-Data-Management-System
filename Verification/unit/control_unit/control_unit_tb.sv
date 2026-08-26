@@ -54,23 +54,23 @@ control_unit #(
     .ADDR_WIDTH (ADDR_WIDTH),
     .DATA_WIDTH (DATA_WIDTH)
 ) dut (
-    .clk_sys          (clk),
-    .rst_n            (rst_n),
+    .i_control_unit_clk          (clk),
+    .i_control_unit_rst_n            (rst_n),
 
-    .fifo_empty       (fifo_empty),
-    .fifo_en          (fifo_en),
-    .fifo_data_in     (fifo_data_in),
+    .i_control_unit_fifo_empty       (fifo_empty),
+    .o_control_unit_fifo_en          (fifo_en),
+    .i_control_unit_fifo_data_in     (fifo_data_in),
 
-    .direct_cdm_write (direct_cdm_write),
-    .w_en             (w_en),
-    .addr_out         (addr_out),
-    .data_out         (data_out),
-    .cfg_data_out     (cfg_data_out),
+    .o_control_unit_direct_cdm_write (direct_cdm_write),
+    .o_control_unit_w_en             (w_en),
+    .o_control_unit_addr_out         (addr_out),
+    .o_control_unit_data_out         (data_out),
+    .o_control_unit_cfg_data_out     (cfg_data_out),
 
-    .dev_count        (dev_count),
+    .i_control_unit_dev_count        (dev_count),
 
-    .error_valid      (error_valid),
-    .error            (error)
+    .o_control_unit_error_valid      (error_valid),
+    .o_control_unit_error            (error)
 );
 
 initial begin

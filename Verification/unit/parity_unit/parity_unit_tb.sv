@@ -15,9 +15,9 @@ module parity_unit_tb;
     parity_unit #(
         .ENC_DATA_WIDTH(ENC_DATA_WIDTH)
     ) dut (
-        .PARITY_MODE(parity_mode),
-        .Data_in(data_in),
-        .Data_out(data_out)
+        .i_parity_unit_parity_mode(parity_mode),
+        .i_parity_unit_data_in(data_in),
+        .o_parity_unit_data_out(data_out)
     );
 
     // Helper function to count ones in a value

@@ -1,9 +1,9 @@
 // RTL
-src/async_fifo/2ff.sv
-src/async_fifo/wp_handler.sv
-src/async_fifo/rp_handler.sv
+src/async_fifo/synchronizer.sv
+src/async_fifo/wptr_handler.sv
+src/async_fifo/rptr_handler.sv
 src/async_fifo/fifo_mem.sv
-src/async_fifo/top.sv
+src/async_fifo/asynchronous_fifo.sv
 src/cxs_if/credit_manager.sv
 src/cxs_if/flit_fifo.sv
 src/cxs_if/packet_encoder.sv

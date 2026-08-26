@@ -14,9 +14,9 @@ module encryption_unit_tb;
     encryption_unit #(
         .DATA_WIDTH(DATA_WIDTH)
     ) dut (
-        .ENC_MODE (enc_mode),
-        .Data_in  (data_in),
-        .Data_out (data_out)
+        .i_encryption_unit_enc_mode (enc_mode),
+        .i_encryption_unit_data_in  (data_in),
+        .o_encryption_unit_data_out (data_out)
     );
 
     task automatic test_case(

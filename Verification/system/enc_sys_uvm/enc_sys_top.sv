@@ -21,20 +21,20 @@ module enc_sys_top;
     enc_sys_inter enc_sys_test_vif(clk_cxs, clk_sys);
 
     top dut (
-        .clk_cxs       (clk_cxs),
-        .rst_n_cxs     (enc_sys_test_vif.rst_n_cxs),
-        .clk_sys       (clk_sys),
-        .rst_n_sys     (enc_sys_test_vif.rst_n_sys),
+        .i_top_cxs_clk       (clk_cxs),
+        .i_top_cxs_rst_n     (enc_sys_test_vif.rst_n_cxs),
+        .i_top_sys_clk       (clk_sys),
+        .i_top_sys_rst_n     (enc_sys_test_vif.rst_n_sys),
 
-        .cxs_rx_valid  (enc_sys_test_vif.cxs_rx_valid),
-        .cxs_rx_data   (enc_sys_test_vif.cxs_rx_data),
-        .cxs_rx_cntl   (enc_sys_test_vif.cxs_rx_cntl),
-        .cxs_rx_crdgnt (enc_sys_test_vif.cxs_rx_crdgnt),
+        .i_top_cxs_rx_valid  (enc_sys_test_vif.cxs_rx_valid),
+        .i_top_cxs_rx_data   (enc_sys_test_vif.cxs_rx_data),
+        .i_top_cxs_rx_cntl   (enc_sys_test_vif.cxs_rx_cntl),
+        .o_top_cxs_rx_crdgnt (enc_sys_test_vif.cxs_rx_crdgnt),
 
-        .cxs_tx_crdgnt (enc_sys_test_vif.cxs_tx_crdgnt),
-        .cxs_tx_valid  (enc_sys_test_vif.cxs_tx_valid),
-        .cxs_tx_data   (enc_sys_test_vif.cxs_tx_data),
-        .cxs_tx_cntl   (enc_sys_test_vif.cxs_tx_cntl)
+        .i_top_cxs_tx_crdgnt (enc_sys_test_vif.cxs_tx_crdgnt),
+        .o_top_cxs_tx_valid  (enc_sys_test_vif.cxs_tx_valid),
+        .o_top_cxs_tx_data   (enc_sys_test_vif.cxs_tx_data),
+        .o_top_cxs_tx_cntl   (enc_sys_test_vif.cxs_tx_cntl)
     );
 
     initial begin
