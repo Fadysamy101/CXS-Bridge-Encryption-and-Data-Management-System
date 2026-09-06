@@ -1,6 +1,6 @@
 
 module system_wrapper #(
-  parameter int ADDR_WIDTH = 16,
+  parameter int ADDR_WIDTH = 8,
   parameter int DATA_WIDTH = 16,
   parameter int DEV_MAX    = 8
 )(

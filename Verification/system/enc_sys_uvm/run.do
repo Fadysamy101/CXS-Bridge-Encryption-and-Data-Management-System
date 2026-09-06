@@ -78,6 +78,7 @@ add wave -group ASYNC_FIFO -radix hexadecimal $DUT/u_async_fifo/o_asynchronous_f
 
 # control_unit - 5 inputs, 8 outputs
 add wave -group CONTROL_UNIT -radix hexadecimal $DUT/u_system_wrapper/u_control_unit/i_control_unit_clk
+add wave -group CONTROL_UNIT  hexadecimal $DUT/u_system_wrapper/u_control_unit/state
 add wave -group CONTROL_UNIT -radix hexadecimal $DUT/u_system_wrapper/u_control_unit/i_control_unit_rst_n
 add wave -group CONTROL_UNIT -radix hexadecimal $DUT/u_system_wrapper/u_control_unit/i_control_unit_fifo_empty
 add wave -group CONTROL_UNIT -radix hexadecimal $DUT/u_system_wrapper/u_control_unit/o_control_unit_fifo_en

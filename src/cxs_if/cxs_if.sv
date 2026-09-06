@@ -2,7 +2,7 @@ module cxs_if #(
   parameter int CXS_DATA_WIDTH  = 256,
   parameter int CXS_CNTL_WIDTH  = 14,
   parameter int FLIT_WIDTH      = CXS_DATA_WIDTH + CXS_CNTL_WIDTH,
-  parameter int FLIT_FIFO_DEPTH = 16,
+  parameter int FLIT_FIFO_DEPTH = 8,
   parameter int WORD_WIDTH      = 32
 )(
   input  logic                      i_cxs_if_clk,

@@ -1,6 +1,7 @@
 import enc_sys_test_pkg::*;
 import uvm_pkg::*;
 `include "uvm_macros.svh"
+`timescale 1ns/1ps
 
 
 module enc_sys_top;
@@ -9,13 +10,13 @@ module enc_sys_top;
     bit clk_sys;   // system domain, 125 MHz - deliberately unrelated
 
     initial begin
-        clk_cxs = 1'b0;
-        forever #5 clk_cxs = ~clk_cxs;
+        clk_cxs = 0;
+        forever #13.514 clk_cxs = ~clk_cxs;
     end
 
     initial begin
-        clk_sys = 1'b0;
-        forever #4 clk_sys = ~clk_sys;
+        clk_sys = 0;
+        forever #20 clk_sys = ~clk_sys;
     end
 
     enc_sys_inter enc_sys_test_vif(clk_cxs, clk_sys);
