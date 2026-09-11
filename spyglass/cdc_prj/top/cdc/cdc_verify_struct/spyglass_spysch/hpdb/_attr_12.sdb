@@ -1,0 +1,9 @@
+1
+1
+1 
+2
+31
+Clock_path_tag
+Clock_path_tag
+top.i_top_cxs_clk&&CXS_DOMAIN&&0
+top.i_top_sys_clk&&SYS_DOMAIN&&1

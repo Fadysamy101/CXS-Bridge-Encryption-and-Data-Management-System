@@ -1,0 +1,6 @@
+#x STXT_BEGIN ST.1
+## STXT_PROPERTY SG_ML_HANDLE_OBJ_ATTACH
+## ../async_fifo/synchronizer.sv 13
+## ../system/cdm.sv 37
+#x STXT_END ST.1
+#x STXT_BEGIN ST.2

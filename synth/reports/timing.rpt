@@ -1,0 +1,168 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'top' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top
+Version: O-2018.06-SP1
+Date   : Sat Sep 12 01:02:14 2026
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: u_cxs_if/u_flit_fifo/wptr_reg[2]
+              (rising edge-triggered flip-flop clocked by CLK_CXS)
+  Endpoint: u_cxs_if/u_flit_fifo/mem_reg[9][0]
+            (rising edge-triggered flip-flop clocked by CLK_CXS)
+  Path Group: CLK_CXS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                1000000               saed90nm_typ
+  flit_fifo_DEPTH16_DATA_WIDTH270
+                     280000                saed90nm_typ
+  cxs_if_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_FLIT_WIDTH270_FLIT_FIFO_DEPTH16_WORD_WIDTH32
+                     280000                saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_CXS (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_cxs_if/u_flit_fifo/wptr_reg[2]/CLK (DFFARX1)          0.00 #     0.00 r
+  u_cxs_if/u_flit_fifo/wptr_reg[2]/Q (DFFARX1)            0.20       0.20 r
+  u_cxs_if/u_flit_fifo/U4661/Q (XOR2X1)                   1.70       1.90 r
+  u_cxs_if/u_flit_fifo/U6118/QN (NOR2X0)                  0.58       2.47 f
+  u_cxs_if/u_flit_fifo/U4657/QN (NAND4X0)                 0.57       3.04 r
+  u_cxs_if/u_flit_fifo/U6096/ZN (INVX0)                   0.55       3.59 f
+  u_cxs_if/u_flit_fifo/o_flit_fifo_full (flit_fifo_DEPTH16_DATA_WIDTH270)
+                                                          0.00       3.59 f
+  u_cxs_if/u_rx_interface/i_rx_interface_flit_fifo_full (rx_interface_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_FLIT_WIDTH270)
+                                                          0.00       3.59 f
+  u_cxs_if/u_rx_interface/U1/QN (NOR2X0)                  0.61       4.20 r
+  u_cxs_if/u_rx_interface/o_rx_interface_flit_fifo_wr (rx_interface_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_FLIT_WIDTH270)
+                                                          0.00       4.20 r
+  u_cxs_if/u_flit_fifo/i_flit_fifo_wr (flit_fifo_DEPTH16_DATA_WIDTH270)
+                                                          0.00       4.20 r
+  u_cxs_if/u_flit_fifo/U6095/QN (NAND2X1)                 0.88       5.08 f
+  u_cxs_if/u_flit_fifo/U5963/ZN (INVX0)                   0.86       5.95 r
+  u_cxs_if/u_flit_fifo/U4654/Q (AND2X1)                   0.74       6.69 r
+  u_cxs_if/u_flit_fifo/U4653/Q (AND2X1)                   0.52       7.21 r
+  u_cxs_if/u_flit_fifo/U6108/QN (NAND2X1)                 0.97       8.18 f
+  u_cxs_if/u_flit_fifo/U5971/Z (NBUFFX2)                  1.50       9.68 f
+  u_cxs_if/u_flit_fifo/U5362/Z (NBUFFX2)                  1.23      10.91 f
+  u_cxs_if/u_flit_fifo/U4679/Z (NBUFFX2)                  1.23      12.13 f
+  u_cxs_if/u_flit_fifo/U8707/ZN (INVX0)                   0.82      12.95 r
+  u_cxs_if/u_flit_fifo/U3011/Q (AO22X1)                   1.44      14.40 r
+  u_cxs_if/u_flit_fifo/mem_reg[9][0]/D (DFFX1)            0.37      14.77 r
+  data arrival time                                                 14.77
+
+  clock CLK_CXS (rise edge)                              27.03      27.03
+  clock network delay (ideal)                             0.00      27.03
+  u_cxs_if/u_flit_fifo/mem_reg[9][0]/CLK (DFFX1)          0.00      27.03 r
+  library setup time                                     -0.06      26.96
+  data required time                                                26.96
+  --------------------------------------------------------------------------
+  data required time                                                26.96
+  data arrival time                                                -14.77
+  --------------------------------------------------------------------------
+  slack (MET)                                                       12.20
+
+
+  Startpoint: u_async_fifo/u_rptr_handler/o_rptr_handler_b_rptr_reg[1]
+              (rising edge-triggered flip-flop clocked by CLK_SYS)
+  Endpoint: u_system_wrapper/u_cdm/mem_reg[207][9]
+            (rising edge-triggered flip-flop clocked by CLK_SYS)
+  Path Group: CLK_SYS
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  top                1000000               saed90nm_typ
+  asynchronous_fifo_DEPTH8_DATA_WIDTH32
+                     16000                 saed90nm_typ
+  fifo_mem_DEPTH8_DATA_WIDTH32_PTR_WIDTH3
+                     16000                 saed90nm_typ
+  control_unit_ADDR_WIDTH8_DATA_WIDTH16
+                     8000                  saed90nm_typ
+  system_wrapper_ADDR_WIDTH8_DATA_WIDTH16_DEV_MAX8
+                     540000                saed90nm_typ
+  atu_ADDR_WIDTH8    8000                  saed90nm_typ
+  cdm_ADDR_WIDTH8_DATA_WIDTH16_DEV_MAX8
+                     540000                saed90nm_typ
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock CLK_SYS (rise edge)                               0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  u_async_fifo/u_rptr_handler/o_rptr_handler_b_rptr_reg[1]/CLK (DFFARX1)
+                                                          0.00 #     0.00 r
+  u_async_fifo/u_rptr_handler/o_rptr_handler_b_rptr_reg[1]/Q (DFFARX1)
+                                                          0.20       0.20 f
+  u_async_fifo/u_rptr_handler/o_rptr_handler_b_rptr[1] (rptr_handler_PTR_WIDTH3)
+                                                          0.00       0.20 f
+  u_async_fifo/u_fifo_mem/i_fifo_mem_b_rptr[1] (fifo_mem_DEPTH8_DATA_WIDTH32_PTR_WIDTH3)
+                                                          0.00       0.20 f
+  u_async_fifo/u_fifo_mem/U307/ZN (INVX0)                 0.08       0.29 r
+  u_async_fifo/u_fifo_mem/U321/Q (AND2X1)                 0.10       0.38 r
+  u_async_fifo/u_fifo_mem/U328/Q (AND2X1)                 0.11       0.49 r
+  u_async_fifo/u_fifo_mem/U283/Z (NBUFFX2)                0.18       0.67 r
+  u_async_fifo/u_fifo_mem/U354/Q (AO22X1)                 0.13       0.80 r
+  u_async_fifo/u_fifo_mem/U355/Q (AO221X1)                0.12       0.92 r
+  u_async_fifo/u_fifo_mem/U356/Q (OR2X1)                  0.11       1.03 r
+  u_async_fifo/u_fifo_mem/o_fifo_mem_data_out[5] (fifo_mem_DEPTH8_DATA_WIDTH32_PTR_WIDTH3)
+                                                          0.00       1.03 r
+  u_async_fifo/o_asynchronous_fifo_data_out[5] (asynchronous_fifo_DEPTH8_DATA_WIDTH32)
+                                                          0.00       1.03 r
+  u_system_wrapper/i_system_wrapper_fifo_data_in[5] (system_wrapper_ADDR_WIDTH8_DATA_WIDTH16_DEV_MAX8)
+                                                          0.00       1.03 r
+  u_system_wrapper/u_control_unit/i_control_unit_fifo_data_in[5] (control_unit_ADDR_WIDTH8_DATA_WIDTH16)
+                                                          0.00       1.03 r
+  u_system_wrapper/u_control_unit/U74/ZN (INVX0)          0.55       1.58 f
+  u_system_wrapper/u_control_unit/U173/Q (AND3X1)         0.12       1.70 f
+  u_system_wrapper/u_control_unit/U71/QN (NAND2X1)        0.11       1.81 r
+  u_system_wrapper/u_control_unit/U20/QN (NAND2X1)        0.11       1.91 f
+  u_system_wrapper/u_control_unit/U19/QN (NAND3X0)        0.19       2.10 r
+  u_system_wrapper/u_control_unit/U4/ZN (INVX0)           0.28       2.39 f
+  u_system_wrapper/u_control_unit/o_control_unit_direct_cdm_write (control_unit_ADDR_WIDTH8_DATA_WIDTH16)
+                                                          0.00       2.39 f
+  u_system_wrapper/U44/ZN (INVX0)                         2.33       4.71 r
+  u_system_wrapper/U39/Z (NBUFFX2)                        1.71       6.43 r
+  u_system_wrapper/U46/ZN (INVX0)                         1.04       7.47 f
+  u_system_wrapper/u_atu/i_atu_config_signal (atu_ADDR_WIDTH8)
+                                                          0.00       7.47 f
+  u_system_wrapper/u_atu/U22/ZN (INVX0)                   1.32       8.79 r
+  u_system_wrapper/u_atu/U10/Q (AO22X1)                   0.17       8.97 r
+  u_system_wrapper/u_atu/o_atu_addr_out[0] (atu_ADDR_WIDTH8)
+                                                          0.00       8.97 r
+  u_system_wrapper/u_cdm/i_cdm_w_addr[0] (cdm_ADDR_WIDTH8_DATA_WIDTH16_DEV_MAX8)
+                                                          0.00       8.97 r
+  u_system_wrapper/u_cdm/U11693/ZN (INVX0)                1.13      10.10 f
+  u_system_wrapper/u_cdm/U11254/QN (NOR2X0)               1.35      11.45 r
+  u_system_wrapper/u_cdm/U9739/Q (AND2X1)                 0.91      12.36 r
+  u_system_wrapper/u_cdm/U3191/QN (NAND2X1)               3.26      15.61 f
+  u_system_wrapper/u_cdm/U244/Z (NBUFFX2)                 1.69      17.30 f
+  u_system_wrapper/u_cdm/U17447/ZN (INVX0)                1.01      18.31 r
+  u_system_wrapper/u_cdm/U1728/Q (AO22X1)                 1.57      19.87 r
+  u_system_wrapper/u_cdm/mem_reg[207][9]/D (DFFX1)        0.41      20.28 r
+  data arrival time                                                 20.28
+
+  clock CLK_SYS (rise edge)                              40.00      40.00
+  clock network delay (ideal)                             0.00      40.00
+  u_system_wrapper/u_cdm/mem_reg[207][9]/CLK (DFFX1)      0.00      40.00 r
+  library setup time                                     -0.06      39.94
+  data required time                                                39.94
+  --------------------------------------------------------------------------
+  data required time                                                39.94
+  data arrival time                                                -20.28
+  --------------------------------------------------------------------------
+  slack (MET)                                                       19.66
+
+
+1

@@ -1,0 +1,98 @@
+Loading db file '/home/ICer/saed90nm/synopsys/models/saed90nm_typ.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : top
+Version: O-2018.06-SP1
+Date   : Sat Sep 12 01:02:17 2026
+****************************************
+
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/ICer/saed90nm/synopsys/models/saed90nm_typ.db)
+
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+top                    1000000           saed90nm_typ
+cxs_if_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_FLIT_WIDTH270_FLIT_FIFO_DEPTH16_WORD_WIDTH32
+                       280000            saed90nm_typ
+asynchronous_fifo_DEPTH8_DATA_WIDTH32
+                       16000             saed90nm_typ
+synchronizer_WIDTH0    ForQA             saed90nm_typ
+system_wrapper_ADDR_WIDTH8_DATA_WIDTH16_DEV_MAX8
+                       540000            saed90nm_typ
+rx_interface_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_FLIT_WIDTH270
+                       ForQA             saed90nm_typ
+flit_fifo_DEPTH16_DATA_WIDTH270
+                       280000            saed90nm_typ
+credit_manager_DEPTH16 8000              saed90nm_typ
+packet_formatter_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_WORD_WIDTH32_FLIT_WIDTH270
+                       16000             saed90nm_typ
+packet_encoder_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14
+                       8000              saed90nm_typ
+tx_interface_CXS_DATA_WIDTH256_CXS_CNTL_WIDTH14_FLIT_WIDTH270_MAX_CREDITS16
+                       35000             saed90nm_typ
+synchronizer_WIDTH3_0  8000              saed90nm_typ
+wptr_handler_PTR_WIDTH3
+                       8000              saed90nm_typ
+rptr_handler_PTR_WIDTH3
+                       8000              saed90nm_typ
+fifo_mem_DEPTH8_DATA_WIDTH32_PTR_WIDTH3
+                       16000             saed90nm_typ
+control_unit_ADDR_WIDTH8_DATA_WIDTH16
+                       8000              saed90nm_typ
+atu_ADDR_WIDTH8        8000              saed90nm_typ
+encryption_unit_DATA_WIDTH16
+                       8000              saed90nm_typ
+parity_unit_ENC_DATA_WIDTH32
+                       8000              saed90nm_typ
+cdm_ADDR_WIDTH8_DATA_WIDTH16_DEV_MAX8
+                       540000            saed90nm_typ
+synchronizer_WIDTH3_1  8000              saed90nm_typ
+atu_ADDR_WIDTH8_DW01_add_0
+                       8000              saed90nm_typ
+control_unit_ADDR_WIDTH8_DATA_WIDTH16_DW01_inc_0
+                       ForQA             saed90nm_typ
+control_unit_ADDR_WIDTH8_DATA_WIDTH16_DW01_inc_1
+                       ForQA             saed90nm_typ
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  =   1.3767 mW   (95%)
+  Net Switching Power  =  65.1163 uW    (5%)
+                         ---------
+Total Dynamic Power    =   1.4418 mW  (100%)
+
+Cell Leakage Power     =   3.1144 mW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)
+register       1.2946e+03            6.8499        1.7896e+09        3.0910e+03  (  67.85%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational     81.7283           58.2665        1.3248e+09        1.4648e+03  (  32.15%)
+--------------------------------------------------------------------------------------------------
+Total          1.3763e+03 uW        65.1164 uW     3.1144e+09 pW     4.5558e+03 uW
+1

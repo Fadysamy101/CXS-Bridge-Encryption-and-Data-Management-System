@@ -1,0 +1,12 @@
+source cdc.tcl
+
+gui_select_message -rule SGDCSTX_003 -msg {Incorrect field '-wclock' in SGDC command 'fifo'}
+run_goal
+
+run_goal
+
+gui_select_message -rule SGDCSTX_003 -msg {Incorrect field '-wptr' in SGDC command 'fifo'}
+run_goal
+
+run_goal
+

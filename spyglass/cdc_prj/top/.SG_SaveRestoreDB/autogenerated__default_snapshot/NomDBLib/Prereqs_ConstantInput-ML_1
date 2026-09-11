@@ -1,0 +1,2 @@
+cdm,../system/system_wrapper.sv_116,1,i_cdm_r_en,1'b0
+cdm,../system/system_wrapper.sv_116,1,i_cdm_r_addr,{ ADDR_WIDTH{ 1'b0} } 

@@ -17,7 +17,7 @@ module top #(
   parameter int FLIT_FIFO_DEPTH  = 16,
   parameter int WORD_WIDTH       = 32,   // TLP word carried across the CDC
   parameter int ASYNC_FIFO_DEPTH = 8,
-  parameter int ADDR_WIDTH       = 16,
+  parameter int ADDR_WIDTH       = 8, 
   parameter int DATA_WIDTH       = 16,
   parameter int DEV_MAX          = 8
 )(

@@ -1,0 +1,330 @@
+SpyGlass run started at 04:32:05 AM on Sep 12 2026 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vL-2016.06
+Last compiled on May 20 2016
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+Loading Policy: spyglass (Version: SpyGlass_vL-2016.06) from path: /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+Loading perl file for 'clock-reset' policy from path: /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock/clock-reset-policy.pl
+Version of Policy 'clock-reset': SpyGlass_vL-2016.06
+Loading Shared library libclock-reset-Linux4.spyso from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock/libclock-reset-Linux4.spyso 
+Loading Shared library libPwrRules-Linux4.spyso from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lowpower/libPwrRules-Linux4.spyso 
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+ Reading sgdc file "cdc.sgdc" ...
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' closed.
+##FILEDEBUG[spyOpenFileWithName]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' closed.
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' closed.
+##FILEDEBUG[spyOpenFileWithName]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' closed.
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+0 {Rule-checking completed with errors}##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' closed.
+##FILEDEBUG[spyOpenFileWithName]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' closed.
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+7 {Rule-checking terminated due to FATAL errors - usage or run error}##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+7 {Rule-checking terminated due to FATAL errors - usage or run error}##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'AC_QUALIFIER_USAGE' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFileByName]: File Opening failed for file-label 'CDC_ADV_SYNC_SS' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_RST_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' closed.
+##FILEDEBUG[spyOpenFileWithName]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' closed.
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Glitch_detailed.csv' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/ac_qualifier_usage' closed.
+##FILEDEBUG[spyOpenFileWithName]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv' closed.
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_UNSYNCHRONOUS_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' in "r" mode...
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'CK_QUASI_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_FILE' in "r" mode
+##FILEDEBUG[spyOpenFile]: File Opening failed for file-label 'RDC_SYNC_CELL_FILE' in "r" mode
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_file' closed.
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_sync_rst_cell_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/sgdcdumpfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/portclockdomainfile' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+##FILEDEBUG[spyOpenFile]: Opening file './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' in "r" mode...
+##FILEDEBUG[spyCloseFile]: File './cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/clock-reset/clock_reset_info_file' closed.
+0 {Rule-checking completed with warnings}

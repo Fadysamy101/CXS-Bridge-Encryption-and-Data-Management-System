@@ -1,0 +1,1565 @@
+current_goal: info: loading goal `cdc/cdc_verify_struct' with top `top' (in progress)
+current_goal: info: finished loading goal `cdc/cdc_verify_struct' (ok)
+
+INFO:    SpyGlass will run goal(s) 'cdc/cdc_verify_struct'.
+
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading clock-reset (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock)
+Loading txv (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/txv)
+
+TXV_INFO Parameter txv_extract_domain will be renamed to txv_domain_mode in future!
+
+Loading timing (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/timing)
+Loading starcad-21 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starcad-21)
+Loading starc2005 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2005)
+Loading starc2002 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2002)
+Loading starc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc)
+Loading simulation (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/simulation)
+Loading power_est (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/power_est)
+Loading openmore (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/openmore)
+Loading morelint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/morelint)
+Loading miscellaneous (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/miscellaneous)
+Loading lowpower (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lowpower)
+Loading lint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lint)
+Loading latch (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/latch)
+Loading erc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/erc)
+Loading dft_dsm (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/dft_dsm)
+Loading dft (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/dft)
+Loading constraints (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/constraints)
+Loading const_intern1 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/constraints)
+Loading area (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/area)
+Loading Audits (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/Audits)
+ Reading sgdc file "cdc.sgdc" ...
+Performing unification checks on SGDC... done
+***Syntax Errors detected - RULE CHECKING ABORTED***
+
+Generating data for Console...
+
+Generating moresimple report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating CDC-report report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt' ....
+
+Policy specific data (reports) are present in the directory './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports'.
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass.log': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt': Operation not supported
+
+SpyGlass critical reports for the current run are present in directory './cdc_prj/consolidated_reports/top_cdc_cdc_verify_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      cdc/cdc_verify_struct
+** SGDC Checks        :      1 fatal,      0 error,        0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+** Total              :      1 fatal,      0 error,        0 warning,      0 information message 
+
+  Total Number of Generated Messages     :         1 (1 fatal, 0 error, 0 warning, 0 Info)
+  Number of Reported Messages            :         1 (1 fatal, 0 error, 0 warning, 0 Info)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+Following FATAL message(s) generated in current run -
+
+Rule          Severity   File       Line   Message
+-------------------------------------------------------------------------
+SGDCSTX_003   Syntax     cdc.sgdc   29     Incorrect field '-wclock' in SGDC command 'fifo'
+run_goal: info: updating spyglass.log with goal summary
+run_goal: info: spyglass.log successfully updated with goal summary
+ Reading sgdc file "cdc.sgdc" ...
+
+INFO:    SpyGlass will run goal(s) 'cdc/cdc_verify_struct'.
+
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading clock-reset (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock)
+
+INFO [326]    SpyGlass Design Database './cdc_prj/top/.SG_SaveRestoreDB' can not be restored because:
+              Saved design is either incomplete or corrupted. Design restore failed.              Saving Database again
+Loading txv (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/txv)
+
+TXV_INFO Parameter txv_extract_domain will be renamed to txv_domain_mode in future!
+
+Loading timing (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/timing)
+Loading starcad-21 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starcad-21)
+Loading starc2005 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2005)
+Loading starc2002 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc2002)
+Loading starc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/starc)
+Loading simulation (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/simulation)
+Loading power_est (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/power_est)
+Loading openmore (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/openmore)
+Loading morelint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/morelint)
+Loading miscellaneous (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/miscellaneous)
+Loading lowpower (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lowpower)
+Loading lint (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/lint)
+Loading latch (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/latch)
+Loading erc (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/erc)
+Loading dft_dsm (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/dft_dsm)
+Loading dft (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/dft)
+Loading constraints (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/constraints)
+Loading const_intern1 (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/constraints)
+Loading area (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/area)
+Loading Audits (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/Audits)
+ Reading sgdc file "cdc.sgdc" ...
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule SGDC_power_est29 (Rule 1 of total 416) .... done (Time = 0.01s, Memory = 32.0K)
+Checking Rule PECHECK04 (Rule 2 of total 416) .... done (Time = 0.01s, Memory = 23.0K)
+Checking Rule PECHECK18 (Rule 3 of total 416) .... done (Time = 0.00s, Memory = -31.6K)
+Checking Rule PEMVDD01 (Rule 4 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Param_clockreset07 (Rule 5 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_setup01 (Rule 6 of total 416) .... done (Time = 0.02s, Memory = 31.6K)
+Checking Rule Param_clockreset06 (Rule 7 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_meta_monitor_attributes01 (Rule 8 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LP_POWERDATA_CHECK (Rule 9 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LP_POWERDATA_READ (Rule 10 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck01 (Rule 11 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 12 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 13 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 14 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 15 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 16 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock05 (Rule 17 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 18 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 19 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_require_path03 (Rule 20 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 21 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_voltagedomain05 (Rule 22 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_voltagedomain06 (Rule 23 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 24 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 25 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 26 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_waive01 (Rule 27 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 28 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 29 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 30 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive05 (Rule 31 of total 416) .... done (Time = 0.00s, Memory = -0.6K)
+Checking Rule SGDC_waive06 (Rule 32 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 33 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 34 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 35 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 36 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 37 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 38 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 39 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 40 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 41 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 42 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 43 of total 416) .... done (Time = 0.00s, Memory = 24.0K)
+Checking Rule SGDC_waive33 (Rule 44 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive36 (Rule 45 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 46 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 47 of total 416) .... done (Time = 0.00s, Memory = 7.3K)
+Checking Rule SGDC_libgroup01 (Rule 48 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 49 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 50 of total 416) .... done (Time = 0.00s, Memory = 8.3K)
+Checking Rule SGDC_power_data01 (Rule 51 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 52 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_abstract_port06 (Rule 53 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 54 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule SGDC_abstract_port15 (Rule 55 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port18 (Rule 56 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule sdc_init_rule (Rule 57 of total 416) .... done (Time = 0.00s, Memory = -0.3K)
+Checking Rule CMD_ignorelibs01 (Rule 58 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 59 of total 416) .... done (Time = 0.01s, Memory = 14.6K)
+Checking Rule SGDC_generated_clock03 (Rule 60 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_generated_clock04 (Rule 61 of total 416) .... done (Time = 0.00s, Memory = 9.5K)
+Checking Rule SGDC_generated_clock05 (Rule 62 of total 416) .... done (Time = 0.00s, Memory = 10.0K)
+Checking Rule SGDC_quasi_static_style02 (Rule 63 of total 416) .... done (Time = 0.00s, Memory = -24.3K)
+Checking Rule SGDC_syncresetstyle01 (Rule 64 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_network_allowed_cells01 (Rule 65 of total 416) .... done (Time = 0.00s, Memory = 10.3K)
+Checking Rule SGDC_numflops01 (Rule 66 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops07 (Rule 67 of total 416) .... done (Time = 0.00s, Memory = 2.0K)
+Checking Rule SGDC_numflops08 (Rule 68 of total 416) .... done (Time = 0.00s, Memory = 2.0K)
+Checking Rule SGDC_numflops09 (Rule 69 of total 416) .... done (Time = 0.00s, Memory = 13.3K)
+Checking Rule SGDC_clocksense04 (Rule 70 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_check_clock_relation05a (Rule 71 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_check_clock_relation05b (Rule 72 of total 416) .... done (Time = 0.00s, Memory = 39.5K)
+Checking Rule SGDC_sync_cell08a (Rule 73 of total 416) .... done (Time = 0.00s, Memory = 9.5K)
+Checking Rule SGDC_sync_cell09a (Rule 74 of total 416) .... done (Time = 0.00s, Memory = 34.0K)
+Checking Rule SGDC_qualifier06 (Rule 75 of total 416) .... done (Time = 0.00s, Memory = 2.0K)
+Checking Rule SGDC_cdc_waive03 (Rule 76 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_qualifier09 (Rule 77 of total 416) .... done (Time = 0.00s, Memory = 0.5K)
+Checking Rule SGDC_qualifier15 (Rule 78 of total 416) .... done (Time = 0.00s, Memory = -7.6K)
+Checking Rule SGDC_allow_combo_logic01 (Rule 79 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path01 (Rule 80 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path05 (Rule 81 of total 416) .... done (Time = 0.00s, Memory = 7.5K)
+Checking Rule Param_clockreset05 (Rule 82 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sanity01 (Rule 83 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sanity06 (Rule 84 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule Ac_license01 (Rule 85 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer07 (Rule 86 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 87 of total 416) .... done (Time = 0.00s, Memory = -1.8K)
+Checking Rule ReportIgnoreSummary (Rule 88 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+ Analyzing source file "../top.sv" ....
+ Analyzing source file "../async_fifo/asynchronous_fifo.sv" ....
+ Analyzing source file "../async_fifo/fifo_mem.sv" ....
+ Analyzing source file "../async_fifo/rptr_handler.sv" ....
+ Analyzing source file "../async_fifo/synchronizer.sv" ....
+ Analyzing source file "../async_fifo/wptr_handler.sv" ....
+ Analyzing source file "../cxs_if/credit_manager.sv" ....
+ Analyzing source file "../cxs_if/cxs_if.sv" ....
+ Analyzing source file "../cxs_if/flit_fifo.sv" ....
+ Analyzing source file "../cxs_if/packet_encoder.sv" ....
+ Analyzing source file "../cxs_if/packet_formatter.sv" ....
+ Analyzing source file "../cxs_if/rx_interface.sv" ....
+ Analyzing source file "../cxs_if/tx_interface.sv" ....
+ Analyzing source file "../system/atu.sv" ....
+ Analyzing source file "../system/cdm.sv" ....
+ Analyzing source file "../system/control_unit.sv" ....
+ Analyzing source file "../system/encryption_unit.sv" ....
+ Analyzing source file "../system/parity_unit.sv" ....
+ Analyzing source file "../system/system_wrapper.sv" ....
+ Elaborating Top Verilog Design Unit 'top' ..... done
+Checking Rule ElabSummary (Rule 89 of total 416) .... done (Time = 0.00s, Memory = -10.0K)
+Checking Rule ReportCheckDataSummary (Rule 90 of total 416) .... done (Time = 0.00s, Memory = 0.1K)
+ Reading waiver file "./cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating WAIVER file "./cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule DetectTopDesignUnits (Rule 91 of total 416)
+ Detected 1 top level design units:
+     top
+ .... done (Time = 0.00s, Memory = 4.2K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 92 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PECHECK09 (Rule 93 of total 416) .... done (Time = 0.00s, Memory = -1.7K)
+Checking Rule ReportObsoletePragmas (Rule 94 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 95 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 96 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_multitop01 (Rule 97 of total 416) .... done (Time = 0.01s, Memory = 0.2K)
+Checking Rule RtlDesignInfo (Rule 98 of total 416) .... done (Time = 0.00s, Memory = 4.7K)
+Checking Rule Ac_sanity05 (Rule 99 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sanity05 (Rule 100 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_STARC-1.6.2.1 (Rule 101 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Prereqs_RegOutputs (Rule 102 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Latch_VePreReqRule (Rule 103 of total 416) .... done (Time = 0.00s, Memory = 31.8K)
+Checking Rule Pragma_setupa (Rule 104 of total 416) .... done (Time = 0.01s, Memory = 10.1K)
+Checking Rule Pragma_setupb (Rule 105 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 106 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops12 (Rule 107 of total 416) .... done (Time = 0.03s, Memory = -32.0K)
+Checking Rule SGDC_sync_cell11 (Rule 108 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _deltaDelay (Rule 109 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _deltaDelay (Rule 110 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit top
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.01s, Memory = -32.2K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit cxs_if
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit rx_interface
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit flit_fifo
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit credit_manager
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit packet_formatter
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit packet_encoder
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit tx_interface
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 8.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit asynchronous_fifo
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = -0.7K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit WORK_synchronizer_3
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 31.2K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit wptr_handler
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 1.6K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit rptr_handler
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit fifo_mem
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = -2.4K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit WORK_synchronizer_0
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = -3.5K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit system_wrapper
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 2.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 30.1K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit control_unit
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit atu
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit encryption_unit
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit parity_unit
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = -0.4K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit cdm
+    Checking Rule Prereqs_ConstantInput-ML (Rule 111 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+    Checking Rule Prereqs_ConstantInput-ML (Rule 112 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule GenTopLevelBlocksForAutoSoc (Rule 113 of total 416) .... done (Time = 0.00s, Memory = -8.0K)
+    Checking Rule syncRstReq (Rule 114 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule syncRstReq (Rule 115 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 116 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+    Checking Rule AcOvlRtl (Rule 117 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking ELABDU Rules for designUnit top
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit cxs_if
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = -0.9K)
+Checking ELABDU Rules for designUnit rx_interface
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit flit_fifo
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit credit_manager
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking ELABDU Rules for designUnit packet_formatter
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit packet_encoder
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit tx_interface
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit asynchronous_fifo
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit WORK_synchronizer_3
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit wptr_handler
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit rptr_handler
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit fifo_mem
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = -0.1K)
+Checking ELABDU Rules for designUnit WORK_synchronizer_0
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit system_wrapper
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit control_unit
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit atu
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit encryption_unit
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit parity_unit
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking ELABDU Rules for designUnit cdm
+    Checking Rule Ac_setOvlDataInSynthesis (Rule 118 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_meta_design_hier01 (Rule 119 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+ Synthesizing module: cdm (elaborated name: cdm) ... (Module 1 of total 20)  done 
+ Synthesizing module: parity_unit (elaborated name: parity_unit) ... (Module 2 of total 20)  done 
+ Synthesizing module: encryption_unit (elaborated name: encryption_unit) ... (Module 3 of total 20)  done 
+ Synthesizing module: atu (elaborated name: atu) ... (Module 4 of total 20)  done 
+ Synthesizing module: control_unit (elaborated name: control_unit) ... (Module 5 of total 20)  done 
+ Synthesizing module: system_wrapper (elaborated name: system_wrapper) ... (Module 6 of total 20)  done 
+ Synthesizing module: synchronizer (elaborated name: WORK_synchronizer_0) ... (Module 7 of total 20)  done 
+ Synthesizing module: fifo_mem (elaborated name: fifo_mem) ... (Module 8 of total 20)  done 
+ Synthesizing module: rptr_handler (elaborated name: rptr_handler) ... (Module 9 of total 20)  done 
+ Synthesizing module: wptr_handler (elaborated name: wptr_handler) ... (Module 10 of total 20)  done 
+ Synthesizing module: synchronizer (elaborated name: WORK_synchronizer_3) ... (Module 11 of total 20)  done 
+ Synthesizing module: asynchronous_fifo (elaborated name: asynchronous_fifo) ... (Module 12 of total 20)  done 
+ Synthesizing module: tx_interface (elaborated name: tx_interface) ... (Module 13 of total 20)  done 
+ Synthesizing module: packet_encoder (elaborated name: packet_encoder) ... (Module 14 of total 20)  done 
+ Synthesizing module: packet_formatter (elaborated name: packet_formatter) ... (Module 15 of total 20)  done 
+ Synthesizing module: credit_manager (elaborated name: credit_manager) ... (Module 16 of total 20)  done 
+ Synthesizing module: flit_fifo (elaborated name: flit_fifo) ... (Module 17 of total 20)  done 
+ Synthesizing module: rx_interface (elaborated name: rx_interface) ... (Module 18 of total 20)  done 
+ Synthesizing module: cxs_if (elaborated name: cxs_if) ... (Module 19 of total 20)  done 
+ Synthesizing module: top (elaborated name: top) ... (Module 20 of total 20)  done 
+ Synthesis completed.
+Checking Rule InferBlackBox (Rule 120 of total 416) .... done (Time = 0.01s, Memory = -20.7K)
+
+INFO [234]    Saving design database in directory './cdc_prj/top/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
+              done
+
+Checking Rule SGDC_waive37 (Rule 121 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 122 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive25 (Rule 123 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 124 of total 416) .... done (Time = 0.00s, Memory = -1.2K)
+Checking Rule SGDC_waive35 (Rule 125 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module cdm (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module cdm (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module cdm (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module cdm (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module cdm (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module cdm (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module cdm (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module cdm (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module cdm (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module parity_unit (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module parity_unit (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module parity_unit (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module parity_unit (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module parity_unit (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module parity_unit (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module parity_unit (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module parity_unit (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module parity_unit (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module encryption_unit (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module encryption_unit (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module encryption_unit (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module encryption_unit (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module encryption_unit (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module encryption_unit (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module encryption_unit (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module encryption_unit (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module encryption_unit (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module atu (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module atu (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module atu (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module atu (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module atu (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module atu (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module atu (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module atu (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module atu (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module control_unit (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module control_unit (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module control_unit (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module control_unit (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module control_unit (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module control_unit (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module control_unit (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module control_unit (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module control_unit (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module system_wrapper (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module system_wrapper (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module system_wrapper (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module system_wrapper (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module system_wrapper (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module system_wrapper (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module system_wrapper (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module system_wrapper (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module system_wrapper (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module synchronizer (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module synchronizer (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module synchronizer (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module synchronizer (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module synchronizer (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module synchronizer (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module synchronizer (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module synchronizer (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module synchronizer (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module fifo_mem (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module fifo_mem (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module fifo_mem (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module fifo_mem (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module fifo_mem (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module fifo_mem (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module fifo_mem (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module fifo_mem (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module fifo_mem (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module rptr_handler (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module rptr_handler (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module rptr_handler (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module rptr_handler (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module rptr_handler (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module rptr_handler (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module rptr_handler (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module rptr_handler (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module rptr_handler (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module wptr_handler (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module wptr_handler (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module wptr_handler (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module wptr_handler (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module wptr_handler (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module wptr_handler (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module wptr_handler (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module wptr_handler (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module wptr_handler (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module synchronizer (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module synchronizer (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module synchronizer (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module synchronizer (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module synchronizer (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module synchronizer (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module synchronizer (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module synchronizer (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module synchronizer (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module asynchronous_fifo (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module asynchronous_fifo (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module asynchronous_fifo (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module asynchronous_fifo (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module asynchronous_fifo (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module asynchronous_fifo (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module asynchronous_fifo (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module asynchronous_fifo (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module asynchronous_fifo (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module tx_interface (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module tx_interface (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module tx_interface (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module tx_interface (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module tx_interface (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module tx_interface (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module tx_interface (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module tx_interface (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module tx_interface (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module packet_encoder (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module packet_encoder (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module packet_encoder (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module packet_encoder (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module packet_encoder (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module packet_encoder (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module packet_encoder (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module packet_encoder (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module packet_encoder (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module packet_formatter (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module packet_formatter (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module packet_formatter (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module packet_formatter (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module packet_formatter (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module packet_formatter (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module packet_formatter (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module packet_formatter (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module packet_formatter (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module credit_manager (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module credit_manager (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module credit_manager (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module credit_manager (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module credit_manager (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module credit_manager (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module credit_manager (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module credit_manager (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module credit_manager (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module flit_fifo (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module flit_fifo (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module flit_fifo (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module flit_fifo (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module flit_fifo (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module flit_fifo (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module flit_fifo (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module flit_fifo (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module flit_fifo (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module rx_interface (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module rx_interface (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module rx_interface (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module rx_interface (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module rx_interface (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module rx_interface (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module rx_interface (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module rx_interface (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module rx_interface (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module cxs_if (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module cxs_if (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module cxs_if (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module cxs_if (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module cxs_if (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module cxs_if (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module cxs_if (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module cxs_if (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module cxs_if (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Txv_SvaSetup01 for module top (Rule 126 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LogNMuxPrereq for module top (Rule 127 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PESVASETUP01 for module top (Rule 128 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HangingNetPreReq-ML for module top (Rule 129 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _meta_delay01 for module top (Rule 130 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 for module top (Rule 131 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check05 for module top (Rule 132 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncResetStyleRTL for module top (Rule 133 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 for module top (Rule 134 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 92 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 135 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule checkSGDC_03 (Rule 136 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule checkSGDC_08 (Rule 137 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_memorywritepin04 (Rule 138 of total 416) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Rule SGDC_reset02 (Rule 139 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset03 (Rule 140 of total 416) .... done (Time = 0.00s, Memory = 3.5K)
+Checking Rule SGDC_waive23 (Rule 141 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 142 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 143 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 144 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_libgroup03 (Rule 145 of total 416) .... done (Time = 0.00s, Memory = 32.9K)
+Checking Rule SGDC_ungroup02 (Rule 146 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule _abstractPortSGDC (Rule 147 of total 416) .... done (Time = 0.00s, Memory = 30.7K)
+Checking Rule SGDC_abstract_port03 (Rule 148 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 149 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_abstract_port05 (Rule 150 of total 416) .... done (Time = 0.00s, Memory = 32.4K)
+Checking Rule SGDC_abstract_port07 (Rule 151 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port08 (Rule 152 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port10 (Rule 153 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port11 (Rule 154 of total 416) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Rule SGDC_abstract_port12 (Rule 155 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 156 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _deltaDelayNom (Rule 157 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 158 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_allow_combo_logic02 (Rule 159 of total 416) .... done (Time = 0.00s, Memory = -29.6K)
+Checking Rule _portRetenClocknReset (Rule 160 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _portReten (Rule 161 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LP_POWERDATA_INFO (Rule 162 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port21 (Rule 163 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_input02 (Rule 164 of total 416) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_input03 (Rule 165 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_output02 (Rule 166 of total 416) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule SGDC_output04 (Rule 167 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_numflops03a (Rule 168 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops03b (Rule 169 of total 416) .... done (Time = 0.00s, Memory = -1.8K)
+Checking Rule SGDC_sync_cell02b (Rule 170 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier02c (Rule 171 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_qualifier03c (Rule 172 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LPwrRulesSetup (Rule 173 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+ Flattening top (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_quasi_static_style01 (Rule 174 of total 416) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule SignalTypeSetup (Rule 175 of total 416) .... done (Time = 0.00s, Memory = 92.0K)
+Checking Rule _allowInst (Rule 176 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _ipblock (Rule 177 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _rstSyncCellInst (Rule 178 of total 416) .... done (Time = 0.01s, Memory = 1.4K)
+Checking Rule _syncCellDelayedQualifier (Rule 179 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _repeaterCellInst (Rule 180 of total 416) .... done (Time = 0.00s, Memory = 0.1K)
+Checking Rule _abstract_port (Rule 181 of total 416) .... done (Time = 0.00s, Memory = 72.8K)
+Checking Rule Clock_setup02 (Rule 182 of total 416) .... done (Time = 0.05s, Memory = 1711.4K)
+Checking Rule Clockmatrix01 (Rule 183 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_prop (Rule 184 of total 416) .... done (Time = 0.02s, Memory = 1097.3K)
+Checking Rule Reset_prop (Rule 185 of total 416) .... done (Time = 0.01s, Memory = 1541.8K)
+Checking Rule SGDC_generated_clock06 (Rule 186 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Propagate_Clocks (Rule 187 of total 416) .... done (Time = 11.25s, Memory = 96564.8K)
+Checking Rule _syncreset_prop (Rule 188 of total 416) .... done (Time = 0.01s, Memory = -81.4K)
+Checking Rule _syncc (Rule 189 of total 416) .... done (Time = 0.00s, Memory = -31.1K)
+Checking Rule _syncb (Rule 190 of total 416) .... done (Time = 0.05s, Memory = 17.6K)
+Checking Rule _resetPathCross (Rule 191 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule FalsePathSetup (Rule 192 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule _fifo01 (Rule 193 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncfifo (Rule 194 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncUDfifo (Rule 195 of total 416) .... done (Time = 0.04s, Memory = 326.3K)
+Checking Rule _syncdw (Rule 196 of total 416) .... done (Time = 0.00s, Memory = 1.0K)
+Checking Rule _syncd (Rule 197 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncg (Rule 198 of total 416) .... done (Time = 0.05s, Memory = 31.7K)
+Checking Rule _sync_clock (Rule 199 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _sync_gp (Rule 200 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule _sync_and (Rule 201 of total 416) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule _synci (Rule 202 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _sync_qualifier (Rule 203 of total 416) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Rule SGDC_fifo11 (Rule 204 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo12 (Rule 205 of total 416) .... done (Time = 0.00s, Memory = -8.0K)
+Checking Rule SGDC_fifo13 (Rule 206 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo14 (Rule 207 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Gen_diff01 (Rule 208 of total 416) .... done (Time = 0.00s, Memory = 33.5K)
+Checking Rule _debugData (Rule 209 of total 416) .... done (Time = 0.15s, Memory = 152.2K)
+Checking Rule Ac_Sync_Init (Rule 210 of total 416) .... done (Time = 10.87s, Memory = 1497337.4K)
+Checking Rule _propagate_cdcAttrib (Rule 211 of total 416) .... done (Time = 0.03s, Memory = 0.0K)
+Checking Rule Ar_Cross_Init (Rule 212 of total 416) .... done (Time = 0.00s, Memory = -0.1K)
+Checking Rule SGDC_cdc_define_transition01 (Rule 213 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule UPF_lowpower08PR (Rule 214 of total 416) .... done (Time = 0.19s, Memory = 11.0K)
+Checking Rule UPF_lowpower08 (Rule 215 of total 416) .... done (Time = 0.01s, Memory = -0.2K)
+Checking Rule Setup_check01 (Rule 216 of total 416) .... done (Time = 0.05s, Memory = -29.2K)
+Checking Rule Setup_check02 (Rule 217 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Info_Case_Analysis (Rule 218 of total 416) .... done (Time = 0.28s, Memory = -47.3K)
+Checking Rule SGDC_set_case_analysis_LC (Rule 219 of total 416) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule Setup_quasi_static01 (Rule 220 of total 416) .... done (Time = 0.53s, Memory = 54.7K)
+Checking Rule SGDC_signal_in_domain02 (Rule 221 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_signal_in_domain04 (Rule 222 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops03c (Rule 223 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops04 (Rule 224 of total 416) .... done (Time = 0.00s, Memory = 128.0K)
+Checking Rule SGDC_numflops05 (Rule 225 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops06 (Rule 226 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops11 (Rule 227 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_numflops13 (Rule 228 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_numflops14 (Rule 229 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clocksense02 (Rule 230 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_clocksense03 (Rule 231 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sgclkgroup01 (Rule 232 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sgclkgroup02 (Rule 233 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sgclkgroup03 (Rule 234 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation01a (Rule 235 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation01b (Rule 236 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation01c (Rule 237 of total 416) .... done (Time = 0.00s, Memory = -2.5K)
+Checking Rule SGDC_check_clock_relation02a (Rule 238 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation02b (Rule 239 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation02c (Rule 240 of total 416) .... done (Time = 0.00s, Memory = 37.8K)
+Checking Rule SGDC_check_clock_relation03b (Rule 241 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_check_clock_relation04b (Rule 242 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckClockRelationSetup (Rule 243 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_gray_signals01 (Rule 244 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_gray_signals02 (Rule 245 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_gray_signals03 (Rule 246 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier02a (Rule 247 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier03a (Rule 248 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier04 (Rule 249 of total 416) .... done (Time = 0.00s, Memory = 24.0K)
+Checking Rule SGDC_qualifier05 (Rule 250 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier08 (Rule 251 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule QualifierSetup (Rule 252 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ResetSynchronizerSetup (Rule 253 of total 416) .... done (Time = 0.01s, Memory = -23.2K)
+Checking Rule SGDC_validation_filter_path03 (Rule 254 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier10 (Rule 255 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier11 (Rule 256 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier12 (Rule 257 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier13 (Rule 258 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier14 (Rule 259 of total 416) .... done (Time = 0.00s, Memory = -10.0K)
+Checking Rule SGDC_qualifier16 (Rule 260 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier18 (Rule 261 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier19a (Rule 262 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier19b (Rule 263 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier19c (Rule 264 of total 416) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_qualifier20b (Rule 265 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier21 (Rule 266 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_qualifier22 (Rule 267 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_qualifier23 (Rule 268 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_virtualclock01 (Rule 269 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_virtualreset01 (Rule 270 of total 416) .... done (Time = 0.00s, Memory = 29.6K)
+Checking Rule SGDC_abstract_port19 (Rule 271 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port20 (Rule 272 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RFPSetup (Rule 273 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path02a (Rule 274 of total 416) .... done (Time = 0.00s, Memory = -2.5K)
+Checking Rule SGDC_reset_filter_path02b (Rule 275 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path02c (Rule 276 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path03a (Rule 277 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path03b (Rule 278 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path03c (Rule 279 of total 416) .... done (Time = 0.00s, Memory = -31.5K)
+Checking Rule SGDC_reset_filter_path04b (Rule 280 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path07a (Rule 281 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path07b (Rule 282 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path07c (Rule 283 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_define_reset_order03 (Rule 284 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_define_reset_order04 (Rule 285 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_define_reset_order05 (Rule 286 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path06 (Rule 287 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path07 (Rule 288 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path08 (Rule 289 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CDCSet_License01 (Rule 290 of total 416) .... done (Time = 0.00s, Memory = 31.4K)
+Checking Rule Clock_info03a (Rule 291 of total 416) .... done (Time = 0.04s, Memory = -78.8K)
+Checking Rule Clock_info03b (Rule 292 of total 416) .... done (Time = 0.03s, Memory = -18.5K)
+Checking Rule Clock_info03c (Rule 293 of total 416) .... done (Time = 0.01s, Memory = 37.0K)
+Checking Rule Ac_coherency06 (Rule 294 of total 416) .... done (Time = 0.03s, Memory = -1.0K)
+Checking Rule Ac_unsync01 (Rule 295 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_unsync02 (Rule 296 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sync01 (Rule 297 of total 416) .... done (Time = 0.00s, Memory = -0.5K)
+Checking Rule Ac_sync02 (Rule 298 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Ac_crossing01 (Rule 299 of total 416) .... done (Time = 1.52s, Memory = -57.2K)
+Checking Rule Propagate_Resets (Rule 300 of total 416) .... done (Time = 0.14s, Memory = 11.1K)
+Checking Rule _reset_sync (Rule 301 of total 416) .... done (Time = 0.00s, Memory = -0.4K)
+Checking Rule Setup_port01 (Rule 302 of total 416) .... done (Time = 0.00s, Memory = 39.8K)
+Checking Rule Setup_blackbox01 (Rule 303 of total 416) .... done (Time = 0.00s, Memory = 2.3K)
+Checking Rule Setup_library01 (Rule 304 of total 416) .... done (Time = 0.01s, Memory = -29.8K)
+Checking Rule Reset_check11 (Rule 305 of total 416) .... done (Time = 0.06s, Memory = 95.8K)
+Checking Rule Reset_info09a (Rule 306 of total 416) .... done (Time = 0.00s, Memory = 5.8K)
+Checking Rule Clock_sync05 (Rule 307 of total 416) .... done (Time = 0.01s, Memory = 35.6K)
+Checking Rule Clock_sync06 (Rule 308 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_info02 (Rule 309 of total 416) .... done (Time = 0.21s, Memory = 138.1K)
+Checking Rule Reset_info02 (Rule 310 of total 416) .... done (Time = 0.03s, Memory = -27.0K)
+Checking Rule Clock_info05 (Rule 311 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_info05b (Rule 312 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check03 (Rule 313 of total 416) .... done (Time = 0.00s, Memory = 3.9K)
+Checking Rule _clkWrapModules (Rule 314 of total 416) .... done (Time = 0.00s, Memory = 0.5K)
+Checking Rule _clock_hier_rules (Rule 315 of total 416) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule Reset_check12 (Rule 316 of total 416) .... done (Time = 0.07s, Memory = 1728.3K)
+Checking Rule Ar_sync_init (Rule 317 of total 416) .... done (Time = 0.05s, Memory = 23.5K)
+Checking Rule _constrCoverage (Rule 318 of total 416) .... done (Time = 0.03s, Memory = 6.6K)
+Checking Rule Clock_info15 (Rule 319 of total 416) .... done (Time = 0.04s, Memory = -16.1K)
+Checking Rule Reset_check10 (Rule 320 of total 416) .... done (Time = 0.01s, Memory = -30.7K)
+Checking Rule Reset_sync02 (Rule 321 of total 416) .... done (Time = 0.01s, Memory = -28.5K)
+Checking Rule SGDC_clockreset02 (Rule 322 of total 416) .... done (Time = 0.00s, Memory = 5.8K)
+Checking Rule Param_clockreset02 (Rule 323 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Param_clockreset04 (Rule 324 of total 416) .... done (Time = 0.02s, Memory = 23.3K)
+Checking Rule Setup_clockreset01 (Rule 325 of total 416) .... done (Time = 0.00s, Memory = -24.3K)
+Checking Rule Clock_check07 (Rule 326 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_check10 (Rule 327 of total 416) .... done (Time = 0.00s, Memory = -32.4K)
+Checking Rule Reset_check08 (Rule 328 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_converge01 (Rule 329 of total 416) .... done (Time = 0.01s, Memory = 0.4K)
+Checking Rule Ar_converge01 (Rule 330 of total 416) .... done (Time = 0.03s, Memory = 17.4K)
+Checking Rule SGDC_noclockcell_start01 (Rule 331 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_initseq01 (Rule 332 of total 416) .... done (Time = 0.02s, Memory = -8.7K)
+Checking Rule Ac_init01 (Rule 333 of total 416) .... done (Time = 0.00s, Memory = -27.0K)
+Checking Rule _ac_Auxi01 (Rule 334 of total 416) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule Ac_sanity02 (Rule 335 of total 416) .... done (Time = 0.01s, Memory = -31.4K)
+Checking Rule _glitch_init (Rule 336 of total 416) .... done (Time = 0.01s, Memory = 2.0K)
+Checking Rule Ac_initstate01 (Rule 337 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_conv02 (Rule 338 of total 416) .... done (Time = 0.07s, Memory = 16.7K)
+Checking Rule Ac_conv02setup01 (Rule 339 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_conv01 (Rule 340 of total 416) .... done (Time = 0.17s, Memory = -49.0K)
+Checking Rule Ac_conv03 (Rule 341 of total 416) .... done (Time = 0.05s, Memory = -26.9K)
+Checking Rule Ac_conv04 (Rule 342 of total 416) .... done (Time = 0.01s, Memory = 72.6K)
+Checking Rule Ac_abs01 (Rule 343 of total 416) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule Ac_glitch03 (Rule 344 of total 416) .... done (Time = 0.00s, Memory = -32.1K)
+Checking Rule Ac_clockperiod01 (Rule 345 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_clockperiod02 (Rule 346 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_clockperiod03 (Rule 347 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_report01 (Rule 348 of total 416) .... done (Time = 0.01s, Memory = 31.0K)
+Checking Rule AllowComboLogicSetup (Rule 349 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_resetvalue01 (Rule 350 of total 416) .... done (Time = 0.00s, Memory = -33.4K)
+Checking Rule Ac_abstract_validation01 (Rule 351 of total 416) .... done (Time = 0.02s, Memory = -33.4K)
+Checking Rule SGDC_abstract_mapping01 (Rule 352 of total 416) .... done (Time = 0.00s, Memory = 20.0K)
+Checking Rule Ac_upfsetup02 (Rule 353 of total 416) .... done (Time = 0.01s, Memory = 2.8K)
+Checking Rule Ac_upfsetup01 (Rule 354 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_psync_init (Rule 355 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_psetup01 (Rule 356 of total 416) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Clock_exit01 (Rule 357 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer02 (Rule 358 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer04 (Rule 359 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer06 (Rule 360 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer08 (Rule 361 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer10 (Rule 362 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AnalyzeBBox (Rule 363 of total 416) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 90 of total 416) .... done (Time = 0.00s, Memory = 0.1K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating CDC-report report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt' ....
+
+Generating CKSGDCInfo report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKSGDCInfo.rpt' ....
+
+Generating RSTree report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/RSTree.rpt' ....
+
+Generating CKTree report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKTree.rpt' ....
+
+Policy specific data (reports) are present in the directory './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports'.
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass.log': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKSGDCInfo.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/RSTree.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKTree.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/SpyGlass/elab_summary.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt': Operation not supported
+
+SpyGlass critical reports for the current run are present in directory './cdc_prj/consolidated_reports/top_cdc_cdc_verify_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      cdc/cdc_verify_struct
+   Command-line read  :      0 error,      0 warning,      0 information message 
+   Design Read        :      0 error,      0 warning,      3 information messages
+      Found 1 top module:
+         top   (file: ../top.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+** Policy clock-reset :     14 errors,     2 warnings,    26 information messages
+   -------------------------------------------------------------------------------------
+   Total              :     14 errors,     2 warnings,    29 information messages
+
+  Total Number of Generated Messages     :        45 (14 errors, 2 warnings, 29 Infos)
+  Number of Reported Messages            :        45 (14 errors, 2 warnings, 29 Infos)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+run_goal: info: spyglass.log successfully updated with goal summary
+run_goal: info: setting design top `top' as current_design
+0 {Rule-checking completed with errors}
+INFO:    SpyGlass will run goal(s) 'cdc/cdc_verify_struct'.
+
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading clock-reset (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock)
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+Performing unification checks on SGDC... done
+***Syntax Errors detected - RULE CHECKING ABORTED***
+
+Generating data for Console...
+
+Generating moresimple report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating CDC-report report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt' ....
+
+Generating waiver report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/waiver.rpt' ....
+
+Policy specific data (reports) are present in the directory './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports'.
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass.log': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/waiver.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt': Operation not supported
+
+SpyGlass critical reports for the current run are present in directory './cdc_prj/consolidated_reports/top_cdc_cdc_verify_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      cdc/cdc_verify_struct
+** SGDC Checks        :      1 fatal,      0 error,        0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+** Total              :      1 fatal,      0 error,        0 warning,      0 information message 
+
+  Total Number of Generated Messages     :         1 (1 fatal, 0 error, 0 warning, 0 Info)
+  Number of Reported Messages            :         1 (1 fatal, 0 error, 0 warning, 0 Info)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+Following FATAL message(s) generated in current run -
+
+Rule          Severity   File       Line   Message
+-------------------------------------------------------------------------
+SGDCSTX_003   Syntax     cdc.sgdc   29     Incorrect field '-wptr' in SGDC command 'fifo'
+run_goal: info: updating spyglass.log with goal summary
+run_goal: info: spyglass.log successfully updated with goal summary
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+7 {Rule-checking terminated due to FATAL errors - usage or run error}
+INFO:    SpyGlass will run goal(s) 'cdc/cdc_verify_struct'.
+
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading clock-reset (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock)
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+Performing unification checks on SGDC... done
+***Syntax Errors detected - RULE CHECKING ABORTED***
+
+Generating data for Console...
+
+Generating moresimple report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating CDC-report report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt' ....
+
+Generating waiver report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/waiver.rpt' ....
+
+Policy specific data (reports) are present in the directory './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports'.
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass.log': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/waiver.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt': Operation not supported
+
+SpyGlass critical reports for the current run are present in directory './cdc_prj/consolidated_reports/top_cdc_cdc_verify_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      cdc/cdc_verify_struct
+** SGDC Checks        :      2 fatals,     0 error,        0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+** Total              :      2 fatals,     0 error,        0 warning,      0 information message 
+
+  Total Number of Generated Messages     :         2 (2 fatals, 0 error, 0 warning, 0 Info)
+  Number of Reported Messages            :         2 (2 fatals, 0 error, 0 warning, 0 Info)
+
+  NOTE: It is recommended to first fix/reconcile fatals/errors reported on
+        lines starting with ** as subsequent issues might be related to it.
+        Please re-run SpyGlass once ** prefixed lines are fatal/error clean.
+
+---------------------------------------------------------------------------------------------
+
+Following FATAL message(s) generated in current run -
+
+Rule          Severity   File       Line   Message
+-------------------------------------------------------------------------
+SGDCSTX_003   Syntax     cdc.sgdc   29     Incorrect field '-from' in SGDC command 'waive'
+SGDCSTX_003   Syntax     cdc.sgdc   30     Incorrect field '-from' in SGDC command 'waive'
+run_goal: info: updating spyglass.log with goal summary
+run_goal: info: spyglass.log successfully updated with goal summary
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+7 {Rule-checking terminated due to FATAL errors - usage or run error}
+INFO:    SpyGlass will run goal(s) 'cdc/cdc_verify_struct'.
+
+
+RULE-CHECKING IN MIXED MODE
+Loading spyglass (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/spyglass)
+Loading clock-reset (SpyGlass_vL-2016.06) ... (picked from /home/synopsys/SpyGlass-L2016.06/SPYGLASS_HOME/policies/clock)
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+ Reading sgdc file "cdc.sgdc" ...
+
+WARNING [240]    SGDC file 'cdc.sgdc' contains both Waiver and other SGDC constraints.
+                 It is recommended to define Waiver and other SGDC constraints in
+                 separate files because use-model for Waiver and other SGDC
+                 constraints are different. Please also note, waiver files are specified
+                 using 'waiver' option.
+Performing unification checks on SGDC... done
+
+INFO [76]    Using `./WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule Param_clockreset07 (Rule 1 of total 400) .... done (Time = 0.00s, Memory = 2.8K)
+Checking Rule Clock_setup01 (Rule 2 of total 400) .... done (Time = 0.01s, Memory = 41.8K)
+Checking Rule Param_clockreset06 (Rule 3 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_meta_monitor_attributes01 (Rule 4 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LP_POWERDATA_CHECK (Rule 5 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LP_POWERDATA_READ (Rule 6 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck01 (Rule 7 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 8 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 9 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 10 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule ElabSummary (Rule 11 of total 400) .... done (Time = 0.01s, Memory = 1.3K)
+Checking Rule SGDC_assume_path01 (Rule 12 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 13 of total 400) .... done (Time = 0.00s, Memory = -32.8K)
+Checking Rule SGDC_clock05 (Rule 14 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 15 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 16 of total 400) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_require_path03 (Rule 17 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_value03 (Rule 18 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 19 of total 400) .... done (Time = 0.00s, Memory = -94.5K)
+Checking Rule SGDC_voltagedomain06 (Rule 20 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 21 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 22 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 23 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 24 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive02 (Rule 25 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive03 (Rule 26 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive04 (Rule 27 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 28 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 29 of total 400) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive07 (Rule 30 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 31 of total 400) .... done (Time = 0.00s, Memory = 3.9K)
+Checking Rule SGDC_waive09 (Rule 32 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 33 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_waive11 (Rule 34 of total 400) .... done (Time = 0.00s, Memory = -0.3K)
+Checking Rule SGDC_waive12 (Rule 35 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 36 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 37 of total 400) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive22 (Rule 38 of total 400) .... done (Time = 0.00s, Memory = 1.6K)
+Checking Rule SGDC_waive30 (Rule 39 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 40 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_waive33 (Rule 41 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 42 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 43 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 44 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup01 (Rule 45 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 46 of total 400) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 47 of total 400) .... done (Time = 0.00s, Memory = -24.0K)
+Checking Rule SGDC_power_data01 (Rule 48 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 49 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 50 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 51 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port15 (Rule 52 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port18 (Rule 53 of total 400) .... done (Time = 0.00s, Memory = -6.1K)
+Checking Rule sdc_init_rule (Rule 54 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CMD_ignorelibs01 (Rule 55 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 56 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_generated_clock03 (Rule 57 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_generated_clock04 (Rule 58 of total 400) .... done (Time = 0.00s, Memory = 23.0K)
+Checking Rule SGDC_generated_clock05 (Rule 59 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_quasi_static_style02 (Rule 60 of total 400) .... done (Time = 0.00s, Memory = 0.6K)
+Checking Rule SGDC_syncresetstyle01 (Rule 61 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_network_allowed_cells01 (Rule 62 of total 400) .... done (Time = 0.01s, Memory = 39.0K)
+Checking Rule SGDC_numflops01 (Rule 63 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops07 (Rule 64 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops08 (Rule 65 of total 400) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_numflops09 (Rule 66 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clocksense04 (Rule 67 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation05a (Rule 68 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation05b (Rule 69 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sync_cell08a (Rule 70 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sync_cell09a (Rule 71 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier06 (Rule 72 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_waive03 (Rule 73 of total 400) .... done (Time = 0.00s, Memory = 34.2K)
+Checking Rule SGDC_qualifier09 (Rule 74 of total 400) .... done (Time = 0.00s, Memory = 0.5K)
+Checking Rule SGDC_qualifier15 (Rule 75 of total 400) .... done (Time = 0.00s, Memory = 1.9K)
+Checking Rule SGDC_allow_combo_logic01 (Rule 76 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path01 (Rule 77 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path05 (Rule 78 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Param_clockreset05 (Rule 79 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sanity01 (Rule 80 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sanity06 (Rule 81 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_license01 (Rule 82 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer07 (Rule 83 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/waiver/pragma2Waiver.swl" ...
+ Reading included SGDC file "./cdc_prj/top/cdc/cdc_verify_struct/spyglass_spysch/waiver/pragma2Waiver_varfile.swl" ....
+Checking Rule ReportStopSummary (Rule 84 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 85 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+
+INFO [235]    Restoring design database from directory './cdc_prj/top/.SG_SaveRestoreDB/autogenerated__default_snapshot' ...
+              done
+
+Checking Rule InferBlackBox (Rule 86 of total 400) .... done (Time = 0.00s, Memory = 0.7K)
+Checking Rule SGDC_waive37 (Rule 87 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 88 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 89 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 90 of total 400) .... done (Time = 0.00s, Memory = 32.8K)
+Checking Rule SGDC_waive35 (Rule 91 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule DetectTopDesignUnits (Rule 92 of total 400)
+ Detected 1 top level design units:
+     top
+ .... done (Time = 0.01s, Memory = 38.1K)
+Checking Rule GenerateConfMap (Rule 93 of total 400) .... done (Time = 0.00s, Memory = -43.2K)
+Checking Rule Pragma_setupa for module cdm (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module parity_unit (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module encryption_unit (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module atu (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module control_unit (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module system_wrapper (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module synchronizer (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module fifo_mem (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module rptr_handler (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module wptr_handler (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module synchronizer (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module asynchronous_fifo (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module tx_interface (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module packet_encoder (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module packet_formatter (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module credit_manager (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module flit_fifo (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module rx_interface (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module cxs_if (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupa for module top (Rule 94 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+Checking Rule SGDC_testmode03 (Rule 95 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Pragma_setupb (Rule 96 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule _vhMeta01 (Rule 97 of total 400) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule _meta_delay01 (Rule 98 of total 400) .... done (Time = 0.00s, Memory = 0.5K)
+Checking Rule CheckCelldefine (Rule 99 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_01 (Rule 100 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkSGDC_03 (Rule 101 of total 400) .... done (Time = 0.00s, Memory = -0.9K)
+Checking Rule checkSGDC_08 (Rule 102 of total 400) .... done (Time = 0.00s, Memory = -1.1K)
+Checking Rule SGDC_memorywritepin04 (Rule 103 of total 400) .... done (Time = 0.00s, Memory = 15.2K)
+Checking Rule SGDC_reset02 (Rule 104 of total 400) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_reset03 (Rule 105 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 106 of total 400) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule SGDC_waive26 (Rule 107 of total 400) .... done (Time = 0.00s, Memory = 0.3K)
+Checking Rule SGDC_waive27 (Rule 108 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 109 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup03 (Rule 110 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup02 (Rule 111 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _abstractPortSGDC (Rule 112 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port03 (Rule 113 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port04 (Rule 114 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port05 (Rule 115 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port07 (Rule 116 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port08 (Rule 117 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port10 (Rule 118 of total 400) .... done (Time = 0.00s, Memory = 0.9K)
+Checking Rule SGDC_abstract_port11 (Rule 119 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port12 (Rule 120 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port13 (Rule 121 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _cdc_save_license01 (Rule 122 of total 400) .... done (Time = 0.00s, Memory = 0.4K)
+Checking Rule syncRstReq (Rule 123 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule syncRstReq (Rule 124 of total 400) .... done (Time = 0.00s, Memory = 4.0K)
+Checking Rule _syncResetStyleRTL (Rule 125 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule _deltaDelay (Rule 126 of total 400) .... done (Time = 0.00s, Memory = -14.2K)
+Checking Rule _deltaDelay (Rule 127 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule _deltaDelayNom (Rule 128 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_multitop01 (Rule 129 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AcOvlRtl (Rule 130 of total 400) .... done (Time = 0.00s, Memory = -33.5K)
+Checking Rule AcOvlRtl (Rule 131 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_svasetup01 (Rule 132 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportUngroup (Rule 133 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_allow_combo_logic02 (Rule 134 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _portRetenClocknReset (Rule 135 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _portReten (Rule 136 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_meta_design_hier01 (Rule 137 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule LP_POWERDATA_INFO (Rule 138 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_abstract_port21 (Rule 139 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_input02 (Rule 140 of total 400) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule SGDC_input03 (Rule 141 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_output02 (Rule 142 of total 400) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule SGDC_output04 (Rule 143 of total 400) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule SGDC_numflops03a (Rule 144 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_numflops03b (Rule 145 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops12 (Rule 146 of total 400) .... done (Time = 0.00s, Memory = 32.4K)
+Checking Rule SGDC_sync_cell02b (Rule 147 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_sync_cell11 (Rule 148 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_qualifier02c (Rule 149 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_qualifier03c (Rule 150 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule LPwrRulesSetup (Rule 151 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+ Flattening top (.lib instances separately flattened) ....
+ Flattening completed
+Checking Rule SGDC_quasi_static_style01 (Rule 152 of total 400) .... done (Time = 0.00s, Memory = 0.8K)
+Checking Rule SignalTypeSetup (Rule 153 of total 400) .... done (Time = 0.00s, Memory = 92.0K)
+Checking Rule _allowInst (Rule 154 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _ipblock (Rule 155 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _rstSyncCellInst (Rule 156 of total 400) .... done (Time = 0.00s, Memory = 2.1K)
+Checking Rule _syncCellDelayedQualifier (Rule 157 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _repeaterCellInst (Rule 158 of total 400) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule _abstract_port (Rule 159 of total 400) .... done (Time = 0.01s, Memory = 72.8K)
+Checking Rule Clock_setup02 (Rule 160 of total 400) .... done (Time = 0.03s, Memory = 1686.9K)
+Checking Rule Clockmatrix01 (Rule 161 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_prop (Rule 162 of total 400) .... done (Time = 0.01s, Memory = 1132.0K)
+Checking Rule Reset_prop (Rule 163 of total 400) .... done (Time = 0.02s, Memory = 1495.3K)
+Checking Rule SGDC_generated_clock06 (Rule 164 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Propagate_Clocks (Rule 165 of total 400) .... done (Time = 10.66s, Memory = 96579.9K)
+Checking Rule _syncreset_prop (Rule 166 of total 400) .... done (Time = 0.01s, Memory = -81.3K)
+Checking Rule _syncc (Rule 167 of total 400) .... done (Time = 0.00s, Memory = 8.6K)
+Checking Rule _syncb (Rule 168 of total 400) .... done (Time = 0.07s, Memory = 12.1K)
+Checking Rule _resetPathCross (Rule 169 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule FalsePathSetup (Rule 170 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _fifo01 (Rule 171 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _syncfifo (Rule 172 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule _syncUDfifo (Rule 173 of total 400) .... done (Time = 0.00s, Memory = 0.2K)
+Checking Rule _syncdw (Rule 174 of total 400) .... done (Time = 0.00s, Memory = 0.9K)
+Checking Rule _syncd (Rule 175 of total 400) .... done (Time = 0.20s, Memory = -3.1K)
+Checking Rule _syncg (Rule 176 of total 400) .... done (Time = 0.05s, Memory = 34.2K)
+Checking Rule _sync_clock (Rule 177 of total 400) .... done (Time = 0.01s, Memory = -33.5K)
+Checking Rule _sync_gp (Rule 178 of total 400) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule _sync_and (Rule 179 of total 400) .... done (Time = 0.01s, Memory = 19.9K)
+Checking Rule _synci (Rule 180 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _sync_qualifier (Rule 181 of total 400) .... done (Time = 0.00s, Memory = -31.5K)
+Checking Rule SGDC_fifo11 (Rule 182 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo12 (Rule 183 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo13 (Rule 184 of total 400) .... done (Time = 0.00s, Memory = 1.9K)
+Checking Rule SGDC_fifo14 (Rule 185 of total 400) .... done (Time = 0.00s, Memory = -25.1K)
+Checking Rule Gen_diff01 (Rule 186 of total 400) .... done (Time = 0.00s, Memory = -0.2K)
+Checking Rule _debugData (Rule 187 of total 400) .... done (Time = 0.16s, Memory = 149.0K)
+Checking Rule Ac_Sync_Init (Rule 188 of total 400) .... done (Time = 7.82s, Memory = 1497314.4K)
+Checking Rule _propagate_cdcAttrib (Rule 189 of total 400) .... done (Time = 0.21s, Memory = 3.3K)
+Checking Rule Ar_Cross_Init (Rule 190 of total 400) .... done (Time = 0.04s, Memory = 0.0K)
+Checking Rule SGDC_cdc_define_transition01 (Rule 191 of total 400) .... done (Time = 0.01s, Memory = -1.7K)
+Checking Rule UPF_lowpower08PR (Rule 192 of total 400) .... done (Time = 0.04s, Memory = 6.0K)
+Checking Rule UPF_lowpower08 (Rule 193 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Setup_check01 (Rule 194 of total 400) .... done (Time = 0.05s, Memory = 1.8K)
+Checking Rule Setup_check02 (Rule 195 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Info_Case_Analysis (Rule 196 of total 400) .... done (Time = 0.11s, Memory = -47.8K)
+Checking Rule SGDC_set_case_analysis_LC (Rule 197 of total 400) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Setup_quasi_static01 (Rule 198 of total 400) .... done (Time = 0.94s, Memory = 70.8K)
+Checking Rule SGDC_signal_in_domain02 (Rule 199 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_signal_in_domain04 (Rule 200 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_numflops03c (Rule 201 of total 400) .... done (Time = 0.00s, Memory = -0.1K)
+Checking Rule SGDC_numflops04 (Rule 202 of total 400) .... done (Time = 0.02s, Memory = 31.9K)
+Checking Rule SGDC_numflops05 (Rule 203 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops06 (Rule 204 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops11 (Rule 205 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops13 (Rule 206 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_numflops14 (Rule 207 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clocksense02 (Rule 208 of total 400) .... done (Time = 0.01s, Memory = 36.6K)
+Checking Rule SGDC_clocksense03 (Rule 209 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sgclkgroup01 (Rule 210 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sgclkgroup02 (Rule 211 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sgclkgroup03 (Rule 212 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation01a (Rule 213 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation01b (Rule 214 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation01c (Rule 215 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation02a (Rule 216 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation02b (Rule 217 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation02c (Rule 218 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation03b (Rule 219 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_check_clock_relation04b (Rule 220 of total 400) .... done (Time = 0.00s, Memory = -2.2K)
+Checking Rule CheckClockRelationSetup (Rule 221 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_gray_signals01 (Rule 222 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_gray_signals02 (Rule 223 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_gray_signals03 (Rule 224 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier02a (Rule 225 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier03a (Rule 226 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier04 (Rule 227 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier05 (Rule 228 of total 400) .... done (Time = 0.00s, Memory = -1.2K)
+Checking Rule SGDC_qualifier08 (Rule 229 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule QualifierSetup (Rule 230 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ResetSynchronizerSetup (Rule 231 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_validation_filter_path03 (Rule 232 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier10 (Rule 233 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier11 (Rule 234 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier12 (Rule 235 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier13 (Rule 236 of total 400) .... done (Time = 0.00s, Memory = -6.7K)
+Checking Rule SGDC_qualifier14 (Rule 237 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier16 (Rule 238 of total 400) .... done (Time = 0.00s, Memory = 3.9K)
+Checking Rule SGDC_qualifier18 (Rule 239 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier19a (Rule 240 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier19b (Rule 241 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier19c (Rule 242 of total 400) .... done (Time = 0.00s, Memory = 24.0K)
+Checking Rule SGDC_qualifier20b (Rule 243 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier21 (Rule 244 of total 400) .... done (Time = 0.00s, Memory = -22.5K)
+Checking Rule SGDC_qualifier22 (Rule 245 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_qualifier23 (Rule 246 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_virtualclock01 (Rule 247 of total 400) .... done (Time = 0.00s, Memory = 32.3K)
+Checking Rule SGDC_virtualreset01 (Rule 248 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port19 (Rule 249 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_abstract_port20 (Rule 250 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule RFPSetup (Rule 251 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path02a (Rule 252 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path02b (Rule 253 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path02c (Rule 254 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path03a (Rule 255 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path03b (Rule 256 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule SGDC_reset_filter_path03c (Rule 257 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path04b (Rule 258 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path07a (Rule 259 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path07b (Rule 260 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_filter_path07c (Rule 261 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_define_reset_order03 (Rule 262 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_define_reset_order04 (Rule 263 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_define_reset_order05 (Rule 264 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path06 (Rule 265 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path07 (Rule 266 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_cdc_false_path08 (Rule 267 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CDCSet_License01 (Rule 268 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_info03a (Rule 269 of total 400) .... done (Time = 0.05s, Memory = 207.8K)
+Checking Rule Clock_info03b (Rule 270 of total 400) .... done (Time = 0.03s, Memory = 12.4K)
+Checking Rule Clock_info03c (Rule 271 of total 400) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Ac_coherency06 (Rule 272 of total 400) .... done (Time = 0.01s, Memory = -1.1K)
+Checking Rule Ac_unsync01 (Rule 273 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_unsync02 (Rule 274 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sync01 (Rule 275 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sync02 (Rule 276 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_crossing01 (Rule 277 of total 400) .... done (Time = 1.31s, Memory = -31.2K)
+Checking Rule Propagate_Resets (Rule 278 of total 400) .... done (Time = 0.07s, Memory = -23.9K)
+Checking Rule _reset_sync (Rule 279 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule Setup_port01 (Rule 280 of total 400) .... done (Time = 0.00s, Memory = -32.0K)
+Checking Rule Setup_blackbox01 (Rule 281 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Setup_library01 (Rule 282 of total 400) .... done (Time = 0.01s, Memory = -0.8K)
+Checking Rule Reset_check11 (Rule 283 of total 400) .... done (Time = 0.05s, Memory = 71.6K)
+Checking Rule Reset_info09a (Rule 284 of total 400) .... done (Time = 0.00s, Memory = -35.4K)
+Checking Rule Clock_sync05 (Rule 285 of total 400) .... done (Time = 0.01s, Memory = 0.3K)
+Checking Rule Clock_sync06 (Rule 286 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_info02 (Rule 287 of total 400) .... done (Time = 0.18s, Memory = 126.2K)
+Checking Rule Reset_info02 (Rule 288 of total 400) .... done (Time = 0.02s, Memory = 5.1K)
+Checking Rule Clock_info05 (Rule 289 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_info05b (Rule 290 of total 400) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Reset_check03 (Rule 291 of total 400) .... done (Time = 0.00s, Memory = 3.8K)
+Checking Rule _clkWrapModules (Rule 292 of total 400) .... done (Time = 0.01s, Memory = 23.5K)
+Checking Rule _clock_hier_rules (Rule 293 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Reset_check12 (Rule 294 of total 400) .... done (Time = 0.05s, Memory = 1737.3K)
+Checking Rule Ar_sync_init (Rule 295 of total 400) .... done (Time = 0.03s, Memory = 30.9K)
+Checking Rule _constrCoverage (Rule 296 of total 400) .... done (Time = 0.02s, Memory = -39.3K)
+Checking Rule Clock_info15 (Rule 297 of total 400) .... done (Time = 0.05s, Memory = 17.6K)
+Checking Rule Reset_check10 (Rule 298 of total 400) .... done (Time = 0.01s, Memory = -45.2K)
+Checking Rule Reset_sync02 (Rule 299 of total 400) .... done (Time = 0.01s, Memory = 8.6K)
+Checking Rule SGDC_clockreset02 (Rule 300 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Param_clockreset02 (Rule 301 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Param_clockreset04 (Rule 302 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Setup_clockreset01 (Rule 303 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_check07 (Rule 304 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_check10 (Rule 305 of total 400) .... done (Time = 0.01s, Memory = 0.0K)
+Checking Rule Reset_check08 (Rule 306 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_converge01 (Rule 307 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ar_converge01 (Rule 308 of total 400) .... done (Time = 0.00s, Memory = 16.0K)
+Checking Rule SGDC_noclockcell_start01 (Rule 309 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_initseq01 (Rule 310 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_init01 (Rule 311 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _ac_Auxi01 (Rule 312 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_sanity02 (Rule 313 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule _glitch_init (Rule 314 of total 400) .... done (Time = 0.01s, Memory = -24.3K)
+Checking Rule Ac_initstate01 (Rule 315 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_conv02 (Rule 316 of total 400) .... done (Time = 0.08s, Memory = -15.0K)
+Checking Rule Ac_conv02setup01 (Rule 317 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Ac_conv01 (Rule 318 of total 400) .... done (Time = 0.16s, Memory = -25.2K)
+Checking Rule Ac_conv03 (Rule 319 of total 400) .... done (Time = 0.06s, Memory = -28.9K)
+Checking Rule Ac_conv04 (Rule 320 of total 400) .... done (Time = 0.01s, Memory = 70.4K)
+Checking Rule Ac_abs01 (Rule 321 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_glitch03 (Rule 322 of total 400) .... done (Time = 0.00s, Memory = -5.3K)
+Checking Rule Ac_clockperiod01 (Rule 323 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_clockperiod02 (Rule 324 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_clockperiod03 (Rule 325 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_report01 (Rule 326 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule AllowComboLogicSetup (Rule 327 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_resetvalue01 (Rule 328 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_abstract_validation01 (Rule 329 of total 400) .... done (Time = 0.00s, Memory = -25.9K)
+Checking Rule SGDC_abstract_mapping01 (Rule 330 of total 400) .... done (Time = 0.00s, Memory = 20.0K)
+Checking Rule Ac_upfsetup02 (Rule 331 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_upfsetup01 (Rule 332 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Ac_psync_init (Rule 333 of total 400) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule Ac_psetup01 (Rule 334 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule Clock_exit01 (Rule 335 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer02 (Rule 336 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer04 (Rule 337 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer06 (Rule 338 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer08 (Rule 339 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_reset_synchronizer10 (Rule 340 of total 400) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AnalyzeBBox (Rule 341 of total 400) .... done (Time = 0.00s, Memory = -0.6K)
+Checking Rule ReportCheckDataSummary (Rule 342 of total 400) .... done (Time = 0.00s, Memory = 32.1K)
+
+Generating data for Console...
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Generating CDC-report report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt' ....
+
+Generating CKSGDCInfo report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKSGDCInfo.rpt' ....
+
+Generating RSTree report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/RSTree.rpt' ....
+
+Generating CKTree report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKTree.rpt' ....
+
+Generating waiver report from './cdc_prj/top/cdc/cdc_verify_struct/spyglass.vdb' to './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/waiver.rpt' ....
+
+Policy specific data (reports) are present in the directory './cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports'.
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass.log': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CDC-report.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKSGDCInfo.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/RSTree.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/CKTree.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/SpyGlass/elab_summary.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/waiver.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/no_msg_reporting_rules.rpt': Operation not supported
+ln: failed to create symbolic link '/mnt/hgfs/Shared_folder/src/spyglass/cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/moresimple.rpt': Operation not supported
+
+SpyGlass critical reports for the current run are present in directory './cdc_prj/consolidated_reports/top_cdc_cdc_verify_struct/'.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      cdc/cdc_verify_struct
+   Command-line read  :      0 error,      0 warning,      0 information message 
+   Design Read        :      0 error,      0 warning,      3 information messages
+      Found 1 top module:
+         top   (file: ../top.sv)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   Policy clock-reset :      0 error,      2 warnings,    25 information messages
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      2 warnings,    28 information messages
+
+  Total Number of Generated Messages     :        45 (14 errors, 2 warnings, 29 Infos)
+  Number of Waived Messages              :        15 (14 errors, 0 warning, 1 Info)
+  Number of Reported Messages            :        30 (0 error, 2 warnings, 28 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+run_goal: info: updating spyglass.log with goal summary
+run_goal: info: spyglass.log successfully updated with goal summary
+0 {Rule-checking completed with warnings}

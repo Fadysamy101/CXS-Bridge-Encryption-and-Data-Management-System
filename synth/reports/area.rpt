@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : top
+Version: O-2018.06-SP1
+Date   : Sat Sep 12 01:02:14 2026
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ (File: /home/ICer/saed90nm/synopsys/models/saed90nm_typ.db)
+
+Number of ports:                         4013
+Number of nets:                         47151
+Number of cells:                        43662
+Number of combinational cells:          28875
+Number of sequential cells:             14764
+Number of macros/black boxes:               0
+Number of buf/inv:                       6025
+Number of references:                       6
+
+Combinational area:             304892.923093
+Buf/Inv area:                    33334.272863
+Noncombinational area:          365360.944059
+Macro/Black Box area:                0.000000
+Net Interconnect area:          113697.744808
+
+Total cell area:                670253.867152
+Total area:                     783951.611960
+1

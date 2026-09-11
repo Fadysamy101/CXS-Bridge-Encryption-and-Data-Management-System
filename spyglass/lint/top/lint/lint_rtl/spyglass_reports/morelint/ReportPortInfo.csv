@@ -1,0 +1,13 @@
+Module Name,Module Type,Port Name,Direction,Width,Index,Comment Source,Comment 
+top,Top_Level,i_top_cxs_clk,INPUT,1,-,module port,CXS clock domain
+top,Top_Level,i_top_cxs_rst_n,INPUT,1,-,-,-
+top,Top_Level,i_top_sys_clk,INPUT,1,-,module port,System clock domain
+top,Top_Level,i_top_sys_rst_n,INPUT,1,-,-,-
+top,Top_Level,i_top_cxs_rx_valid,INPUT,1,-,module port,CXS link - receive
+top,Top_Level,i_top_cxs_rx_data,INPUT,256,[255:0],-,-
+top,Top_Level,i_top_cxs_rx_cntl,INPUT,14,[13:0],-,-
+top,Top_Level,o_top_cxs_rx_crdgnt,OUTPUT,1,-,-,-
+top,Top_Level,i_top_cxs_tx_crdgnt,INPUT,1,-,module port,CXS link - transmit
+top,Top_Level,o_top_cxs_tx_valid,OUTPUT,1,-,-,-
+top,Top_Level,o_top_cxs_tx_data,OUTPUT,256,[255:0],-,-
+top,Top_Level,o_top_cxs_tx_cntl,OUTPUT,14,[13:0],-,-

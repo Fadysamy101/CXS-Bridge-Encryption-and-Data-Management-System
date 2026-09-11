@@ -1,0 +1,361 @@
+4 "Ac_sync02" 4
+"MSG_GRP_TAG"
+3
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_sync/ac_sync_01.csv@@cross-probecol:1@@col-prop:3r+5r"]
+"ADV_CLK_SYNC_SS_SCH"
+1
+5 "Ac_sync02" 4
+"MSG_GRP_TAG"
+4
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_sync/ac_sync_02.csv@@cross-probecol:1@@col-prop:3r+5r"]
+"ADV_CLK_SYNC_SS_SCH"
+2
+6 "Ac_sync02" 4
+"MSG_GRP_TAG"
+5
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_sync/ac_sync_03.csv@@cross-probecol:1@@col-prop:3r+5r"]
+"ADV_CLK_SYNC_SS_SCH"
+3
+7 "Ac_unsync01" 4
+"MSG_GRP_TAG"
+6
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_01.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+4
+8 "Ac_unsync01" 1
+"ADV_CLK_SYNC_SS_SCH"
+5
+9 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+7
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_02.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+6
+10 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+8
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_03.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+7
+11 "Ac_sync02" 4
+"MSG_GRP_TAG"
+9
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_sync/ac_sync_04.csv@@cross-probecol:1@@col-prop:3r+5r"]
+"ADV_CLK_SYNC_SS_SCH"
+8
+12 "Ac_unsync02" 1
+"ADV_CLK_SYNC_SS_SCH"
+10
+13 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+10
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_04.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+9
+14 "Ac_unsync02" 1
+"ADV_CLK_SYNC_SS_SCH"
+12
+15 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+11
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_05.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+11
+16 "Ac_unsync01" 1
+"ADV_CLK_SYNC_SS_SCH"
+14
+17 "Ac_unsync01" 4
+"MSG_GRP_TAG"
+12
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_06.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+13
+18 "Ac_unsync01" 1
+"ADV_CLK_SYNC_SS_SCH"
+16
+19 "Ac_unsync01" 4
+"MSG_GRP_TAG"
+13
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_07.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+15
+20 "Ac_unsync02" 1
+"ADV_CLK_SYNC_SS_SCH"
+18
+21 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+14
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_08.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+17
+22 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+15
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_09.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+19
+23 "Ac_unsync02" 1
+"ADV_CLK_SYNC_SS_SCH"
+21
+24 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+16
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_10.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+20
+25 "Ac_unsync02" 4
+"MSG_GRP_TAG"
+17
+"MSG_GRP_TOOLTIP_TAG"
+"1"
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_unsync/ac_unsync_11.csv@@cross-probecol:1@@col-prop:3r+6r"]
+"ADV_CLK_SYNC_SS_SCH"
+22
+27 "Setup_quasi_static01" 1
+"QS_CSV_TAG"
+1
+28 "Setup_quasi_static01" 1
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/setup_quasi_static01_top.csv@@cross-probecol:1@@col-prop:2r"]
+41 "Ac_crossing01" 1
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_crossing/CrossingMatrix.01.csv@@editable:+2@@noofheadercol:2menu_options:#i saveas.gif Options::Save as Sgdc...=>clock_reset_reports::save_clockdomain_sgdc@@col-prop:1r"]
+46 "Ar_unsync01" 1
+"MSG_GRP_TAG"
+1
+47 "Ar_unsync01" 1
+"MSG_GRP_TAG"
+2
+48 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+1
+49 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+2
+50 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+3
+51 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+4
+52 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+5
+53 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+6
+54 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+7
+55 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+8
+56 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+9
+57 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+10
+58 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+11
+59 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+12
+60 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+13
+61 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+14
+62 "Setup_port01" 1
+"SETUP_PORT_SS_SCH"
+15
+63 "Setup_port01" 1
+"SETUP_PORT_SDC_TAG"
+16
+64 "Setup_port01" 1
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Setup_port01/top.csv"]
+67 "Ac_conv02" 1
+"AC_CONV_SS_SCH"
+2
+68 "Ac_conv02" 3
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_conv02/ac_conv_01.csv@@cross-probecol:1@@col-prop:3r+4r+5r+6r+7r"]
+"AC_CONV_SS_SCH"
+1
+"AC_CONV_DEPTH_SRC"
+"no@@no@@-@@-@@-@@-"
+69 "Ac_conv02" 1
+"AC_CONV_SS_SCH"
+4
+70 "Ac_conv02" 3
+"Open_Sp_Sheet"
+["./cdc_prj/top/cdc/cdc_verify_struct/spyglass_reports/clock-reset/Ac_conv02/ac_conv_02.csv@@cross-probecol:1@@col-prop:3r+4r+5r+6r+7r"]
+"AC_CONV_SS_SCH"
+3
+"AC_CONV_DEPTH_SRC"
+"no@@no@@-@@-@@-@@-"
+-1 "Ac_conv02" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[36]
+"RULEGROUP"
+["clock-reset/ADV_CLOCKS"]
+-1 "Ac_crossing01" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[41]
+"RULEGROUP"
+["clock-reset/ADV_CLOCKS"]
+-1 "Ac_sync02" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[43]
+"RULEGROUP"
+["Ac_sync0102_group","clock-reset/ADV_CLOCKS/Ac_sync_group"]
+-1 "Ac_unsync01" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[27]
+"RULEGROUP"
+["Ac_unsync0102_group","clock-reset/ADV_CLOCKS/Ac_sync_group"]
+-1 "Ac_unsync02" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[28]
+"RULEGROUP"
+["Ac_unsync0102_group","clock-reset/ADV_CLOCKS/Ac_sync_group"]
+-1 "Ar_unsync01" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[31]
+"RULEGROUP"
+["clock-reset/ADV_CLOCKS/Ar_sync_group"]
+-1 "Clock_info02" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[46]
+"RULEGROUP"
+["clock-reset/FIND"]
+-1 "Clock_info03b" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[15]
+"RULEGROUP"
+["clock-reset/INFORMATION/Clock_info03"]
+-1 "Clock_info15" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[48]
+"RULEGROUP"
+["clock-reset/INFORMATION"]
+-1 "DetectTopDesignUnits" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "ElabSummary" 2
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+-1 "Info_Case_Analysis" 5
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[51]
+"RULEGROUP"
+["Design Read"]
+"BUILTIN"
+"1"
+"SPG_RULETAG_SCH_INFO_RULE"
+"Show Info Case Analysis Data"
+-1 "Propagate_Clocks" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["clock-reset/INFORMATION"]
+-1 "Propagate_Resets" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[-1]
+"RULEGROUP"
+["clock-reset/INFORMATION"]
+-1 "Reset_info02" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[47]
+"RULEGROUP"
+["clock-reset/FIND"]
+-1 "Setup_port01" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[17]
+"RULEGROUP"
+["clock-reset/SETUP"]
+-1 "Setup_quasi_static01" 3
+"TEMPLATE"
+["cdc/cdc_verify_struct"]
+"RULE_ORDER"
+[49]
+"RULEGROUP"
+["clock-reset/SETUP"]

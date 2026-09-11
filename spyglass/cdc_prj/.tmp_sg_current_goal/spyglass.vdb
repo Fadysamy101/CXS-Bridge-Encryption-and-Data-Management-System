@@ -1,0 +1,3 @@
+SGDCSTX_003@@SGDCSTX_003@@Syntax@@cdc.sgdc@@29@@1@@10@@Incorrect field '-wclock' in SGDC command 'fifo'
+SGDCWRN_115@@SGDCWRN_115@@Warning@@cdc.sgdc@@9@@1@@10@@'clock' constraint already specified for object 'i_top_cxs_clk' which is of UNIQUE type field '-name', at file 'cdc.sgdc', line '9'. The earlier command is ignored for this value
+SGDCWRN_115@@SGDCWRN_115@@Warning@@cdc.sgdc@@10@@1@@10@@'clock' constraint already specified for object 'i_top_sys_clk' which is of UNIQUE type field '-name', at file 'cdc.sgdc', line '10'. The earlier command is ignored for this value

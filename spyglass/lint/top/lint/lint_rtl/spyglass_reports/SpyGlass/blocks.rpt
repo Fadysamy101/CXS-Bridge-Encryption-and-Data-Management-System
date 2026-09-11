@@ -1,0 +1,4 @@
+cxs_if@@@@top.u_cxs_if
+asynchronous_fifo@@@@top.u_async_fifo
+synchronizer@@@@top.u_err_sync
+system_wrapper@@@@top.u_system_wrapper

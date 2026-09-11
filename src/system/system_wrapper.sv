@@ -79,7 +79,7 @@ module system_wrapper #(
     ,.i_atu_config_signal (direct_cdm_write)                           // I: Configuration Phase Active
     ,.i_atu_addr_mode     (addr_mode)                                  // I: Address Translation Mode
     ,.i_atu_addr_in       (cu_addr_out)                                // I: Untranslated Address
-    ,.i_atu_config_addr   (cu_cfg_data_out[ENC_DATA_WIDTH-1:DATA_WIDTH]) // I: Base Address
+    ,.i_atu_config_addr   (cu_cfg_data_out[ENC_DATA_WIDTH-1 -: ADDR_WIDTH]) // I: Base Address
     ,.o_atu_addr_out      (atu_addr_out)                               // O: Translated Address
   );
 

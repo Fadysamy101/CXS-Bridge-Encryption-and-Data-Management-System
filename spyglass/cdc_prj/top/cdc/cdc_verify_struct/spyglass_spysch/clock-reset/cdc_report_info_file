@@ -1,0 +1,5 @@
+
+clock@@name@@top.i_top_cxs_clk@@domain@@CXS_DOMAIN@@period@@27.027@@
+clock@@name@@top.i_top_sys_clk@@domain@@SYS_DOMAIN@@period@@40.0@@
+reset@@name@@i_top_cxs_rst_n@@value@@0@@async@@
+reset@@name@@i_top_sys_rst_n@@value@@0@@async@@

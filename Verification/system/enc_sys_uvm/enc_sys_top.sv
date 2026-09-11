@@ -6,8 +6,8 @@ import uvm_pkg::*;
 
 module enc_sys_top;
 
-    bit clk_cxs;   // CXS link domain, 100 MHz
-    bit clk_sys;   // system domain, 125 MHz - deliberately unrelated
+    bit clk_cxs;   // CXS link domain, 37 MHz (27.028 ns period)
+    bit clk_sys;   // system domain, 25 MHz (40 ns period) - deliberately unrelated
 
     initial begin
         clk_cxs = 0;

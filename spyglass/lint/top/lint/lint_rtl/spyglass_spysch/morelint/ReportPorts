@@ -1,0 +1,13 @@
+SCHEMA@@PName@@Dir@@Msb@@Lsb@@Desc@@DU@@DU_BBOX
+VALUE@@i_top_cxs_clk@@INPUT@@0@@0@@CXS clock domain@@top@@No
+VALUE@@i_top_cxs_rst_n@@INPUT@@0@@0@@-@@top@@No
+VALUE@@i_top_sys_clk@@INPUT@@0@@0@@System clock domain@@top@@No
+VALUE@@i_top_sys_rst_n@@INPUT@@0@@0@@-@@top@@No
+VALUE@@i_top_cxs_rx_valid@@INPUT@@0@@0@@CXS link - receive@@top@@No
+VALUE@@i_top_cxs_rx_data@@INPUT@@255@@0@@-@@top@@No
+VALUE@@i_top_cxs_rx_cntl@@INPUT@@13@@0@@-@@top@@No
+VALUE@@o_top_cxs_rx_crdgnt@@OUTPUT@@0@@0@@-@@top@@No
+VALUE@@i_top_cxs_tx_crdgnt@@INPUT@@0@@0@@CXS link - transmit@@top@@No
+VALUE@@o_top_cxs_tx_valid@@OUTPUT@@0@@0@@-@@top@@No
+VALUE@@o_top_cxs_tx_data@@OUTPUT@@255@@0@@-@@top@@No
+VALUE@@o_top_cxs_tx_cntl@@OUTPUT@@13@@0@@-@@top@@No

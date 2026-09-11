@@ -1,0 +1,42 @@
+read_file: info: using default project `spyglass-1.prj'
+Detailed Error Trace
+--------------------
+
+  `sourcelist' file `../filelist.f' does not exist
+      while executing
+  "read_file -type sourcelist ../filelist.f  "
+      (file "cdc.tcl" line 2)
+      invoked from within
+  "source cdc.tcl"
+
+Error: `sourcelist' file `../filelist.f' does not existDetailed Error Trace
+--------------------
+
+  `sourcelist' file `../filelist.f' does not exist
+      while executing
+  "read_file -type sourcelist ../filelist.f  "
+      (file "cdc.tcl" line 2)
+      invoked from within
+  "source cdc.tcl"
+
+Error: `sourcelist' file `../filelist.f' does not existDetailed Error Trace
+--------------------
+
+  please save and close the current project before opening any new project
+      while executing
+  "new_project cdc -force"
+      (file "cdc.tcl" line 6)
+      invoked from within
+  "source cdc.tcl"
+
+Error: please save and close the current project before opening any new projectDetailed Error Trace
+--------------------
+
+  please save and close the current project before opening any new project
+      while executing
+  "new_project cdc -force"
+      (file "cdc.tcl" line 6)
+      invoked from within
+  "source cdc.tcl"
+
+Error: please save and close the current project before opening any new project

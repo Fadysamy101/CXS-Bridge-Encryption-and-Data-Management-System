@@ -1,0 +1,9 @@
+1
+1
+1 
+2
+31
+Reset_path_tag
+Reset_path_tag
+top.i_top_cxs_rst_n&&AsyncClear AsyncPreset&&0
+top.i_top_sys_rst_n&&AsyncClear AsyncPreset&&0

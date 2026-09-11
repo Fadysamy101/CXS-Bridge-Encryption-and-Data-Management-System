@@ -1,0 +1,3858 @@
+548
+i_top_cxs_clk
+i_top_sys_clk
+i_top_cxs_rst_n
+i_top_sys_rst_n
+i_top_cxs_rx_valid
+i_top_cxs_rx_data[0]
+i_top_cxs_rx_data[1]
+i_top_cxs_rx_data[2]
+i_top_cxs_rx_data[3]
+i_top_cxs_rx_data[4]
+i_top_cxs_rx_data[5]
+i_top_cxs_rx_data[6]
+i_top_cxs_rx_data[7]
+i_top_cxs_rx_data[8]
+i_top_cxs_rx_data[9]
+i_top_cxs_rx_data[10]
+i_top_cxs_rx_data[11]
+i_top_cxs_rx_data[12]
+i_top_cxs_rx_data[13]
+i_top_cxs_rx_data[14]
+i_top_cxs_rx_data[15]
+i_top_cxs_rx_data[16]
+i_top_cxs_rx_data[17]
+i_top_cxs_rx_data[18]
+i_top_cxs_rx_data[19]
+i_top_cxs_rx_data[20]
+i_top_cxs_rx_data[21]
+i_top_cxs_rx_data[22]
+i_top_cxs_rx_data[23]
+i_top_cxs_rx_data[24]
+i_top_cxs_rx_data[25]
+i_top_cxs_rx_data[26]
+i_top_cxs_rx_data[27]
+i_top_cxs_rx_data[28]
+i_top_cxs_rx_data[29]
+i_top_cxs_rx_data[30]
+i_top_cxs_rx_data[31]
+i_top_cxs_rx_data[32]
+i_top_cxs_rx_data[33]
+i_top_cxs_rx_data[34]
+i_top_cxs_rx_data[35]
+i_top_cxs_rx_data[36]
+i_top_cxs_rx_data[37]
+i_top_cxs_rx_data[38]
+i_top_cxs_rx_data[39]
+i_top_cxs_rx_data[40]
+i_top_cxs_rx_data[41]
+i_top_cxs_rx_data[42]
+i_top_cxs_rx_data[43]
+i_top_cxs_rx_data[44]
+i_top_cxs_rx_data[45]
+i_top_cxs_rx_data[46]
+i_top_cxs_rx_data[47]
+i_top_cxs_rx_data[48]
+i_top_cxs_rx_data[49]
+i_top_cxs_rx_data[50]
+i_top_cxs_rx_data[51]
+i_top_cxs_rx_data[52]
+i_top_cxs_rx_data[53]
+i_top_cxs_rx_data[54]
+i_top_cxs_rx_data[55]
+i_top_cxs_rx_data[56]
+i_top_cxs_rx_data[57]
+i_top_cxs_rx_data[58]
+i_top_cxs_rx_data[59]
+i_top_cxs_rx_data[60]
+i_top_cxs_rx_data[61]
+i_top_cxs_rx_data[62]
+i_top_cxs_rx_data[63]
+i_top_cxs_rx_data[64]
+i_top_cxs_rx_data[65]
+i_top_cxs_rx_data[66]
+i_top_cxs_rx_data[67]
+i_top_cxs_rx_data[68]
+i_top_cxs_rx_data[69]
+i_top_cxs_rx_data[70]
+i_top_cxs_rx_data[71]
+i_top_cxs_rx_data[72]
+i_top_cxs_rx_data[73]
+i_top_cxs_rx_data[74]
+i_top_cxs_rx_data[75]
+i_top_cxs_rx_data[76]
+i_top_cxs_rx_data[77]
+i_top_cxs_rx_data[78]
+i_top_cxs_rx_data[79]
+i_top_cxs_rx_data[80]
+i_top_cxs_rx_data[81]
+i_top_cxs_rx_data[82]
+i_top_cxs_rx_data[83]
+i_top_cxs_rx_data[84]
+i_top_cxs_rx_data[85]
+i_top_cxs_rx_data[86]
+i_top_cxs_rx_data[87]
+i_top_cxs_rx_data[88]
+i_top_cxs_rx_data[89]
+i_top_cxs_rx_data[90]
+i_top_cxs_rx_data[91]
+i_top_cxs_rx_data[92]
+i_top_cxs_rx_data[93]
+i_top_cxs_rx_data[94]
+i_top_cxs_rx_data[95]
+i_top_cxs_rx_data[96]
+i_top_cxs_rx_data[97]
+i_top_cxs_rx_data[98]
+i_top_cxs_rx_data[99]
+i_top_cxs_rx_data[100]
+i_top_cxs_rx_data[101]
+i_top_cxs_rx_data[102]
+i_top_cxs_rx_data[103]
+i_top_cxs_rx_data[104]
+i_top_cxs_rx_data[105]
+i_top_cxs_rx_data[106]
+i_top_cxs_rx_data[107]
+i_top_cxs_rx_data[108]
+i_top_cxs_rx_data[109]
+i_top_cxs_rx_data[110]
+i_top_cxs_rx_data[111]
+i_top_cxs_rx_data[112]
+i_top_cxs_rx_data[113]
+i_top_cxs_rx_data[114]
+i_top_cxs_rx_data[115]
+i_top_cxs_rx_data[116]
+i_top_cxs_rx_data[117]
+i_top_cxs_rx_data[118]
+i_top_cxs_rx_data[119]
+i_top_cxs_rx_data[120]
+i_top_cxs_rx_data[121]
+i_top_cxs_rx_data[122]
+i_top_cxs_rx_data[123]
+i_top_cxs_rx_data[124]
+i_top_cxs_rx_data[125]
+i_top_cxs_rx_data[126]
+i_top_cxs_rx_data[127]
+i_top_cxs_rx_data[128]
+i_top_cxs_rx_data[129]
+i_top_cxs_rx_data[130]
+i_top_cxs_rx_data[131]
+i_top_cxs_rx_data[132]
+i_top_cxs_rx_data[133]
+i_top_cxs_rx_data[134]
+i_top_cxs_rx_data[135]
+i_top_cxs_rx_data[136]
+i_top_cxs_rx_data[137]
+i_top_cxs_rx_data[138]
+i_top_cxs_rx_data[139]
+i_top_cxs_rx_data[140]
+i_top_cxs_rx_data[141]
+i_top_cxs_rx_data[142]
+i_top_cxs_rx_data[143]
+i_top_cxs_rx_data[144]
+i_top_cxs_rx_data[145]
+i_top_cxs_rx_data[146]
+i_top_cxs_rx_data[147]
+i_top_cxs_rx_data[148]
+i_top_cxs_rx_data[149]
+i_top_cxs_rx_data[150]
+i_top_cxs_rx_data[151]
+i_top_cxs_rx_data[152]
+i_top_cxs_rx_data[153]
+i_top_cxs_rx_data[154]
+i_top_cxs_rx_data[155]
+i_top_cxs_rx_data[156]
+i_top_cxs_rx_data[157]
+i_top_cxs_rx_data[158]
+i_top_cxs_rx_data[159]
+i_top_cxs_rx_data[160]
+i_top_cxs_rx_data[161]
+i_top_cxs_rx_data[162]
+i_top_cxs_rx_data[163]
+i_top_cxs_rx_data[164]
+i_top_cxs_rx_data[165]
+i_top_cxs_rx_data[166]
+i_top_cxs_rx_data[167]
+i_top_cxs_rx_data[168]
+i_top_cxs_rx_data[169]
+i_top_cxs_rx_data[170]
+i_top_cxs_rx_data[171]
+i_top_cxs_rx_data[172]
+i_top_cxs_rx_data[173]
+i_top_cxs_rx_data[174]
+i_top_cxs_rx_data[175]
+i_top_cxs_rx_data[176]
+i_top_cxs_rx_data[177]
+i_top_cxs_rx_data[178]
+i_top_cxs_rx_data[179]
+i_top_cxs_rx_data[180]
+i_top_cxs_rx_data[181]
+i_top_cxs_rx_data[182]
+i_top_cxs_rx_data[183]
+i_top_cxs_rx_data[184]
+i_top_cxs_rx_data[185]
+i_top_cxs_rx_data[186]
+i_top_cxs_rx_data[187]
+i_top_cxs_rx_data[188]
+i_top_cxs_rx_data[189]
+i_top_cxs_rx_data[190]
+i_top_cxs_rx_data[191]
+i_top_cxs_rx_data[192]
+i_top_cxs_rx_data[193]
+i_top_cxs_rx_data[194]
+i_top_cxs_rx_data[195]
+i_top_cxs_rx_data[196]
+i_top_cxs_rx_data[197]
+i_top_cxs_rx_data[198]
+i_top_cxs_rx_data[199]
+i_top_cxs_rx_data[200]
+i_top_cxs_rx_data[201]
+i_top_cxs_rx_data[202]
+i_top_cxs_rx_data[203]
+i_top_cxs_rx_data[204]
+i_top_cxs_rx_data[205]
+i_top_cxs_rx_data[206]
+i_top_cxs_rx_data[207]
+i_top_cxs_rx_data[208]
+i_top_cxs_rx_data[209]
+i_top_cxs_rx_data[210]
+i_top_cxs_rx_data[211]
+i_top_cxs_rx_data[212]
+i_top_cxs_rx_data[213]
+i_top_cxs_rx_data[214]
+i_top_cxs_rx_data[215]
+i_top_cxs_rx_data[216]
+i_top_cxs_rx_data[217]
+i_top_cxs_rx_data[218]
+i_top_cxs_rx_data[219]
+i_top_cxs_rx_data[220]
+i_top_cxs_rx_data[221]
+i_top_cxs_rx_data[222]
+i_top_cxs_rx_data[223]
+i_top_cxs_rx_data[224]
+i_top_cxs_rx_data[225]
+i_top_cxs_rx_data[226]
+i_top_cxs_rx_data[227]
+i_top_cxs_rx_data[228]
+i_top_cxs_rx_data[229]
+i_top_cxs_rx_data[230]
+i_top_cxs_rx_data[231]
+i_top_cxs_rx_data[232]
+i_top_cxs_rx_data[233]
+i_top_cxs_rx_data[234]
+i_top_cxs_rx_data[235]
+i_top_cxs_rx_data[236]
+i_top_cxs_rx_data[237]
+i_top_cxs_rx_data[238]
+i_top_cxs_rx_data[239]
+i_top_cxs_rx_data[240]
+i_top_cxs_rx_data[241]
+i_top_cxs_rx_data[242]
+i_top_cxs_rx_data[243]
+i_top_cxs_rx_data[244]
+i_top_cxs_rx_data[245]
+i_top_cxs_rx_data[246]
+i_top_cxs_rx_data[247]
+i_top_cxs_rx_data[248]
+i_top_cxs_rx_data[249]
+i_top_cxs_rx_data[250]
+i_top_cxs_rx_data[251]
+i_top_cxs_rx_data[252]
+i_top_cxs_rx_data[253]
+i_top_cxs_rx_data[254]
+i_top_cxs_rx_data[255]
+i_top_cxs_rx_cntl[0]
+i_top_cxs_rx_cntl[1]
+i_top_cxs_rx_cntl[2]
+i_top_cxs_rx_cntl[3]
+i_top_cxs_rx_cntl[4]
+i_top_cxs_rx_cntl[5]
+i_top_cxs_rx_cntl[6]
+i_top_cxs_rx_cntl[7]
+i_top_cxs_rx_cntl[8]
+i_top_cxs_rx_cntl[9]
+i_top_cxs_rx_cntl[10]
+i_top_cxs_rx_cntl[11]
+i_top_cxs_rx_cntl[12]
+i_top_cxs_rx_cntl[13]
+i_top_cxs_tx_crdgnt
+o_top_cxs_rx_crdgnt
+o_top_cxs_tx_valid
+o_top_cxs_tx_data[0]
+o_top_cxs_tx_data[1]
+o_top_cxs_tx_data[2]
+o_top_cxs_tx_data[3]
+o_top_cxs_tx_data[4]
+o_top_cxs_tx_data[5]
+o_top_cxs_tx_data[6]
+o_top_cxs_tx_data[7]
+o_top_cxs_tx_data[8]
+o_top_cxs_tx_data[9]
+o_top_cxs_tx_data[10]
+o_top_cxs_tx_data[11]
+o_top_cxs_tx_data[12]
+o_top_cxs_tx_data[13]
+o_top_cxs_tx_data[14]
+o_top_cxs_tx_data[15]
+o_top_cxs_tx_data[16]
+o_top_cxs_tx_data[17]
+o_top_cxs_tx_data[18]
+o_top_cxs_tx_data[19]
+o_top_cxs_tx_data[20]
+o_top_cxs_tx_data[21]
+o_top_cxs_tx_data[22]
+o_top_cxs_tx_data[23]
+o_top_cxs_tx_data[24]
+o_top_cxs_tx_data[25]
+o_top_cxs_tx_data[26]
+o_top_cxs_tx_data[27]
+o_top_cxs_tx_data[28]
+o_top_cxs_tx_data[29]
+o_top_cxs_tx_data[30]
+o_top_cxs_tx_data[31]
+o_top_cxs_tx_data[32]
+o_top_cxs_tx_data[33]
+o_top_cxs_tx_data[34]
+o_top_cxs_tx_data[35]
+o_top_cxs_tx_data[36]
+o_top_cxs_tx_data[37]
+o_top_cxs_tx_data[38]
+o_top_cxs_tx_data[39]
+o_top_cxs_tx_data[40]
+o_top_cxs_tx_data[41]
+o_top_cxs_tx_data[42]
+o_top_cxs_tx_data[43]
+o_top_cxs_tx_data[44]
+o_top_cxs_tx_data[45]
+o_top_cxs_tx_data[46]
+o_top_cxs_tx_data[47]
+o_top_cxs_tx_data[48]
+o_top_cxs_tx_data[49]
+o_top_cxs_tx_data[50]
+o_top_cxs_tx_data[51]
+o_top_cxs_tx_data[52]
+o_top_cxs_tx_data[53]
+o_top_cxs_tx_data[54]
+o_top_cxs_tx_data[55]
+o_top_cxs_tx_data[56]
+o_top_cxs_tx_data[57]
+o_top_cxs_tx_data[58]
+o_top_cxs_tx_data[59]
+o_top_cxs_tx_data[60]
+o_top_cxs_tx_data[61]
+o_top_cxs_tx_data[62]
+o_top_cxs_tx_data[63]
+o_top_cxs_tx_data[64]
+o_top_cxs_tx_data[65]
+o_top_cxs_tx_data[66]
+o_top_cxs_tx_data[67]
+o_top_cxs_tx_data[68]
+o_top_cxs_tx_data[69]
+o_top_cxs_tx_data[70]
+o_top_cxs_tx_data[71]
+o_top_cxs_tx_data[72]
+o_top_cxs_tx_data[73]
+o_top_cxs_tx_data[74]
+o_top_cxs_tx_data[75]
+o_top_cxs_tx_data[76]
+o_top_cxs_tx_data[77]
+o_top_cxs_tx_data[78]
+o_top_cxs_tx_data[79]
+o_top_cxs_tx_data[80]
+o_top_cxs_tx_data[81]
+o_top_cxs_tx_data[82]
+o_top_cxs_tx_data[83]
+o_top_cxs_tx_data[84]
+o_top_cxs_tx_data[85]
+o_top_cxs_tx_data[86]
+o_top_cxs_tx_data[87]
+o_top_cxs_tx_data[88]
+o_top_cxs_tx_data[89]
+o_top_cxs_tx_data[90]
+o_top_cxs_tx_data[91]
+o_top_cxs_tx_data[92]
+o_top_cxs_tx_data[93]
+o_top_cxs_tx_data[94]
+o_top_cxs_tx_data[95]
+o_top_cxs_tx_data[96]
+o_top_cxs_tx_data[97]
+o_top_cxs_tx_data[98]
+o_top_cxs_tx_data[99]
+o_top_cxs_tx_data[100]
+o_top_cxs_tx_data[101]
+o_top_cxs_tx_data[102]
+o_top_cxs_tx_data[103]
+o_top_cxs_tx_data[104]
+o_top_cxs_tx_data[105]
+o_top_cxs_tx_data[106]
+o_top_cxs_tx_data[107]
+o_top_cxs_tx_data[108]
+o_top_cxs_tx_data[109]
+o_top_cxs_tx_data[110]
+o_top_cxs_tx_data[111]
+o_top_cxs_tx_data[112]
+o_top_cxs_tx_data[113]
+o_top_cxs_tx_data[114]
+o_top_cxs_tx_data[115]
+o_top_cxs_tx_data[116]
+o_top_cxs_tx_data[117]
+o_top_cxs_tx_data[118]
+o_top_cxs_tx_data[119]
+o_top_cxs_tx_data[120]
+o_top_cxs_tx_data[121]
+o_top_cxs_tx_data[122]
+o_top_cxs_tx_data[123]
+o_top_cxs_tx_data[124]
+o_top_cxs_tx_data[125]
+o_top_cxs_tx_data[126]
+o_top_cxs_tx_data[127]
+o_top_cxs_tx_data[128]
+o_top_cxs_tx_data[129]
+o_top_cxs_tx_data[130]
+o_top_cxs_tx_data[131]
+o_top_cxs_tx_data[132]
+o_top_cxs_tx_data[133]
+o_top_cxs_tx_data[134]
+o_top_cxs_tx_data[135]
+o_top_cxs_tx_data[136]
+o_top_cxs_tx_data[137]
+o_top_cxs_tx_data[138]
+o_top_cxs_tx_data[139]
+o_top_cxs_tx_data[140]
+o_top_cxs_tx_data[141]
+o_top_cxs_tx_data[142]
+o_top_cxs_tx_data[143]
+o_top_cxs_tx_data[144]
+o_top_cxs_tx_data[145]
+o_top_cxs_tx_data[146]
+o_top_cxs_tx_data[147]
+o_top_cxs_tx_data[148]
+o_top_cxs_tx_data[149]
+o_top_cxs_tx_data[150]
+o_top_cxs_tx_data[151]
+o_top_cxs_tx_data[152]
+o_top_cxs_tx_data[153]
+o_top_cxs_tx_data[154]
+o_top_cxs_tx_data[155]
+o_top_cxs_tx_data[156]
+o_top_cxs_tx_data[157]
+o_top_cxs_tx_data[158]
+o_top_cxs_tx_data[159]
+o_top_cxs_tx_data[160]
+o_top_cxs_tx_data[161]
+o_top_cxs_tx_data[162]
+o_top_cxs_tx_data[163]
+o_top_cxs_tx_data[164]
+o_top_cxs_tx_data[165]
+o_top_cxs_tx_data[166]
+o_top_cxs_tx_data[167]
+o_top_cxs_tx_data[168]
+o_top_cxs_tx_data[169]
+o_top_cxs_tx_data[170]
+o_top_cxs_tx_data[171]
+o_top_cxs_tx_data[172]
+o_top_cxs_tx_data[173]
+o_top_cxs_tx_data[174]
+o_top_cxs_tx_data[175]
+o_top_cxs_tx_data[176]
+o_top_cxs_tx_data[177]
+o_top_cxs_tx_data[178]
+o_top_cxs_tx_data[179]
+o_top_cxs_tx_data[180]
+o_top_cxs_tx_data[181]
+o_top_cxs_tx_data[182]
+o_top_cxs_tx_data[183]
+o_top_cxs_tx_data[184]
+o_top_cxs_tx_data[185]
+o_top_cxs_tx_data[186]
+o_top_cxs_tx_data[187]
+o_top_cxs_tx_data[188]
+o_top_cxs_tx_data[189]
+o_top_cxs_tx_data[190]
+o_top_cxs_tx_data[191]
+o_top_cxs_tx_data[192]
+o_top_cxs_tx_data[193]
+o_top_cxs_tx_data[194]
+o_top_cxs_tx_data[195]
+o_top_cxs_tx_data[196]
+o_top_cxs_tx_data[197]
+o_top_cxs_tx_data[198]
+o_top_cxs_tx_data[199]
+o_top_cxs_tx_data[200]
+o_top_cxs_tx_data[201]
+o_top_cxs_tx_data[202]
+o_top_cxs_tx_data[203]
+o_top_cxs_tx_data[204]
+o_top_cxs_tx_data[205]
+o_top_cxs_tx_data[206]
+o_top_cxs_tx_data[207]
+o_top_cxs_tx_data[208]
+o_top_cxs_tx_data[209]
+o_top_cxs_tx_data[210]
+o_top_cxs_tx_data[211]
+o_top_cxs_tx_data[212]
+o_top_cxs_tx_data[213]
+o_top_cxs_tx_data[214]
+o_top_cxs_tx_data[215]
+o_top_cxs_tx_data[216]
+o_top_cxs_tx_data[217]
+o_top_cxs_tx_data[218]
+o_top_cxs_tx_data[219]
+o_top_cxs_tx_data[220]
+o_top_cxs_tx_data[221]
+o_top_cxs_tx_data[222]
+o_top_cxs_tx_data[223]
+o_top_cxs_tx_data[224]
+o_top_cxs_tx_data[225]
+o_top_cxs_tx_data[226]
+o_top_cxs_tx_data[227]
+o_top_cxs_tx_data[228]
+o_top_cxs_tx_data[229]
+o_top_cxs_tx_data[230]
+o_top_cxs_tx_data[231]
+o_top_cxs_tx_data[232]
+o_top_cxs_tx_data[233]
+o_top_cxs_tx_data[234]
+o_top_cxs_tx_data[235]
+o_top_cxs_tx_data[236]
+o_top_cxs_tx_data[237]
+o_top_cxs_tx_data[238]
+o_top_cxs_tx_data[239]
+o_top_cxs_tx_data[240]
+o_top_cxs_tx_data[241]
+o_top_cxs_tx_data[242]
+o_top_cxs_tx_data[243]
+o_top_cxs_tx_data[244]
+o_top_cxs_tx_data[245]
+o_top_cxs_tx_data[246]
+o_top_cxs_tx_data[247]
+o_top_cxs_tx_data[248]
+o_top_cxs_tx_data[249]
+o_top_cxs_tx_data[250]
+o_top_cxs_tx_data[251]
+o_top_cxs_tx_data[252]
+o_top_cxs_tx_data[253]
+o_top_cxs_tx_data[254]
+o_top_cxs_tx_data[255]
+o_top_cxs_tx_cntl[0]
+o_top_cxs_tx_cntl[1]
+o_top_cxs_tx_cntl[2]
+o_top_cxs_tx_cntl[3]
+o_top_cxs_tx_cntl[4]
+o_top_cxs_tx_cntl[5]
+o_top_cxs_tx_cntl[6]
+o_top_cxs_tx_cntl[7]
+o_top_cxs_tx_cntl[8]
+o_top_cxs_tx_cntl[9]
+o_top_cxs_tx_cntl[10]
+o_top_cxs_tx_cntl[11]
+o_top_cxs_tx_cntl[12]
+o_top_cxs_tx_cntl[13]
+1
+cdc.sgdc
+1
+115
+548
+0
+-1
+9
+11 0
+0 9
+11 0
+0 17
+11 0
+0 18
+11 0
+0 19
+11 0
+0 20
+11 0
+0 22
+11 0
+0 23
+11 0
+0 24
+11 0
+0 25
+0
+1
+-1
+1
+11 0
+0 10
+0
+2
+-1
+1
+11 0
+0 13
+0
+3
+-1
+1
+11 0
+0 14
+0
+4
+-1
+1
+11 0
+0 17
+0
+5
+-1
+1
+11 0
+0 18
+0
+6
+-1
+1
+11 0
+0 18
+0
+7
+-1
+1
+11 0
+0 18
+0
+8
+-1
+1
+11 0
+0 18
+0
+9
+-1
+1
+11 0
+0 18
+0
+10
+-1
+1
+11 0
+0 18
+0
+11
+-1
+1
+11 0
+0 18
+0
+12
+-1
+1
+11 0
+0 18
+0
+13
+-1
+1
+11 0
+0 18
+0
+14
+-1
+1
+11 0
+0 18
+0
+15
+-1
+1
+11 0
+0 18
+0
+16
+-1
+1
+11 0
+0 18
+0
+17
+-1
+1
+11 0
+0 18
+0
+18
+-1
+1
+11 0
+0 18
+0
+19
+-1
+1
+11 0
+0 18
+0
+20
+-1
+1
+11 0
+0 18
+0
+21
+-1
+1
+11 0
+0 18
+0
+22
+-1
+1
+11 0
+0 18
+0
+23
+-1
+1
+11 0
+0 18
+0
+24
+-1
+1
+11 0
+0 18
+0
+25
+-1
+1
+11 0
+0 18
+0
+26
+-1
+1
+11 0
+0 18
+0
+27
+-1
+1
+11 0
+0 18
+0
+28
+-1
+1
+11 0
+0 18
+0
+29
+-1
+1
+11 0
+0 18
+0
+30
+-1
+1
+11 0
+0 18
+0
+31
+-1
+1
+11 0
+0 18
+0
+32
+-1
+1
+11 0
+0 18
+0
+33
+-1
+1
+11 0
+0 18
+0
+34
+-1
+1
+11 0
+0 18
+0
+35
+-1
+1
+11 0
+0 18
+0
+36
+-1
+1
+11 0
+0 18
+0
+37
+-1
+1
+11 0
+0 18
+0
+38
+-1
+1
+11 0
+0 18
+0
+39
+-1
+1
+11 0
+0 18
+0
+40
+-1
+1
+11 0
+0 18
+0
+41
+-1
+1
+11 0
+0 18
+0
+42
+-1
+1
+11 0
+0 18
+0
+43
+-1
+1
+11 0
+0 18
+0
+44
+-1
+1
+11 0
+0 18
+0
+45
+-1
+1
+11 0
+0 18
+0
+46
+-1
+1
+11 0
+0 18
+0
+47
+-1
+1
+11 0
+0 18
+0
+48
+-1
+1
+11 0
+0 18
+0
+49
+-1
+1
+11 0
+0 18
+0
+50
+-1
+1
+11 0
+0 18
+0
+51
+-1
+1
+11 0
+0 18
+0
+52
+-1
+1
+11 0
+0 18
+0
+53
+-1
+1
+11 0
+0 18
+0
+54
+-1
+1
+11 0
+0 18
+0
+55
+-1
+1
+11 0
+0 18
+0
+56
+-1
+1
+11 0
+0 18
+0
+57
+-1
+1
+11 0
+0 18
+0
+58
+-1
+1
+11 0
+0 18
+0
+59
+-1
+1
+11 0
+0 18
+0
+60
+-1
+1
+11 0
+0 18
+0
+61
+-1
+1
+11 0
+0 18
+0
+62
+-1
+1
+11 0
+0 18
+0
+63
+-1
+1
+11 0
+0 18
+0
+64
+-1
+1
+11 0
+0 18
+0
+65
+-1
+1
+11 0
+0 18
+0
+66
+-1
+1
+11 0
+0 18
+0
+67
+-1
+1
+11 0
+0 18
+0
+68
+-1
+1
+11 0
+0 18
+0
+69
+-1
+1
+11 0
+0 18
+0
+70
+-1
+1
+11 0
+0 18
+0
+71
+-1
+1
+11 0
+0 18
+0
+72
+-1
+1
+11 0
+0 18
+0
+73
+-1
+1
+11 0
+0 18
+0
+74
+-1
+1
+11 0
+0 18
+0
+75
+-1
+1
+11 0
+0 18
+0
+76
+-1
+1
+11 0
+0 18
+0
+77
+-1
+1
+11 0
+0 18
+0
+78
+-1
+1
+11 0
+0 18
+0
+79
+-1
+1
+11 0
+0 18
+0
+80
+-1
+1
+11 0
+0 18
+0
+81
+-1
+1
+11 0
+0 18
+0
+82
+-1
+1
+11 0
+0 18
+0
+83
+-1
+1
+11 0
+0 18
+0
+84
+-1
+1
+11 0
+0 18
+0
+85
+-1
+1
+11 0
+0 18
+0
+86
+-1
+1
+11 0
+0 18
+0
+87
+-1
+1
+11 0
+0 18
+0
+88
+-1
+1
+11 0
+0 18
+0
+89
+-1
+1
+11 0
+0 18
+0
+90
+-1
+1
+11 0
+0 18
+0
+91
+-1
+1
+11 0
+0 18
+0
+92
+-1
+1
+11 0
+0 18
+0
+93
+-1
+1
+11 0
+0 18
+0
+94
+-1
+1
+11 0
+0 18
+0
+95
+-1
+1
+11 0
+0 18
+0
+96
+-1
+1
+11 0
+0 18
+0
+97
+-1
+1
+11 0
+0 18
+0
+98
+-1
+1
+11 0
+0 18
+0
+99
+-1
+1
+11 0
+0 18
+0
+100
+-1
+1
+11 0
+0 18
+0
+101
+-1
+1
+11 0
+0 18
+0
+102
+-1
+1
+11 0
+0 18
+0
+103
+-1
+1
+11 0
+0 18
+0
+104
+-1
+1
+11 0
+0 18
+0
+105
+-1
+1
+11 0
+0 18
+0
+106
+-1
+1
+11 0
+0 18
+0
+107
+-1
+1
+11 0
+0 18
+0
+108
+-1
+1
+11 0
+0 18
+0
+109
+-1
+1
+11 0
+0 18
+0
+110
+-1
+1
+11 0
+0 18
+0
+111
+-1
+1
+11 0
+0 18
+0
+112
+-1
+1
+11 0
+0 18
+0
+113
+-1
+1
+11 0
+0 18
+0
+114
+-1
+1
+11 0
+0 18
+0
+115
+-1
+1
+11 0
+0 18
+0
+116
+-1
+1
+11 0
+0 18
+0
+117
+-1
+1
+11 0
+0 18
+0
+118
+-1
+1
+11 0
+0 18
+0
+119
+-1
+1
+11 0
+0 18
+0
+120
+-1
+1
+11 0
+0 18
+0
+121
+-1
+1
+11 0
+0 18
+0
+122
+-1
+1
+11 0
+0 18
+0
+123
+-1
+1
+11 0
+0 18
+0
+124
+-1
+1
+11 0
+0 18
+0
+125
+-1
+1
+11 0
+0 18
+0
+126
+-1
+1
+11 0
+0 18
+0
+127
+-1
+1
+11 0
+0 18
+0
+128
+-1
+1
+11 0
+0 18
+0
+129
+-1
+1
+11 0
+0 18
+0
+130
+-1
+1
+11 0
+0 18
+0
+131
+-1
+1
+11 0
+0 18
+0
+132
+-1
+1
+11 0
+0 18
+0
+133
+-1
+1
+11 0
+0 18
+0
+134
+-1
+1
+11 0
+0 18
+0
+135
+-1
+1
+11 0
+0 18
+0
+136
+-1
+1
+11 0
+0 18
+0
+137
+-1
+1
+11 0
+0 18
+0
+138
+-1
+1
+11 0
+0 18
+0
+139
+-1
+1
+11 0
+0 18
+0
+140
+-1
+1
+11 0
+0 18
+0
+141
+-1
+1
+11 0
+0 18
+0
+142
+-1
+1
+11 0
+0 18
+0
+143
+-1
+1
+11 0
+0 18
+0
+144
+-1
+1
+11 0
+0 18
+0
+145
+-1
+1
+11 0
+0 18
+0
+146
+-1
+1
+11 0
+0 18
+0
+147
+-1
+1
+11 0
+0 18
+0
+148
+-1
+1
+11 0
+0 18
+0
+149
+-1
+1
+11 0
+0 18
+0
+150
+-1
+1
+11 0
+0 18
+0
+151
+-1
+1
+11 0
+0 18
+0
+152
+-1
+1
+11 0
+0 18
+0
+153
+-1
+1
+11 0
+0 18
+0
+154
+-1
+1
+11 0
+0 18
+0
+155
+-1
+1
+11 0
+0 18
+0
+156
+-1
+1
+11 0
+0 18
+0
+157
+-1
+1
+11 0
+0 18
+0
+158
+-1
+1
+11 0
+0 18
+0
+159
+-1
+1
+11 0
+0 18
+0
+160
+-1
+1
+11 0
+0 18
+0
+161
+-1
+1
+11 0
+0 18
+0
+162
+-1
+1
+11 0
+0 18
+0
+163
+-1
+1
+11 0
+0 18
+0
+164
+-1
+1
+11 0
+0 18
+0
+165
+-1
+1
+11 0
+0 18
+0
+166
+-1
+1
+11 0
+0 18
+0
+167
+-1
+1
+11 0
+0 18
+0
+168
+-1
+1
+11 0
+0 18
+0
+169
+-1
+1
+11 0
+0 18
+0
+170
+-1
+1
+11 0
+0 18
+0
+171
+-1
+1
+11 0
+0 18
+0
+172
+-1
+1
+11 0
+0 18
+0
+173
+-1
+1
+11 0
+0 18
+0
+174
+-1
+1
+11 0
+0 18
+0
+175
+-1
+1
+11 0
+0 18
+0
+176
+-1
+1
+11 0
+0 18
+0
+177
+-1
+1
+11 0
+0 18
+0
+178
+-1
+1
+11 0
+0 18
+0
+179
+-1
+1
+11 0
+0 18
+0
+180
+-1
+1
+11 0
+0 18
+0
+181
+-1
+1
+11 0
+0 18
+0
+182
+-1
+1
+11 0
+0 18
+0
+183
+-1
+1
+11 0
+0 18
+0
+184
+-1
+1
+11 0
+0 18
+0
+185
+-1
+1
+11 0
+0 18
+0
+186
+-1
+1
+11 0
+0 18
+0
+187
+-1
+1
+11 0
+0 18
+0
+188
+-1
+1
+11 0
+0 18
+0
+189
+-1
+1
+11 0
+0 18
+0
+190
+-1
+1
+11 0
+0 18
+0
+191
+-1
+1
+11 0
+0 18
+0
+192
+-1
+1
+11 0
+0 18
+0
+193
+-1
+1
+11 0
+0 18
+0
+194
+-1
+1
+11 0
+0 18
+0
+195
+-1
+1
+11 0
+0 18
+0
+196
+-1
+1
+11 0
+0 18
+0
+197
+-1
+1
+11 0
+0 18
+0
+198
+-1
+1
+11 0
+0 18
+0
+199
+-1
+1
+11 0
+0 18
+0
+200
+-1
+1
+11 0
+0 18
+0
+201
+-1
+1
+11 0
+0 18
+0
+202
+-1
+1
+11 0
+0 18
+0
+203
+-1
+1
+11 0
+0 18
+0
+204
+-1
+1
+11 0
+0 18
+0
+205
+-1
+1
+11 0
+0 18
+0
+206
+-1
+1
+11 0
+0 18
+0
+207
+-1
+1
+11 0
+0 18
+0
+208
+-1
+1
+11 0
+0 18
+0
+209
+-1
+1
+11 0
+0 18
+0
+210
+-1
+1
+11 0
+0 18
+0
+211
+-1
+1
+11 0
+0 18
+0
+212
+-1
+1
+11 0
+0 18
+0
+213
+-1
+1
+11 0
+0 18
+0
+214
+-1
+1
+11 0
+0 18
+0
+215
+-1
+1
+11 0
+0 18
+0
+216
+-1
+1
+11 0
+0 18
+0
+217
+-1
+1
+11 0
+0 18
+0
+218
+-1
+1
+11 0
+0 18
+0
+219
+-1
+1
+11 0
+0 18
+0
+220
+-1
+1
+11 0
+0 18
+0
+221
+-1
+1
+11 0
+0 18
+0
+222
+-1
+1
+11 0
+0 18
+0
+223
+-1
+1
+11 0
+0 18
+0
+224
+-1
+1
+11 0
+0 18
+0
+225
+-1
+1
+11 0
+0 18
+0
+226
+-1
+1
+11 0
+0 18
+0
+227
+-1
+1
+11 0
+0 18
+0
+228
+-1
+1
+11 0
+0 18
+0
+229
+-1
+1
+11 0
+0 18
+0
+230
+-1
+1
+11 0
+0 18
+0
+231
+-1
+1
+11 0
+0 18
+0
+232
+-1
+1
+11 0
+0 18
+0
+233
+-1
+1
+11 0
+0 18
+0
+234
+-1
+1
+11 0
+0 18
+0
+235
+-1
+1
+11 0
+0 18
+0
+236
+-1
+1
+11 0
+0 18
+0
+237
+-1
+1
+11 0
+0 18
+0
+238
+-1
+1
+11 0
+0 18
+0
+239
+-1
+1
+11 0
+0 18
+0
+240
+-1
+1
+11 0
+0 18
+0
+241
+-1
+1
+11 0
+0 18
+0
+242
+-1
+1
+11 0
+0 18
+0
+243
+-1
+1
+11 0
+0 18
+0
+244
+-1
+1
+11 0
+0 18
+0
+245
+-1
+1
+11 0
+0 18
+0
+246
+-1
+1
+11 0
+0 18
+0
+247
+-1
+1
+11 0
+0 18
+0
+248
+-1
+1
+11 0
+0 18
+0
+249
+-1
+1
+11 0
+0 18
+0
+250
+-1
+1
+11 0
+0 18
+0
+251
+-1
+1
+11 0
+0 18
+0
+252
+-1
+1
+11 0
+0 18
+0
+253
+-1
+1
+11 0
+0 18
+0
+254
+-1
+1
+11 0
+0 18
+0
+255
+-1
+1
+11 0
+0 18
+0
+256
+-1
+1
+11 0
+0 18
+0
+257
+-1
+1
+11 0
+0 18
+0
+258
+-1
+1
+11 0
+0 18
+0
+259
+-1
+1
+11 0
+0 18
+0
+260
+-1
+1
+11 0
+0 18
+0
+261
+-1
+1
+11 0
+0 19
+0
+262
+-1
+1
+11 0
+0 19
+0
+263
+-1
+1
+11 0
+0 19
+0
+264
+-1
+1
+11 0
+0 19
+0
+265
+-1
+1
+11 0
+0 19
+0
+266
+-1
+1
+11 0
+0 19
+0
+267
+-1
+1
+11 0
+0 19
+0
+268
+-1
+1
+11 0
+0 19
+0
+269
+-1
+1
+11 0
+0 19
+0
+270
+-1
+1
+11 0
+0 19
+0
+271
+-1
+1
+11 0
+0 19
+0
+272
+-1
+1
+11 0
+0 19
+0
+273
+-1
+1
+11 0
+0 19
+0
+274
+-1
+1
+11 0
+0 19
+0
+275
+-1
+1
+11 0
+0 20
+0
+276
+-1
+1
+11 0
+0 22
+0
+277
+-1
+1
+11 0
+0 23
+0
+278
+-1
+1
+11 0
+0 24
+0
+279
+-1
+1
+11 0
+0 24
+0
+280
+-1
+1
+11 0
+0 24
+0
+281
+-1
+1
+11 0
+0 24
+0
+282
+-1
+1
+11 0
+0 24
+0
+283
+-1
+1
+11 0
+0 24
+0
+284
+-1
+1
+11 0
+0 24
+0
+285
+-1
+1
+11 0
+0 24
+0
+286
+-1
+1
+11 0
+0 24
+0
+287
+-1
+1
+11 0
+0 24
+0
+288
+-1
+1
+11 0
+0 24
+0
+289
+-1
+1
+11 0
+0 24
+0
+290
+-1
+1
+11 0
+0 24
+0
+291
+-1
+1
+11 0
+0 24
+0
+292
+-1
+1
+11 0
+0 24
+0
+293
+-1
+1
+11 0
+0 24
+0
+294
+-1
+1
+11 0
+0 24
+0
+295
+-1
+1
+11 0
+0 24
+0
+296
+-1
+1
+11 0
+0 24
+0
+297
+-1
+1
+11 0
+0 24
+0
+298
+-1
+1
+11 0
+0 24
+0
+299
+-1
+1
+11 0
+0 24
+0
+300
+-1
+1
+11 0
+0 24
+0
+301
+-1
+1
+11 0
+0 24
+0
+302
+-1
+1
+11 0
+0 24
+0
+303
+-1
+1
+11 0
+0 24
+0
+304
+-1
+1
+11 0
+0 24
+0
+305
+-1
+1
+11 0
+0 24
+0
+306
+-1
+1
+11 0
+0 24
+0
+307
+-1
+1
+11 0
+0 24
+0
+308
+-1
+1
+11 0
+0 24
+0
+309
+-1
+1
+11 0
+0 24
+0
+310
+-1
+1
+11 0
+0 24
+0
+311
+-1
+1
+11 0
+0 24
+0
+312
+-1
+1
+11 0
+0 24
+0
+313
+-1
+1
+11 0
+0 24
+0
+314
+-1
+1
+11 0
+0 24
+0
+315
+-1
+1
+11 0
+0 24
+0
+316
+-1
+1
+11 0
+0 24
+0
+317
+-1
+1
+11 0
+0 24
+0
+318
+-1
+1
+11 0
+0 24
+0
+319
+-1
+1
+11 0
+0 24
+0
+320
+-1
+1
+11 0
+0 24
+0
+321
+-1
+1
+11 0
+0 24
+0
+322
+-1
+1
+11 0
+0 24
+0
+323
+-1
+1
+11 0
+0 24
+0
+324
+-1
+1
+11 0
+0 24
+0
+325
+-1
+1
+11 0
+0 24
+0
+326
+-1
+1
+11 0
+0 24
+0
+327
+-1
+1
+11 0
+0 24
+0
+328
+-1
+1
+11 0
+0 24
+0
+329
+-1
+1
+11 0
+0 24
+0
+330
+-1
+1
+11 0
+0 24
+0
+331
+-1
+1
+11 0
+0 24
+0
+332
+-1
+1
+11 0
+0 24
+0
+333
+-1
+1
+11 0
+0 24
+0
+334
+-1
+1
+11 0
+0 24
+0
+335
+-1
+1
+11 0
+0 24
+0
+336
+-1
+1
+11 0
+0 24
+0
+337
+-1
+1
+11 0
+0 24
+0
+338
+-1
+1
+11 0
+0 24
+0
+339
+-1
+1
+11 0
+0 24
+0
+340
+-1
+1
+11 0
+0 24
+0
+341
+-1
+1
+11 0
+0 24
+0
+342
+-1
+1
+11 0
+0 24
+0
+343
+-1
+1
+11 0
+0 24
+0
+344
+-1
+1
+11 0
+0 24
+0
+345
+-1
+1
+11 0
+0 24
+0
+346
+-1
+1
+11 0
+0 24
+0
+347
+-1
+1
+11 0
+0 24
+0
+348
+-1
+1
+11 0
+0 24
+0
+349
+-1
+1
+11 0
+0 24
+0
+350
+-1
+1
+11 0
+0 24
+0
+351
+-1
+1
+11 0
+0 24
+0
+352
+-1
+1
+11 0
+0 24
+0
+353
+-1
+1
+11 0
+0 24
+0
+354
+-1
+1
+11 0
+0 24
+0
+355
+-1
+1
+11 0
+0 24
+0
+356
+-1
+1
+11 0
+0 24
+0
+357
+-1
+1
+11 0
+0 24
+0
+358
+-1
+1
+11 0
+0 24
+0
+359
+-1
+1
+11 0
+0 24
+0
+360
+-1
+1
+11 0
+0 24
+0
+361
+-1
+1
+11 0
+0 24
+0
+362
+-1
+1
+11 0
+0 24
+0
+363
+-1
+1
+11 0
+0 24
+0
+364
+-1
+1
+11 0
+0 24
+0
+365
+-1
+1
+11 0
+0 24
+0
+366
+-1
+1
+11 0
+0 24
+0
+367
+-1
+1
+11 0
+0 24
+0
+368
+-1
+1
+11 0
+0 24
+0
+369
+-1
+1
+11 0
+0 24
+0
+370
+-1
+1
+11 0
+0 24
+0
+371
+-1
+1
+11 0
+0 24
+0
+372
+-1
+1
+11 0
+0 24
+0
+373
+-1
+1
+11 0
+0 24
+0
+374
+-1
+1
+11 0
+0 24
+0
+375
+-1
+1
+11 0
+0 24
+0
+376
+-1
+1
+11 0
+0 24
+0
+377
+-1
+1
+11 0
+0 24
+0
+378
+-1
+1
+11 0
+0 24
+0
+379
+-1
+1
+11 0
+0 24
+0
+380
+-1
+1
+11 0
+0 24
+0
+381
+-1
+1
+11 0
+0 24
+0
+382
+-1
+1
+11 0
+0 24
+0
+383
+-1
+1
+11 0
+0 24
+0
+384
+-1
+1
+11 0
+0 24
+0
+385
+-1
+1
+11 0
+0 24
+0
+386
+-1
+1
+11 0
+0 24
+0
+387
+-1
+1
+11 0
+0 24
+0
+388
+-1
+1
+11 0
+0 24
+0
+389
+-1
+1
+11 0
+0 24
+0
+390
+-1
+1
+11 0
+0 24
+0
+391
+-1
+1
+11 0
+0 24
+0
+392
+-1
+1
+11 0
+0 24
+0
+393
+-1
+1
+11 0
+0 24
+0
+394
+-1
+1
+11 0
+0 24
+0
+395
+-1
+1
+11 0
+0 24
+0
+396
+-1
+1
+11 0
+0 24
+0
+397
+-1
+1
+11 0
+0 24
+0
+398
+-1
+1
+11 0
+0 24
+0
+399
+-1
+1
+11 0
+0 24
+0
+400
+-1
+1
+11 0
+0 24
+0
+401
+-1
+1
+11 0
+0 24
+0
+402
+-1
+1
+11 0
+0 24
+0
+403
+-1
+1
+11 0
+0 24
+0
+404
+-1
+1
+11 0
+0 24
+0
+405
+-1
+1
+11 0
+0 24
+0
+406
+-1
+1
+11 0
+0 24
+0
+407
+-1
+1
+11 0
+0 24
+0
+408
+-1
+1
+11 0
+0 24
+0
+409
+-1
+1
+11 0
+0 24
+0
+410
+-1
+1
+11 0
+0 24
+0
+411
+-1
+1
+11 0
+0 24
+0
+412
+-1
+1
+11 0
+0 24
+0
+413
+-1
+1
+11 0
+0 24
+0
+414
+-1
+1
+11 0
+0 24
+0
+415
+-1
+1
+11 0
+0 24
+0
+416
+-1
+1
+11 0
+0 24
+0
+417
+-1
+1
+11 0
+0 24
+0
+418
+-1
+1
+11 0
+0 24
+0
+419
+-1
+1
+11 0
+0 24
+0
+420
+-1
+1
+11 0
+0 24
+0
+421
+-1
+1
+11 0
+0 24
+0
+422
+-1
+1
+11 0
+0 24
+0
+423
+-1
+1
+11 0
+0 24
+0
+424
+-1
+1
+11 0
+0 24
+0
+425
+-1
+1
+11 0
+0 24
+0
+426
+-1
+1
+11 0
+0 24
+0
+427
+-1
+1
+11 0
+0 24
+0
+428
+-1
+1
+11 0
+0 24
+0
+429
+-1
+1
+11 0
+0 24
+0
+430
+-1
+1
+11 0
+0 24
+0
+431
+-1
+1
+11 0
+0 24
+0
+432
+-1
+1
+11 0
+0 24
+0
+433
+-1
+1
+11 0
+0 24
+0
+434
+-1
+1
+11 0
+0 24
+0
+435
+-1
+1
+11 0
+0 24
+0
+436
+-1
+1
+11 0
+0 24
+0
+437
+-1
+1
+11 0
+0 24
+0
+438
+-1
+1
+11 0
+0 24
+0
+439
+-1
+1
+11 0
+0 24
+0
+440
+-1
+1
+11 0
+0 24
+0
+441
+-1
+1
+11 0
+0 24
+0
+442
+-1
+1
+11 0
+0 24
+0
+443
+-1
+1
+11 0
+0 24
+0
+444
+-1
+1
+11 0
+0 24
+0
+445
+-1
+1
+11 0
+0 24
+0
+446
+-1
+1
+11 0
+0 24
+0
+447
+-1
+1
+11 0
+0 24
+0
+448
+-1
+1
+11 0
+0 24
+0
+449
+-1
+1
+11 0
+0 24
+0
+450
+-1
+1
+11 0
+0 24
+0
+451
+-1
+1
+11 0
+0 24
+0
+452
+-1
+1
+11 0
+0 24
+0
+453
+-1
+1
+11 0
+0 24
+0
+454
+-1
+1
+11 0
+0 24
+0
+455
+-1
+1
+11 0
+0 24
+0
+456
+-1
+1
+11 0
+0 24
+0
+457
+-1
+1
+11 0
+0 24
+0
+458
+-1
+1
+11 0
+0 24
+0
+459
+-1
+1
+11 0
+0 24
+0
+460
+-1
+1
+11 0
+0 24
+0
+461
+-1
+1
+11 0
+0 24
+0
+462
+-1
+1
+11 0
+0 24
+0
+463
+-1
+1
+11 0
+0 24
+0
+464
+-1
+1
+11 0
+0 24
+0
+465
+-1
+1
+11 0
+0 24
+0
+466
+-1
+1
+11 0
+0 24
+0
+467
+-1
+1
+11 0
+0 24
+0
+468
+-1
+1
+11 0
+0 24
+0
+469
+-1
+1
+11 0
+0 24
+0
+470
+-1
+1
+11 0
+0 24
+0
+471
+-1
+1
+11 0
+0 24
+0
+472
+-1
+1
+11 0
+0 24
+0
+473
+-1
+1
+11 0
+0 24
+0
+474
+-1
+1
+11 0
+0 24
+0
+475
+-1
+1
+11 0
+0 24
+0
+476
+-1
+1
+11 0
+0 24
+0
+477
+-1
+1
+11 0
+0 24
+0
+478
+-1
+1
+11 0
+0 24
+0
+479
+-1
+1
+11 0
+0 24
+0
+480
+-1
+1
+11 0
+0 24
+0
+481
+-1
+1
+11 0
+0 24
+0
+482
+-1
+1
+11 0
+0 24
+0
+483
+-1
+1
+11 0
+0 24
+0
+484
+-1
+1
+11 0
+0 24
+0
+485
+-1
+1
+11 0
+0 24
+0
+486
+-1
+1
+11 0
+0 24
+0
+487
+-1
+1
+11 0
+0 24
+0
+488
+-1
+1
+11 0
+0 24
+0
+489
+-1
+1
+11 0
+0 24
+0
+490
+-1
+1
+11 0
+0 24
+0
+491
+-1
+1
+11 0
+0 24
+0
+492
+-1
+1
+11 0
+0 24
+0
+493
+-1
+1
+11 0
+0 24
+0
+494
+-1
+1
+11 0
+0 24
+0
+495
+-1
+1
+11 0
+0 24
+0
+496
+-1
+1
+11 0
+0 24
+0
+497
+-1
+1
+11 0
+0 24
+0
+498
+-1
+1
+11 0
+0 24
+0
+499
+-1
+1
+11 0
+0 24
+0
+500
+-1
+1
+11 0
+0 24
+0
+501
+-1
+1
+11 0
+0 24
+0
+502
+-1
+1
+11 0
+0 24
+0
+503
+-1
+1
+11 0
+0 24
+0
+504
+-1
+1
+11 0
+0 24
+0
+505
+-1
+1
+11 0
+0 24
+0
+506
+-1
+1
+11 0
+0 24
+0
+507
+-1
+1
+11 0
+0 24
+0
+508
+-1
+1
+11 0
+0 24
+0
+509
+-1
+1
+11 0
+0 24
+0
+510
+-1
+1
+11 0
+0 24
+0
+511
+-1
+1
+11 0
+0 24
+0
+512
+-1
+1
+11 0
+0 24
+0
+513
+-1
+1
+11 0
+0 24
+0
+514
+-1
+1
+11 0
+0 24
+0
+515
+-1
+1
+11 0
+0 24
+0
+516
+-1
+1
+11 0
+0 24
+0
+517
+-1
+1
+11 0
+0 24
+0
+518
+-1
+1
+11 0
+0 24
+0
+519
+-1
+1
+11 0
+0 24
+0
+520
+-1
+1
+11 0
+0 24
+0
+521
+-1
+1
+11 0
+0 24
+0
+522
+-1
+1
+11 0
+0 24
+0
+523
+-1
+1
+11 0
+0 24
+0
+524
+-1
+1
+11 0
+0 24
+0
+525
+-1
+1
+11 0
+0 24
+0
+526
+-1
+1
+11 0
+0 24
+0
+527
+-1
+1
+11 0
+0 24
+0
+528
+-1
+1
+11 0
+0 24
+0
+529
+-1
+1
+11 0
+0 24
+0
+530
+-1
+1
+11 0
+0 24
+0
+531
+-1
+1
+11 0
+0 24
+0
+532
+-1
+1
+11 0
+0 24
+0
+533
+-1
+1
+11 0
+0 24
+0
+534
+-1
+1
+11 0
+0 25
+0
+535
+-1
+1
+11 0
+0 25
+0
+536
+-1
+1
+11 0
+0 25
+0
+537
+-1
+1
+11 0
+0 25
+0
+538
+-1
+1
+11 0
+0 25
+0
+539
+-1
+1
+11 0
+0 25
+0
+540
+-1
+1
+11 0
+0 25
+0
+541
+-1
+1
+11 0
+0 25
+0
+542
+-1
+1
+11 0
+0 25
+0
+543
+-1
+1
+11 0
+0 25
+0
+544
+-1
+1
+11 0
+0 25
+0
+545
+-1
+1
+11 0
+0 25
+0
+546
+-1
+1
+11 0
+0 25
+0
+547
+-1
+1
+11 0
+0 25
+0

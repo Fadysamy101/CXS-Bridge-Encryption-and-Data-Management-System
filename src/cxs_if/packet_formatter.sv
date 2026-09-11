@@ -43,6 +43,14 @@ module packet_formatter #(
   localparam int END_ERROR_BASE = END_BASE + CXSMAXPKTPERFLIT;
   localparam int END_PTR_BASE   = END_ERROR_BASE + CXSMAXPKTPERFLIT;
 
+  typedef enum logic [1:0] {
+    S_IDLE,
+    S_CAPTURE,
+    S_STREAM
+  } state_e;
+
+  state_e current_state, next_state;
+
   assign start =
       cxs_ctrl[START_BASE + CXSMAXPKTPERFLIT - 1 : START_BASE];
 
@@ -79,14 +87,6 @@ module packet_formatter #(
 
     end
   endgenerate
-
-  typedef enum logic [1:0] {
-    S_IDLE,
-    S_CAPTURE,
-    S_STREAM
-  } state_e;
-
-  state_e current_state, next_state;
 
   always_comb begin : next_state_logic_proc
 
