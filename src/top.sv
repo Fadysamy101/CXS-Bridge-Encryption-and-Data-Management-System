@@ -7,8 +7,9 @@
 //   system_wrapper - CLK_SYS : control unit, ATU, encryption, parity, CDM.
 //
 // Everything that straddles the boundary lives here: the asynchronous FIFO on
-// the data path (spec 10.2) and the two-stage synchronizer carrying the error
-// indication back to the CXS domain (spec 10.3).
+// the data path (spec 10.2), the two-stage synchronizer carrying the error
+// indication back to the CXS domain (spec 10.3), and reset synchronizers
+// for clean asynchronous assert / synchronous deassert in each clock domain.
 // ---------------------------------------------------------------------------
 module top #(
   parameter int CXS_DATA_WIDTH   = 256,
@@ -17,7 +18,7 @@ module top #(
   parameter int FLIT_FIFO_DEPTH  = 16,
   parameter int WORD_WIDTH       = 32,   // TLP word carried across the CDC
   parameter int ASYNC_FIFO_DEPTH = 8,
-  parameter int ADDR_WIDTH       = 8, 
+  parameter int ADDR_WIDTH       = 16, 
   parameter int DATA_WIDTH       = 16,
   parameter int DEV_MAX          = 8
 )(
@@ -41,6 +42,31 @@ module top #(
   output logic [CXS_DATA_WIDTH-1:0] o_top_cxs_tx_data,
   output logic [CXS_CNTL_WIDTH-1:0] o_top_cxs_tx_cntl
 );
+
+  // =========================================================================
+  // Reset Synchronizers (Async Assert, Synchronous Deassert)
+  // =========================================================================
+  logic cxs_rst_n_meta, cxs_rst_n_sync;
+  always_ff @(posedge i_top_cxs_clk or negedge i_top_cxs_rst_n) begin: cxs_rst_sync_proc
+    if (!i_top_cxs_rst_n) begin
+      cxs_rst_n_meta <= 1'b0;
+      cxs_rst_n_sync <= 1'b0;
+    end else begin
+      cxs_rst_n_meta <= 1'b1;
+      cxs_rst_n_sync <= cxs_rst_n_meta;
+    end
+  end
+
+  logic sys_rst_n_meta, sys_rst_n_sync;
+  always_ff @(posedge i_top_sys_clk or negedge i_top_sys_rst_n) begin: sys_rst_sync_proc
+    if (!i_top_sys_rst_n) begin
+      sys_rst_n_meta <= 1'b0;
+      sys_rst_n_sync <= 1'b0;
+    end else begin
+      sys_rst_n_meta <= 1'b1;
+      sys_rst_n_sync <= sys_rst_n_meta;
+    end
+  end
 
   // CXS domain -> async FIFO (write side)
   logic                  async_fifo_w_en;
@@ -76,7 +102,7 @@ module top #(
   (
     // Ports Declaration
      .i_cxs_if_clk               (i_top_cxs_clk)        // I: CXS Clock
-    ,.i_cxs_if_rst_n             (i_top_cxs_rst_n)      // I: CXS Async Reset
+    ,.i_cxs_if_rst_n             (cxs_rst_n_sync)       // I: Synchronized CXS Async Reset
     ,.i_cxs_if_cxs_rx_valid      (i_top_cxs_rx_valid)   // I: CXS RX Valid
     ,.i_cxs_if_cxs_rx_data       (i_top_cxs_rx_data)    // I: CXS RX Data
     ,.i_cxs_if_cxs_rx_cntl       (i_top_cxs_rx_cntl)    // I: CXS RX Control
@@ -107,9 +133,9 @@ module top #(
   (
     // Ports Declaration
      .i_asynchronous_fifo_w_clk    (i_top_cxs_clk)        // I: Write Clock - CXS Domain
-    ,.i_asynchronous_fifo_w_rst_n  (i_top_cxs_rst_n)      // I: Write Async Reset
+    ,.i_asynchronous_fifo_w_rst_n  (cxs_rst_n_sync)       // I: Write Synchronized Reset
     ,.i_asynchronous_fifo_r_clk    (i_top_sys_clk)        // I: Read Clock - System Domain
-    ,.i_asynchronous_fifo_r_rst_n  (i_top_sys_rst_n)      // I: Read Async Reset
+    ,.i_asynchronous_fifo_r_rst_n  (sys_rst_n_sync)       // I: Read Synchronized Reset
     ,.i_asynchronous_fifo_w_en     (async_fifo_w_en)      // I: Write Enable
     ,.i_asynchronous_fifo_r_en     (async_fifo_r_en)      // I: Read Enable
     ,.i_asynchronous_fifo_data_in  (async_fifo_data_in)   // I: Write Data
@@ -122,9 +148,9 @@ module top #(
   // slower CLK_CXS could miss, so it crosses as a toggle and is turned back
   // into a pulse on the far side. sys_error is held stable by the control
   // unit until the next error, so the encoder samples it safely.
-  always_ff @(posedge i_top_sys_clk or negedge i_top_sys_rst_n) begin: err_toggle_proc
-    if (!i_top_sys_rst_n) err_toggle <= 1'b0;
-    else                  err_toggle <= err_toggle ^ sys_error_valid;
+  always_ff @(posedge i_top_sys_clk or negedge sys_rst_n_sync) begin: err_toggle_proc
+    if (!sys_rst_n_sync) err_toggle <= 1'b0;
+    else                 err_toggle <= err_toggle ^ sys_error_valid;
   end
 
   // WIDTH=0 gives a [0:0] bus - see the [WIDTH:0] convention in synchronizer.sv
@@ -137,14 +163,14 @@ module top #(
   (
     // Ports Declaration
      .i_synchronizer_clk   (i_top_cxs_clk)    // I: CXS Clock
-    ,.i_synchronizer_rst_n (i_top_cxs_rst_n)  // I: CXS Async Reset
+    ,.i_synchronizer_rst_n (cxs_rst_n_sync)   // I: Synchronized CXS Reset
     ,.i_synchronizer_d_in  (err_toggle)       // I: Error Toggle - System Domain
     ,.o_synchronizer_d_out (err_toggle_sync)  // O: Error Toggle - CXS Domain
   );
 
-  always_ff @(posedge i_top_cxs_clk or negedge i_top_cxs_rst_n) begin: err_toggle_sync_proc
-    if (!i_top_cxs_rst_n) err_toggle_sync_d0 <= 1'b0;
-    else                  err_toggle_sync_d0 <= err_toggle_sync;
+  always_ff @(posedge i_top_cxs_clk or negedge cxs_rst_n_sync) begin: err_toggle_sync_proc
+    if (!cxs_rst_n_sync) err_toggle_sync_d0 <= 1'b0;
+    else                 err_toggle_sync_d0 <= err_toggle_sync;
   end
 
   assign err_pulse_cxs = err_toggle_sync ^ err_toggle_sync_d0;
@@ -163,7 +189,7 @@ module top #(
   (
     // Ports Declaration
      .i_system_wrapper_clk          (i_top_sys_clk)        // I: System Clock
-    ,.i_system_wrapper_rst_n        (i_top_sys_rst_n)      // I: System Async Reset
+    ,.i_system_wrapper_rst_n        (sys_rst_n_sync)       // I: Synchronized System Reset
     ,.i_system_wrapper_fifo_empty   (async_fifo_empty)     // I: Async FIFO Empty
     ,.o_system_wrapper_fifo_en      (async_fifo_r_en)      // O: Async FIFO Read Enable
     ,.i_system_wrapper_fifo_data_in (async_fifo_data_out)  // I: Async FIFO Read Data
